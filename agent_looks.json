@@ -1,0 +1,163 @@
+{
+  "arel": {
+    "hair": "#2a1e18", "hairStyle": "short", "skin": "#d2a98e", "beard": false, "glasses": true, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "jacket", "color": "#2b2f3a", "accent": "#7fd6ff", "collar": "#1b1e26", "lapel": "#363b48" },
+    "pants": "#23262e", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#3a2a22", "sole": "#1a1512" },
+    "belt": "#2a2219", "badge": false, "gloves": false, "size": 1.0
+  },
+  "lale": {
+    "hair": "#2a1a22", "hairStyle": "long", "skin": "#ece4e4", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "dress", "color": "#d9dbe0", "accent": "#f0eefb", "collar": "#e6e8ee", "lapel": "#cfd2da" },
+    "pants": "#d9dbe0", "pantsStyle": "skirt",
+    "shoes": { "style": "barefoot", "color": "#ece4e4", "sole": "#ece4e4" },
+    "belt": false, "badge": "#e0d8ff", "gloves": false, "size": 0.98
+  },
+  "bozulma": {
+    "hair": "#000000", "hairStyle": "long", "skin": "#5a5260", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "robe", "color": "#0b0a0f", "accent": "#3a1050", "collar": "#0b0a0f", "lapel": "#15121c" },
+    "pants": "#0b0a0f", "pantsStyle": "wide",
+    "shoes": { "style": "barefoot", "color": "#4a4450", "sole": "#4a4450" },
+    "belt": false, "badge": "#7a2aff", "gloves": false, "size": 1.08
+  },
+  "mira": {
+    "hair": "#1a1210", "hairStyle": "bun", "skin": "#cfa08a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "overall", "color": "#2f3b4e", "accent": "#7fd6ff", "collar": "#1f2a3a", "lapel": "#3a475c" },
+    "pants": "#2f3b4e", "pantsStyle": "slim",
+    "shoes": { "style": "workboot", "color": "#2a2a2e", "sole": "#4a4a50" },
+    "belt": "#1a1a1e", "badge": "#7fd6ff", "gloves": "#3a3f4a", "size": 1.0
+  },
+  "kaan": {
+    "hair": "#2a2420", "hairStyle": "short", "skin": "#c9a080", "beard": true, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "uniform", "color": "#3a3a2a", "accent": "#f3c870", "collar": "#2a2a1a", "lapel": "#4a4a36" },
+    "pants": "#30302a", "pantsStyle": "slim",
+    "shoes": { "style": "boot", "color": "#1a1a18", "sole": "#2e2e2a" },
+    "belt": "#1a1510", "badge": "#f3c870", "gloves": false, "size": 1.06
+  },
+  "sema": {
+    "hair": "#1a1210", "hairStyle": "long", "skin": "#cfa08a", "beard": false, "glasses": true, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "labcoat", "color": "#eef0f4", "accent": "#c9abff", "collar": "#d8dbe3", "lapel": "#e0e3ea" },
+    "pants": "#2a3a5a", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#3a3038", "sole": "#1a1518" },
+    "belt": false, "badge": "#c9abff", "gloves": false, "size": 1.0
+  },
+  "riza": {
+    "hair": "#8a8a8a", "hairStyle": "short", "skin": "#b98f72", "beard": true, "glasses": false, "cap": "#1a2a3a", "scarf": false, "hijab": false,
+    "top": { "style": "sweater", "color": "#2a4a6a", "accent": "#17283a", "collar": "#1f3a52", "lapel": "#2a4a6a" },
+    "pants": "#3a3a44", "pantsStyle": "wide",
+    "shoes": { "style": "workboot", "color": "#1a1a1a", "sole": "#2e2e2e" },
+    "belt": false, "badge": false, "gloves": false, "size": 1.02
+  },
+  "deniz": {
+    "hair": "#2a1a12", "hairStyle": "curly", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "hoodie", "color": "#1f4a3a", "accent": "#93e3a0", "collar": "#153a2c", "lapel": "#1f4a3a" },
+    "pants": "#2a2a44", "pantsStyle": "slim",
+    "shoes": { "style": "sneaker", "color": "#f0f0f0", "sole": "#93e3a0" },
+    "belt": false, "badge": false, "gloves": false, "size": 0.97
+  },
+  "zeynep": {
+    "hair": "#1a1210", "hairStyle": "bun", "skin": "#cfa08a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "scrubs", "color": "#5a2a4a", "accent": "#ff7cb9", "collar": "#4a1f3c", "lapel": "#5a2a4a" },
+    "pants": "#5a2a4a", "pantsStyle": "wide",
+    "shoes": { "style": "sneaker", "color": "#e8e8e8", "sole": "#ff7cb9" },
+    "belt": false, "badge": "#ff7cb9", "gloves": false, "size": 0.98
+  },
+  "hatice": {
+    "hair": "#8a8a8a", "hairStyle": "bun", "skin": "#b98f72", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": "#cfc4ae",
+    "top": { "style": "vest", "color": "#5a4a2a", "accent": "#f3c870", "collar": "#4a3a1a", "lapel": "#6a5a3a" },
+    "pants": "#3a3028", "pantsStyle": "wide",
+    "shoes": { "style": "workboot", "color": "#1a1a1a", "sole": "#2a2a2a" },
+    "belt": false, "badge": false, "gloves": false, "size": 0.92
+  },
+  "lemaitre": {
+    "hair": "#9a9a9a", "hairStyle": "bald", "skin": "#e0c0a8", "beard": false, "glasses": true, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "robe", "color": "#141414", "accent": "#ffd36b", "collar": "#f2f2f2", "lapel": "#1e1e1e" },
+    "pants": "#141414", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#1a1a1a", "sole": "#0e0e0e" },
+    "belt": "#2a2a2a", "badge": false, "gloves": false, "size": 1.0
+  },
+  "hubble": {
+    "hair": "#3a2a22", "hairStyle": "slick", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "jacket", "color": "#6a5a44", "accent": "#7fd6ff", "collar": "#e8e0d0", "lapel": "#5a4a36" },
+    "pants": "#5a4e3c", "pantsStyle": "wide",
+    "shoes": { "style": "dress", "color": "#3a2618", "sole": "#1a1210" },
+    "belt": "#2a1a10", "badge": false, "gloves": false, "size": 1.05
+  },
+  "wheeler": {
+    "hair": "#9a9a9a", "hairStyle": "short", "skin": "#e0c0a8", "beard": false, "glasses": true, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "jacket", "color": "#6e6e76", "accent": "#c9abff", "collar": "#f0f0f0", "lapel": "#5e5e66" },
+    "pants": "#5e5e66", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#2a2220", "sole": "#151210" },
+    "belt": "#2a2220", "badge": false, "gloves": false, "size": 1.0
+  },
+  "kerem": {
+    "hair": "#3a2a22", "hairStyle": "short", "skin": "#d9b39a", "beard": true, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "sweater", "color": "#3a2a5a", "accent": "#ff7cb9", "collar": "#2a1a4a", "lapel": "#3a2a5a" },
+    "pants": "#1a1a2a", "pantsStyle": "slim",
+    "shoes": { "style": "sneaker", "color": "#2a2a34", "sole": "#ff7cb9" },
+    "belt": false, "badge": "#ff7cb9", "gloves": false, "size": 1.0
+  },
+  "sagan": {
+    "hair": "#3a2a22", "hairStyle": "short", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "jacket", "color": "#6a3a2a", "accent": "#f3c870", "collar": "#2a2a2a", "lapel": "#5a2e20" },
+    "pants": "#3a3a40", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#2a2018", "sole": "#151210" },
+    "belt": "#2a1a10", "badge": false, "gloves": false, "size": 1.0
+  },
+  "ayse": {
+    "hair": "#1a1210", "hairStyle": "bun", "skin": "#cfa08a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "jacket", "color": "#1a3a5a", "accent": "#7fd6ff", "collar": "#122a44", "lapel": "#244a6e" },
+    "pants": "#2a2a30", "pantsStyle": "slim",
+    "shoes": { "style": "sneaker", "color": "#1a1a20", "sole": "#7fd6ff" },
+    "belt": false, "badge": "#7fd6ff", "gloves": false, "size": 1.0
+  },
+  "cajal": {
+    "hair": "#7a7a7a", "hairStyle": "short", "skin": "#d9b39a", "beard": true, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "coat", "color": "#2a2a2a", "accent": "#f3c870", "collar": "#e8e8e8", "lapel": "#3a3a3a" },
+    "pants": "#1a1a1a", "pantsStyle": "slim",
+    "shoes": { "style": "dress", "color": "#1a1410", "sole": "#0e0b08" },
+    "belt": false, "badge": false, "gloves": false, "size": 1.0
+  },
+  "nil": {
+    "hair": "#4a2a1a", "hairStyle": "long", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "labcoat", "color": "#e6e9ef", "accent": "#c9abff", "collar": "#c9abff", "lapel": "#d8dbe3" },
+    "pants": "#2a3a5a", "pantsStyle": "slim",
+    "shoes": { "style": "heel", "color": "#2a2230", "sole": "#15121a" },
+    "belt": false, "badge": "#c9abff", "gloves": false, "size": 1.0
+  },
+  "ibnsina": {
+    "hair": "#2a1a12", "hairStyle": "bald", "skin": "#c9a080", "beard": true, "glasses": false, "cap": "#e8dcc0", "scarf": false, "hijab": false,
+    "top": { "style": "robe", "color": "#4a3a1a", "accent": "#f3c870", "collar": "#6a5a2a", "lapel": "#7a6a3a" },
+    "pants": "#3a2a14", "pantsStyle": "wide",
+    "shoes": { "style": "sandal", "color": "#5a3a1a", "sole": "#3a2a12" },
+    "belt": "#a88a4a", "badge": false, "gloves": false, "size": 1.0
+  },
+  "spinoza": {
+    "hair": "#2a1a12", "hairStyle": "long", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "coat", "color": "#141418", "accent": "#7fd6ff", "collar": "#f0f0f0", "lapel": "#1e1e26" },
+    "pants": "#141418", "pantsStyle": "wide",
+    "shoes": { "style": "dress", "color": "#1a1a1a", "sole": "#0e0e0e" },
+    "belt": false, "badge": false, "gloves": false, "size": 0.96
+  },
+  "beauvoir": {
+    "hair": "#1a1210", "hairStyle": "bun", "skin": "#d9b39a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": "#3a1a2a",
+    "top": { "style": "jacket", "color": "#3a1a2a", "accent": "#ff7cb9", "collar": "#f4f1ea", "lapel": "#2a1220" },
+    "pants": "#2a1a24", "pantsStyle": "skirt",
+    "shoes": { "style": "heel", "color": "#1a1014", "sole": "#0e0a0c" },
+    "belt": false, "badge": false, "gloves": false, "size": 0.97
+  },
+  "elif": {
+    "hair": "#1a1210", "hairStyle": "ponytail", "skin": "#cfa08a", "beard": false, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "uniform", "color": "#1f4e8a", "accent": "#7fd6ff", "collar": "#16385f", "lapel": "#2a5c9e" },
+    "pants": "#1f4e8a", "pantsStyle": "slim",
+    "shoes": { "style": "workboot", "color": "#1a1a1e", "sole": "#3a3a40" },
+    "belt": "#16385f", "badge": "#7fd6ff", "gloves": "#e8e8f0", "size": 1.0
+  },
+  "yusuf": {
+    "hair": "#1a1210", "hairStyle": "short", "skin": "#b98f72", "beard": true, "glasses": false, "cap": false, "scarf": false, "hijab": false,
+    "top": { "style": "overall", "color": "#3a4a2a", "accent": "#93e3a0", "collar": "#2a3a1a", "lapel": "#4a5c38" },
+    "pants": "#2a3a1a", "pantsStyle": "slim",
+    "shoes": { "style": "workboot", "color": "#4a3a2a", "sole": "#2a2218" },
+    "belt": "#2a2218", "badge": "#93e3a0", "gloves": "#6a5a3a", "size": 1.0
+  }
+}

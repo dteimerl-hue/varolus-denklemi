@@ -1,0 +1,275 @@
+{
+  "master": {
+    "bpm": 60,
+    "limiterDb": -1,
+    "reverb": { "decay": 6.5, "wet": 0.35 },
+    "notes": "Tüm sesler Web Audio API ile üretilir: OscillatorNode, AudioBufferSourceNode (beyaz/pembe/kahverengi gürültü), BiquadFilter, DelayNode (feedback yankı), ConvolverNode (sentetik dürtü: üstel sönümlü gürültü), DynamicsCompressor (limiter). Hiç örnek dosya yok."
+  },
+
+  "realms": {
+    "hub": {
+      "key": "D",
+      "mode": "aeolian",
+      "chords": [[0, 3, 7], [-2, 2, 5], [0, 3, 7, 10], [-4, 0, 3]],
+      "bpm": 56,
+      "pad": { "wave": "triangle", "detuneCents": 6, "cutoffHz": 900, "attack": 4.0, "release": 8.0, "gain": 0.26 },
+      "arp": { "on": false, "pattern": [0, 7, 10, 12], "rate": "1/4", "gain": 0.0, "wave": "sine" },
+      "bass": { "wave": "sine", "gain": 0.3, "octave": -2 },
+      "noise": { "type": "hum", "gain": 0.12, "cutoffHz": 220 },
+      "texture": "Yeraltı tesisi: 50 Hz şebeke uğultusu + 3. ve 5. harmonikleri (kare dalga çok düşük gain), uzak jeneratör için 0.3 Hz LFO'lu kahverengi gürültü, rastgele aralıklarla (4-12 sn) 1.2-2.4 kHz kısa sine 'damla' blip'leri (gecikme 0.42 sn, feedback 0.35). Pad çok yavaş ve derinde; mağara yankısı için reverb decay 8 sn.",
+      "lfo": { "rateHz": 0.08, "depth": 0.15 }
+    },
+
+    "baslangic": {
+      "key": "C",
+      "mode": "lydian",
+      "chords": [[0, 4, 7, 11], [0, 2, 7, 14], [-1, 4, 7, 11], [2, 6, 9, 14]],
+      "bpm": 48,
+      "pad": { "wave": "sine", "detuneCents": 4, "cutoffHz": 1800, "attack": 7.0, "release": 14.0, "gain": 0.3 },
+      "arp": { "on": true, "pattern": [0, 7, 12, 19, 24, 19, 12, 7], "rate": "1/4", "gain": 0.07, "wave": "sine" },
+      "bass": { "wave": "sine", "gain": 0.2, "octave": -3 },
+      "noise": { "type": "wind", "gain": 0.05, "cutoffHz": 400 },
+      "texture": "Ulvi ve soğuk, Interstellar org duygusu: her pad sesi için 4 üst harmonik (1x, 2x, 3x, 5x) ayrı sine osilatörle eklenir, yüksek harmonikler 0.05 Hz LFO ile parlayıp söner. Beşlikler ve dokuzlular uzun kayarak (portamento 6 sn) birbirine bağlanır. Arp çok seyrek, bir tür yıldız ışığı. Kızıl renk için 60-90 Hz'de nefes gibi sub tonu.",
+      "lfo": { "rateHz": 0.05, "depth": 0.1 }
+    },
+
+    "kuantum": {
+      "key": "F#",
+      "mode": "wholetone",
+      "chords": [[0, 4, 8], [2, 6, 10], [0, 4, 8, 10], [-2, 2, 6]],
+      "bpm": 72,
+      "pad": { "wave": "sawtooth", "detuneCents": 18, "cutoffHz": 1200, "attack": 2.0, "release": 5.0, "gain": 0.2 },
+      "arp": { "on": true, "pattern": [0, 2, 6, 8, 10, 8, 6, 2], "rate": "1/16", "gain": 0.12, "wave": "square" },
+      "bass": { "wave": "triangle", "gain": 0.18, "octave": -2 },
+      "noise": { "type": "crackle", "gain": 0.08, "cutoffHz": 3000 },
+      "texture": "Belirsiz ve titreşimli: her arp notası %30 olasılıkla atlanır, %20 olasılıkla bir oktav yukarı taşınır (olasılık bulutu). Pad osilatörlerine 5.5 Hz hızda ±18 cent rastgele micro-detune, ring modülatör (taşıyıcı 7 Hz) ile ara sıra 'titreme'. Crackle: rastgele dürtü gürültüsü bandpass 3 kHz, Q 8. Stereo panner 0.4 Hz ile sağa sola kayar.",
+      "lfo": { "rateHz": 5.5, "depth": 0.3 }
+    },
+
+    "gezegen": {
+      "key": "A",
+      "mode": "dorian",
+      "chords": [[0, 3, 7], [0, 3, 7, 9], [-2, 2, 5, 9], [0, 5, 7]],
+      "bpm": 60,
+      "pad": { "wave": "triangle", "detuneCents": 8, "cutoffHz": 700, "attack": 5.0, "release": 9.0, "gain": 0.26 },
+      "arp": { "on": true, "pattern": [0, 7, 9, 12], "rate": "1/4", "gain": 0.06, "wave": "sine" },
+      "bass": { "wave": "sine", "gain": 0.26, "octave": -2 },
+      "noise": { "type": "wind", "gain": 0.18, "cutoffHz": 600 },
+      "texture": "Issız, sıcak rüzgâr (Mars kıyısı): pembe gürültü lowpass 600 Hz, kesim frekansı 0.12 Hz LFO ile 300-1200 Hz arasında dolaşır (rüzgâr esintileri), ikinci bir bandpass gürültü katmanı 180 Hz Q 2 ile kum tıslaması. Yalnız bir sine melodi (uzun portamento 2 sn, aralıklar 3-9 sn) uzaktan gelir. Tersten çalınan uzun notalar: her 16 ölçüde bir pad gain ters zarf (release önce, attack sonra).",
+      "lfo": { "rateHz": 0.12, "depth": 0.25 }
+    },
+
+    "bilinc": {
+      "key": "E",
+      "mode": "pentatonicMinor",
+      "chords": [[0, 3, 7, 10], [0, 5, 10], [-2, 3, 7], [0, 3, 10, 15]],
+      "bpm": 70,
+      "pad": { "wave": "sine", "detuneCents": 3, "cutoffHz": 1000, "attack": 1.5, "release": 4.0, "gain": 0.22 },
+      "arp": { "on": true, "pattern": [0, 3, 7, 10, 12, 10, 7, 3], "rate": "1/8", "gain": 0.1, "wave": "triangle" },
+      "bass": { "wave": "sine", "gain": 0.34, "octave": -2 },
+      "noise": { "type": "hum", "gain": 0.1, "cutoffHz": 150 },
+      "texture": "Nabız ve organik (beyin içi): kalp atışı = 55 Hz sine, 80 ms'de 55'ten 35 Hz'e kayar, çift vuruş (lub-dub, 180 ms ara), 70 BPM. Nefes alma: pad cutoff'u 4 sn içeri / 5 sn dışarı üçgen LFO ile 600-1600 Hz arasında. Sinaps çıtırtısı: kısa (8 ms) sine blip'leri 2-4 kHz, nabızla senkron rastgele. Yeşil-pembe için arp çıkışına 0.25 sn gecikme feedback 0.45, hafif highpass.",
+      "lfo": { "rateHz": 1.17, "depth": 0.4 }
+    },
+
+    "anlam": {
+      "key": "D",
+      "mode": "phrygian",
+      "chords": [[0, 3, 7], [1, 5, 8], [-2, 1, 5], [0, 5, 7, 10]],
+      "bpm": 54,
+      "pad": { "wave": "sawtooth", "detuneCents": 10, "cutoffHz": 800, "attack": 3.0, "release": 7.0, "gain": 0.22 },
+      "arp": { "on": true, "pattern": [0, 1, 5, 7, 8, 7, 5, 1], "rate": "1/8", "gain": 0.09, "wave": "triangle" },
+      "bass": { "wave": "triangle", "gain": 0.24, "octave": -2 },
+      "noise": { "type": "wind", "gain": 0.07, "cutoffHz": 900 },
+      "texture": "Eski ve modal (antik agora): paralel beşlikler (organum) ile pad her akora +7 yarım ton ikinci ses ekler; FM çan sesleri (taşıyıcı:modülatör 1:3.5, index 2, zarf 2.5 sn) her 8 ölçüde akorun kök notasını vurur. Mor-altın için uzak koro: üç detune'lu sawtooth, formant tipi bandpass 700/1200/2600 Hz. Rüzgâr mermer sütunlar arasında: bandpass gürültü 900 Hz Q 4, 0.2 Hz LFO.",
+      "lfo": { "rateHz": 0.2, "depth": 0.12 }
+    },
+
+    "yuva": {
+      "key": "G",
+      "mode": "lydian",
+      "chords": [[0, 4, 7, 11], [2, 6, 9], [-5, 0, 4, 7], [0, 4, 7, 14]],
+      "bpm": 66,
+      "pad": { "wave": "triangle", "detuneCents": 7, "cutoffHz": 1500, "attack": 2.5, "release": 6.0, "gain": 0.3 },
+      "arp": { "on": true, "pattern": [0, 4, 7, 11, 12, 11, 7, 4], "rate": "1/8", "gain": 0.12, "wave": "sine" },
+      "bass": { "wave": "sine", "gain": 0.28, "octave": -2 },
+      "noise": { "type": "rain", "gain": 0.1, "cutoffHz": 2500 },
+      "texture": "Umutlu ve sıcak (genç Dünya): pad üç osilatör chorus (±7 cent, 0.3 Hz LFO ile dolaşan detune). Yağmur: beyaz gürültü highpass 2.5 kHz + rastgele 1-3 ms sine damla dürtüleri (1.5-4 kHz) 0.4 sn gecikme. Kuş benzeri sine cıvıltılar: 2.2 kHz'den 3.1 kHz'e 60 ms kayma, 9-20 sn aralıklarla. Bas yumuşak, 1/2 notalarda yürür.",
+      "lfo": { "rateHz": 0.3, "depth": 0.15 }
+    },
+
+    "cekirdek": {
+      "key": "C",
+      "mode": "aeolian",
+      "chords": [[0, 7], [0, 3, 7], [0, 7, 10], [0, 5, 7]],
+      "bpm": 40,
+      "pad": { "wave": "sine", "detuneCents": 2, "cutoffHz": 500, "attack": 8.0, "release": 14.0, "gain": 0.34 },
+      "arp": { "on": false, "pattern": [0, 7, 12], "rate": "1/4", "gain": 0.0, "wave": "sine" },
+      "bass": { "wave": "sine", "gain": 0.4, "octave": -3 },
+      "noise": { "type": "hum", "gain": 0.16, "cutoffHz": 120 },
+      "texture": "Nefes gibi (yıldız içi): ana gain ve cutoff 4 sn içeri / 6 sn dışarı üstel zarfla sürekli solur (10 sn periyot). 32.7 Hz sub sine sürekli, 0.1 Hz tremolo. Kahverengi gürültü lowpass 120 Hz plazma uğultusu; nefes verişte 8 ms'lik düşük 'tık'lar (sine 90 Hz) nabız gibi. Pad sadece oktav+beşlik, üçlü sadece 3. ve 4. ölçülerde girer. Reverb decay 12 sn, wet 0.5.",
+      "lfo": { "rateHz": 0.1, "depth": 0.5 }
+    }
+  },
+
+  "events": {
+    "zoneEnter": {
+      "sweepFromHz": 2400,
+      "sweepToHz": 180,
+      "durMs": 1800,
+      "wave": "sawtooth",
+      "droneHz": 55,
+      "noise": true,
+      "gain": 0.5,
+      "padDuckDb": -6,
+      "description": "Bozulma sahasına giriş: lowpass cutoff 2.4 kHz'den 180 Hz'e 1.8 sn kayan sawtooth + kahverengi gürültü 'kapı' düşüşü, ardından 55 Hz drone kalır."
+    },
+    "zoneActive": {
+      "heartbeatBpm": [70, 100, 130],
+      "droneHz": 41.2,
+      "dissonanceSemis": [1, 6],
+      "gain": 0.45,
+      "description": "Gerilim: 41.2 Hz (E1) sawtooth drone + üzerine kök ile küçük ikili (1) ve triton (6) uzaklığında iki sine; tehdit mesafesine göre kalp atışı 70→100→130 BPM. Her 4 ölçüde 'Shepard' sahte yükseliş: 4 oktavlı sine kümesi 8 sn'de bir oktav yukarı kayar."
+    },
+    "telegraph": {
+      "freqHz": 1760,
+      "durMs": 350,
+      "wave": "square",
+      "repeat": 3,
+      "intervalMs": 120,
+      "gain": 0.4,
+      "description": "Hamle öncesi uyarı: 1760 Hz kare dalga, bandpass Q 12, 3 kısa tık (120 ms aralık). Toplam 350 ms."
+    },
+    "lunge": {
+      "sweepFromHz": 120,
+      "sweepToHz": 900,
+      "durMs": 220,
+      "wave": "sawtooth",
+      "noise": true,
+      "gain": 0.7,
+      "description": "Hamle: 120→900 Hz üstel kayan sawtooth + beyaz gürültü highpass 1.5 kHz 'whoosh', panner saldırı yönüne göre -0.8/+0.8."
+    },
+    "hit": {
+      "freqHz": 65,
+      "durMs": 420,
+      "noise": true,
+      "gain": 0.9,
+      "sweepToHz": 30,
+      "description": "Vuruş: 65 Hz sine 40 ms'de 30 Hz'e düşer (sub darbe), kahverengi gürültü patlaması 420 ms, DC blocker highpass 25 Hz. Müzik 300 ms boyunca -12 dB duck."
+    },
+    "hallucination": {
+      "pitchShiftSemis": -5,
+      "lfoHz": 6.5,
+      "reverseNote": true,
+      "gain": 0.5,
+      "durMs": 9000,
+      "wetReverb": 0.8,
+      "lowpassHz": 900,
+      "description": "Halüsinasyon (9 sn): tüm realm osilatörleri detune ile -5 yarım ton aşağı kayar (2 sn'de), 6.5 Hz vibrato (depth 40 cent) uygulanır, reverb wet 0.8, lowpass 900 Hz. Tersten çalınan notalar: pad zarfı ters (uzun attack, ani kesim), delay feedback 0.7 ile geriye sarım hissi. Bas kapalı. 7. saniyeden itibaren 2 sn'de normale döner."
+    },
+    "point": {
+      "notes": [0, 7, 12],
+      "durMs": 1400,
+      "wave": "sine",
+      "gain": 0.35,
+      "delayMs": 380,
+      "description": "Yankı noktası dinleme: üç sine (kök, beşlik, oktav) 80 ms arayla, 0.38 sn delay feedback 0.55 ile uzayan yankı, hafif ping-pong stereo."
+    },
+    "log": {
+      "freqHz": 440,
+      "notes": [0, 5, 7],
+      "durMs": 600,
+      "wave": "triangle",
+      "gain": 0.35,
+      "tapeHiss": true,
+      "clickFreqHz": 2600,
+      "description": "Lale kaydı: 2.6 kHz 6 ms 'kayıt başladı' tık, 440 Hz üçgen arpejli üç nota, kayıt boyunca beyaz gürültü highpass 5 kHz 'teyp tıslaması' gain 0.04, bitişte ters tık."
+    },
+    "insight": {
+      "chord": [0, 4, 7, 11],
+      "durMs": 3200,
+      "wave": "sine",
+      "gain": 0.5,
+      "attackMs": 60,
+      "description": "İçgörü: majör 7 akoru, dört sine + her birinin 2. harmoniği, 60 ms attack, 3.2 sn release, 0.2 Hz shimmer için +12 yarım ton pitch-shift katmanı (detune) reverb içinde. Müzik 1 sn -3 dB duck."
+    },
+    "gateFire": {
+      "sweepFromHz": 60,
+      "sweepToHz": 3200,
+      "durMs": 2400,
+      "wave": "sawtooth",
+      "noise": true,
+      "gain": 0.8,
+      "calibrationTickHz": 880,
+      "calibrationTickMs": 40,
+      "description": "Geçit kalibrasyonu + ateşleme: kalibrasyon sırasında 880 Hz 40 ms tıklar, hedefe yaklaştıkça tık aralığı 600→90 ms kısalır. Kilit anında 60→3200 Hz 2.4 sn sawtooth yükselişi + lowpass gürültü, zirvede 1 sn tutulan akor (realm chords[0])."
+    },
+    "tunnel": {
+      "sweepFromHz": 80,
+      "sweepToHz": 4000,
+      "durMs": 5000,
+      "wave": "sawtooth",
+      "noise": true,
+      "gain": 0.6,
+      "description": "Tünel yolculuğu: bandpass filtreli (Q 6) pembe gürültü 80→4000 Hz 5 sn üstel süpürme, altında doppler sawtooth (4 osilatör ±25 cent), flanger için 2-8 ms modüle gecikme 0.4 Hz. Geçiş: eski realm pad'i 2 sn fade-out, yeni realm pad'i 3. sn'den fade-in."
+    },
+    "fragment": {
+      "notes": [0, 12, 19],
+      "freqHz": 880,
+      "durMs": 500,
+      "wave": "sine",
+      "gain": 0.4,
+      "description": "Parça/fragment toplama: 880 Hz'den başlayan sine, oktav ve on ikili 40 ms arayla, 500 ms release, bandpass 2 kHz 'cam' çınlaması (Q 10)."
+    },
+    "caught": {
+      "freqHz": 40,
+      "durMs": 2500,
+      "noise": true,
+      "wave": "sawtooth",
+      "dissonanceSemis": [1, 6],
+      "gain": 1.0,
+      "description": "Yakalanma: 40 Hz sawtooth + 1 ve 6 yarım ton üstünde iki ek osilatör, 2.5 sn boyunca lowpass 200 Hz'den 20 Hz'e kapanır, kahverengi gürültü patlaması; tüm müzik 1 sn'de -24 dB, ardından 4 sn sessizlik ve hub pad yeniden fade-in."
+    }
+  },
+
+  "endings": {
+    "gozlemci": {
+      "key": "C",
+      "mode": "lydian",
+      "chords": [[0, 4, 7, 11], [0, 2, 7, 14], [-1, 2, 7, 11], [0, 4, 7]],
+      "bpm": 44,
+      "texture": "Gözlemci: baslangic motifinin soğuk, uzak hali. Bas yok, yalnızca yüksek sine harmonikleri (2-4 kHz) ve çok yavaş pad (attack 10 sn). Reverb decay 14 sn, wet 0.6. Arp 1/4, her 3. nota atlanır; son 30 sn'de akorlar yarıya iner, yalnızca kök ve 11 (artık dörtlü) kalır. Rüzgâr gürültüsü 0.03 gain, 300 Hz."
+    },
+    "kopru": {
+      "key": "D",
+      "mode": "dorian",
+      "chords": [[0, 3, 7, 10], [5, 9, 12], [-2, 2, 5, 9], [0, 3, 7, 14]],
+      "bpm": 60,
+      "texture": "Köprü: yuva ve bilinc motifleri birleşir. 70 BPM kalp atışı 60 BPM'e yavaşlayarak pad'in ritmine kilitlenir, yuva arp'ı (sine 1/8) üstüne gelir, bas sine 1/2 notalarda. Üç osilatör chorus, yağmur gürültüsü 0.06. Son 20 sn'de tüm akorlar majör 9'lu üzerinde açılır, reverb wet 0.45."
+    },
+    "sessizlik": {
+      "key": "A",
+      "mode": "aeolian",
+      "chords": [[0, 7], [0, 3, 7], [-2, 0, 7], [0]],
+      "bpm": 36,
+      "texture": "Sessizlik: tek bir 110 Hz sine (A2) 40 sn boyunca gain 0.3'ten 0'a üstel iner, her 10 sn'de bir akor sadece beşlik/oktav ile dokunur. Gürültü yalnızca kahverengi 60 Hz lowpass gain 0.02 (tesis uğultusunun hayaleti). Son 15 sn: reverb kuyruğu dışında hiçbir şey, limiter -1 dB, ardından AudioContext suspend."
+    }
+  },
+
+  "mixRules": [
+    "Master zincir: realm bus -> event bus -> reverb send (wet 0.35) -> compressor (threshold -12 dB, ratio 4, knee 6) -> limiter -1 dB -> destination.",
+    "Bozulma sahasında (zoneActive) pad -6 dB, arp kapalı, bas -3 dB; drone ve kalp atışı event bus'tan gelir.",
+    "Diyalog/günlük metni gösterilirken müzik -4 dB, noise -2 dB; pad cutoff 1 oktav aşağı (bulanık).",
+    "Halüsinasyonda bas kapalı, arp -9 dB, reverb wet 0.8, tüm osilatörler -5 yarım ton; 9 sn sonunda 2 sn'de geri dön.",
+    "Vuruş (hit) ve yakalanma (caught) anında müzik bus'ı 300 ms -12 dB side-chain duck; caught'ta -24 dB ve 4 sn sessizlik.",
+    "Tünel geçişinde eski realm 2 sn fade-out, yeni realm 3. saniyeden 3 sn fade-in; tünel süpürmesi tek başına 0 dB taşımaz, -3 dB.",
+    "Realm değişiminde akor dizisi her zaman chords[0] ile başlar; 8 ölçüde döner, her akor 2 ölçü sürer.",
+    "Pad gain toplamı 0.35'i aşmasın; birden çok osilatör katmanı varsa gain katman sayısına bölünür.",
+    "Noise katmanı hiçbir realm'de 0.2'yi geçmez; gezegen rüzgârı en gürültülü realm (0.18).",
+    "Olay sesleri (telegraph, lunge, hit) reverb send'e -9 dB ile gider; point ve insight +3 dB ile (daha geniş).",
+    "Final/totem sahnesinde realm pad'i 6 sn fade-out, ending seti aynı kökten başlar (ortak nota tutularak geçiş).",
+    "Kalp atışı asla 130 BPM'i geçmez; tempo değişimleri 2 sn'de rampalanır (ani zıplama yok).",
+    "Düşük frekans güvenliği: 25 Hz highpass master'da; sub osilatörler 30 Hz altına inmez (hit kaymasında 30 Hz sınır).",
+    "Kullanıcı etkileşimi öncesi AudioContext suspended kalır; ilk tıklamada resume ve hub pad 4 sn fade-in."
+  ]
+}

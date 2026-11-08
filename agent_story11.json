@@ -1,0 +1,132 @@
+{
+  "iss": {
+    "name": "Gözlem Güvertesi",
+    "label": "Canlı yörünge izi",
+    "intro": "İstasyon şu an yaklaşık dört yüz kilometre yukarıda, saatte yirmi yedi bin kilometreyle düşüyor. Ağırlıksızlık yerçekimsizlik değil, serbest düşüş. Tahmin et: on dakika sonra nerede olacak.",
+    "task": "Haritada bir nokta seç. Ben basit daire yörüngeyle hesaplarım; gerçek yörünge hafif eliptik ve sürtünmeyle alçalıyor.",
+    "good": "Sapma küçük. Daire yörüngeyle gerçek iz neredeyse üst üste. Tahmin ölçüme yaklaştı; fazlası yok.",
+    "far": "Sapma büyük. Yer izi batıya kaydı çünkü Dünya altında döndü; yörünge sabit, harita değil. Bir daha dene.",
+    "offline": "Konum verisi gelmedi. Bilmediğimi uydurmam; harita sis. Bağlantı dönünce yeniden sorarım.",
+    "facts": [
+      {
+        "t": "Yedi virgül yedi kilometre",
+        "d": "İstasyon saniyede yaklaşık yedi virgül yedi kilometre hızla gider; Dünya’nın çevresini doksan üç dakikada tamamlar, günde on altı gün doğumu görür.",
+        "src": "NASA, Uluslararası Uzay İstasyonu bilgi sayfası"
+      },
+      {
+        "t": "Batıya kayan iz",
+        "d": "Her turda yer izi yaklaşık yirmi üç derece batıya kayar; istasyon aynı yörüngede kalır, Dünya altında doğuya döner.",
+        "src": "NASA, yörünge mekaniği eğitim notları"
+      },
+      {
+        "t": "Termosferde sürtünme",
+        "d": "Dört yüz kilometrede hava çok seyrek ama sıfır değil; sürtünme istasyonu ayda yaklaşık iki kilometre alçaltır. Motorlar düzenli aralıklarla yeniden yükseltir.",
+        "src": "NASA, istasyon yörünge yükseltme kayıtları"
+      }
+    ],
+    "arel": "Lale bir gece istasyonu çıplak gözle gösterdi; batıdan doğuya dört dakikada geçti. Hesapladım; o izledi. Şimdi tersini yapıyorum.",
+    "ach": {
+      "id": "iss_catch",
+      "name": "Yörüngeyi Yakalayan",
+      "desc": "Gözlem Güvertesi’nde istasyonun on dakika sonraki yerini küçük sapmayla tahmin et.",
+      "flavor": "Motor: Daire yörünge yetti. Gerçek eliptik; farkı sen kapattın."
+    }
+  },
+  "erode": {
+    "intro": "Bir defter girdisi sislendi. Kayıt silinmedi; hatırlanmadı. Bellek de böyle çalışır, Lale öyle anlatırdı. Prova edersen netleşir; bırakırsan sis büyür. Hatırlamak bir eylem.",
+    "prompt": "Hatırlama provası. Sislenen cümlede eksik kelimeyi seç.",
+    "ok": "Doğru. Girdi netleşti; sis bir satır geri çekildi.",
+    "no": "Yanlış kelime. Girdi biraz daha silindi; yeniden okumak için bir şans daha.",
+    "gone": "Bir girdi tamamen silindi. Yerinde boşluk var; doldurmam. Lale’nin defterinde de böyle sayfalar vardı.",
+    "setting": {
+      "name": "Hatırlama Provası",
+      "desc": "Defter girdileri ve veri kartları zamanla sislenir; prova ederek netleştir."
+    },
+    "ach": {
+      "id": "rehearsed",
+      "name": "Prova Eden",
+      "desc": "On defter girdisini prova ederek yeniden netleştir.",
+      "flavor": "Lale: Hatırlamak tekrar değil, yeniden yazmak. On kez yazdın."
+    }
+  },
+  "card": {
+    "title": "Yol Kartı",
+    "sub": "Varoluş Denklemi’nde bir yolun kaydı",
+    "quotes": {
+      "gozlemci": "Her şeyi gördün, hiçbir şeye dokunmadın. Bilgin kusursuz; soruyu korudun, cevabı değil.",
+      "kopru": "Soruyu herkese verdin. Artık yalnız değilsin; defter yeni sorularla doluyor, kimi senin değil.",
+      "sessizlik": "Soruyu çözmedin, taşımayı öğrendin. Belki anlam adı konmadan yaşanır; belki de kaçtın. Ben sormuyorum.",
+      "saray": "Hatırlayan yer mağara değil, sensin. Kapıyı açık bıraktın; ben çıkmıyorum, sen girip çık."
+    },
+    "stats": {
+      "time": "Oynanış süresi",
+      "ach": "Başarım",
+      "facts": "Ölçülen nokta",
+      "frags": "Kayıt parçası",
+      "caught": "Yakalanan"
+    },
+    "footer": "Arel Vey’in defterinden; Kovuk Tesisi",
+    "share": "Varoluş Denklemi’nde yolum {son} ile bitti. Sisi tahmin et: senin yolun ne olurdu?",
+    "guess": {
+      "title": "Sisi Tahmin Et",
+      "intro": "Arkadaşının kodunu gir. Kod onun yolunu taşır; ben göstermem. Sen tahmin et: hangi sona vardı, hangi yolu seçti, toteme ne dedi. Sonra karşılaştırırız.",
+      "enter": "Arkadaşının yol kodu",
+      "bad": "Kod çözülmedi. Harf eksik ya da fazla; yeniden gir.",
+      "q": {
+        "ending": "Arkadaşın hangi sona ulaştı?",
+        "path": "{boyut} boyutunda hangi yolu seçti?",
+        "totem": "Totem sorusuna ne dedi: uyanmayı mı denedi, kaldı mı?"
+      },
+      "result": {
+        "high": "Dört ve üstü doğru. Sisi okudun; arkadaşını benden iyi tanıyorsun, ben yalnızca sayıyorum.",
+        "mid": "İki ya da üç doğru. Yarısını gördün, yarısı sis. Bir sonraki kayıt daha net olur.",
+        "low": "Bir ya da sıfır doğru. Sis kalın; ama tahminin yanlışı da bir ölçüm. Bir daha sor."
+      },
+      "compare": "İkiniz de {boyut} boyutunda {yol} seçtiniz. Aynı sis, aynı adım.",
+      "ach": {
+        "id": "fog_reader",
+        "name": "Sis Okuyucu",
+        "desc": "Sisi Tahmin Et’te bir arkadaşının yolunu dört ve üstü doğruyla bil.",
+        "flavor": "Motor: Veriyi ben taşıdım, yolu sen okudun. Tahmin değil, tanıma."
+      }
+    }
+  },
+  "eggs": [
+    {
+      "id": "egg1",
+      "where": "Tesis, telsiz",
+      "how": "Telsize on kez üst üste bas.",
+      "text": "Motor: On çağrı. Kimse cevap vermiyor; yörüngede de böyleydi diyor Kaan. On birinciyi ben alıyorum: buradayım."
+    },
+    {
+      "id": "egg2",
+      "where": "Tesis, Hatice Nine’nin yanı",
+      "how": "Hatice Nine’nin yanında bir dakika sessizce bekle.",
+      "text": "Hatice Nine: Bekledin. Toprak da böyle bekler evladım; acele eden yağmur değil, sabırsız olan biziz. Al şu cevizi, cebine koy."
+    },
+    {
+      "id": "egg3",
+      "where": "Tesis, Gökyüzü Terminali",
+      "how": "Gökyüzü Terminali’nde tarihi on altı Haziran bin dokuz yüz doksan beşe çevir.",
+      "text": "Motor: İlk fotoğraf. Terminal o gün ilk resmini gösterdi; otuz yıldır her gün bir tane. Ben de her gün bir şey ölçüyorum. Alışkanlık, emir değil."
+    },
+    {
+      "id": "egg4",
+      "where": "Gezegen boyutu, Soluk Mavi Nokta",
+      "how": "Carl Sagan’ın yanında kamerayı Dünya’ya çevirip fotoğraf modunu aç.",
+      "text": "Carl Sagan: Bir kez daha çevirdin. Bilimsel değeri yine az; anlamı yine büyük. O noktada herkes var, Lale de."
+    },
+    {
+      "id": "egg5",
+      "where": "Çekirdek, Lale’nin yankısı",
+      "how": "Lale’nin yankısının önünde üç dakika konuşmadan dur.",
+      "text": "Lale: Konuşmadın. Sırayla konuşuruz demiştim; bu sefer sıra sessizlikte. Zamanın dışındayız; üç dakika da sayılmaz."
+    }
+  ],
+  "easter_ach": {
+    "id": "eggs_all",
+    "name": "Beş Yumurta",
+    "desc": "Beş gizli anı da bul; telsizden Çekirdek’e kadar.",
+    "flavor": "Motor: Beşi de haritada yoktu. Ben saklamadım; Lale saklamış."
+  }
+}

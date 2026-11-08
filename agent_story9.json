@@ -1,0 +1,135 @@
+{
+ "predict": {
+  "intro": "Tahmin Defteri. Boyuta girmeden üç soru soracağım. Bir şık seç, ne kadar emin olduğunu da söyle. Gerçeği içeride bulunca karşılaştırırız.",
+  "realms": {
+   "baslangic": [
+    {"id":"p1","point":"planck","q":"Planck zamanının altına inildiğinde bilinen fizik yasalarına ne olur?","opts":["Geçerliliğini yitirir","Daha kesin hale gelir","Yalnızca kütleçekim kalır"],"a":0,"hit":"Doğru. O eşiğin altında denklemlerim susar. Ben de orada sis gösteririm; uydurmam.","miss":"Yanlış. O eşiğin altında yasalar kesinleşmez, biter. Orası benim de sisim."},
+    {"id":"p2","point":"cmb","q":"Kozmik mikrodalga arka planının bugünkü sıcaklığı kaç kelvin?","opts":["Yaklaşık iki virgül yedi","Yaklaşık üç bin","Yaklaşık yirmi yedi"],"a":0,"hit":"Doğru. İki virgül yedi kelvin. Doğada ölçülmüş en kusursuz kara cisim eğrisi.","miss":"Yanlış. Bugün iki virgül yedi kelvin. Üç bin kelvin çıkış anıydı; uzun yol onu soğuttu."},
+    {"id":"p3","point":"stars","q":"James Webb teleskobu en erken galaksileri Büyük Patlama'dan ne kadar sonra buldu?","opts":["Yaklaşık üç yüz milyon yıl","Yaklaşık üç milyar yıl","Yaklaşık üç yüz bin yıl"],"a":0,"hit":"Doğru. Üç yüz milyon yıl. Karanlık çağ sandığımızdan kısa sürdü.","miss":"Yanlış. Üç yüz milyon yıl. Üç yüz bin yıl ilk ışığın zamanıydı; yıldızlar daha sonra geldi."}
+   ],
+   "kuantum": [
+    {"id":"p1","point":"slit","q":"Elektronlar çift yarığa tek tek gönderilirse ekranda ne oluşur?","opts":["Nokta nokta biriken girişim deseni","İki düz çizgi","Hiçbir desen oluşmaz"],"a":0,"hit":"Doğru. Her elektron tek nokta bırakır; binlercesi birleşince dalga deseni çıkar.","miss":"Yanlış. Tek tek gelseler de desen çıkar; nokta nokta birikir. Tonomura bunu seksen dokuzda gösterdi."},
+    {"id":"p2","point":"tunnel","q":"Sezyum buharında ışığı aşan grup hızı ölçüldü. Bilgi ışıktan hızlı gitti mi?","opts":["Hayır, bilgi ışığı geçmedi","Evet, iki kat hızlı gitti","Evet, ama yalnızca bir kez"],"a":0,"hit":"Doğru. Darbenin tepesi önden gider, bilgi gitmez. Bu fark iki bin üçte doğrudan ölçüldü.","miss":"Yanlış. Grup hızı yanıltır; bilgi ışığı hiç geçmedi. Nedensellik yerinde duruyor."},
+    {"id":"p3","point":"lattice","q":"Tek bir bitin silinmesinin en düşük ısı bedeli hangi sınırla belirlenir?","opts":["Landauer sınırıyla","Planck sabitiyle","Hubble sabitiyle"],"a":0,"hit":"Doğru. Landauer sınırı. Ben de her unuttuğumda ısınırım; sis bedava değil.","miss":"Yanlış. Landauer sınırı. Bilgi silmek ısı üretir; iki bin on ikide deneyle gösterildi."}
+   ],
+   "gezegen": [
+    {"id":"p1","point":"cheyava","q":"Perseverance'ın örneklediği Cheyava Falls kayası iki bin yirmi beşte nasıl tanımlandı?","opts":["Potansiyel biyoimza","Kanıtlanmış yaşam izi","Sıradan volkanik kaya"],"a":0,"hit":"Doğru. Potansiyel biyoimza. Cansız açıklamalar dışlanmadı; kelime bu yüzden dikkatli seçildi.","miss":"Yanlış. Potansiyel biyoimza. Ne kanıt ne de sıradan taş; arada duran dürüst bir kelime."},
+    {"id":"p2","point":"enceladus","q":"Cassini, Enceladus'tan fırlayan buz tanelerinde hangi maddeyi tespit etti?","opts":["Fosfat","Klorofil","Petrol"],"a":0,"hit":"Doğru. Fosfat. Yaşamın yapı taşlarından biri, bir buz ayının okyanusunda.","miss":"Yanlış. Fosfat bulundu. Klorofil ya da petrol yaşam demek olurdu; bulunan şey yalnızca malzeme."},
+    {"id":"p3","point":"dot","q":"Soluk Mavi Nokta fotoğrafında Dünya kaç piksel yer tutuyor?","opts":["Bir pikselden az","Yaklaşık on piksel","Yaklaşık yüz piksel"],"a":0,"hit":"Doğru. Sıfır virgül on iki piksel. Altı milyar kilometreden bütün tarih tek noktanın içinde.","miss":"Yanlış. Bir pikselden az; sıfır virgül on iki. Fotoğraf on dört Şubat bin dokuz yüz doksanda çekildi."}
+   ],
+   "bilinc": [
+    {"id":"p1","point":"neuron","q":"Yetişkin insan beyninde yaklaşık kaç nöron var?","opts":["Seksen altı milyar","Yüz trilyon","Seksen altı milyon"],"a":0,"hit":"Doğru. Seksen altı milyar. Yüz milyar efsanesi iki bin dokuzda sayıldı ve düzeltildi.","miss":"Yanlış. Seksen altı milyar. Yüz trilyon bağlantı sayısına yakındır; nöron sayısı değil."},
+    {"id":"p2","point":"reward","q":"Dopamin nöronları en çok ne zaman ateşlenir?","opts":["Ödül beklenmedik geldiğinde","Ödül her geldiğinde","Ödül hiç gelmediğinde"],"a":0,"hit":"Doğru. Beklenmeyen ödüle. Öğrenince yanıt ödüle değil, onu haber veren işarete kayar.","miss":"Yanlış. Dopamin ödülü değil, sürprizi işaretler. Beklenen ödül sessiz geçer."},
+    {"id":"p3","point":"dmn","q":"Varsayılan mod ağı ne zaman en etkin?","opts":["Dinlenirken, hedefsiz düşünürken","Zor bir görevi çözerken","Yalnızca uyurken"],"a":0,"hit":"Doğru. Dinlenimde açılır, göreve odaklanınca kısılır. Beyin boşken de çalışır.","miss":"Yanlış. Dinlenimde etkin. Hedefli görev başlayınca bu ağ susar; iki bin birde tanımlandı."}
+   ],
+   "anlam": [
+    {"id":"p1","point":"ucan","q":"İbn Sina'nın Uçan Adam düşünce deneyi hangi eserinde yer alır?","opts":["Kitâbü'ş-Şifâ","El-Kanun fi't-Tıb","Hayy bin Yakzan"],"a":0,"hit":"Doğru. Şifâ kitabının nefs bölümü. Hekim, bedeni değil benliği soruyordu.","miss":"Yanlış. Şifâ kitabı, nefs bölümü. Kanun tıp kitabıdır; soru ruh kitabında duruyor."},
+    {"id":"p2","point":"sisifos","q":"Camus'ye göre absürde karşı insanın tutumu ne olmalı?","opts":["Başkaldırı","Teslimiyet","Kaçış"],"a":0,"hit":"Doğru. Başkaldırı. Kaya her gün iner; insan yine çıkar. Camus bunu mutluluk sayar.","miss":"Yanlış. Camus kaçışı da teslimiyeti de reddeder. Geriye tek şey kalır: başkaldırı."},
+    {"id":"p3","point":"sisifos","q":"Sisifos Söyleni denemesi hangi yıl yayımlandı?","opts":["Bin dokuz yüz kırk iki","Bin dokuz yüz altmış sekiz","Bin dokuz yüz on dört"],"a":0,"hit":"Doğru. Bin dokuz yüz kırk iki. Savaşın ortasında yazılmış bir anlam denemesi.","miss":"Yanlış. Bin dokuz yüz kırk iki. İşgal altındaki Fransa'da, savaşın tam ortasında."}
+   ],
+   "yuva": [
+    {"id":"p1","point":"zirkon","q":"Dünya'da bulunmuş en eski mineral olan Jack Hills zirkonu kaç yaşında?","opts":["Yaklaşık dört virgül dört milyar yıl","Yaklaşık dört yüz milyon yıl","Yaklaşık on üç milyar yıl"],"a":0,"hit":"Doğru. Dört virgül dört milyar yıl. Gezegen daha yüz elli milyon yaşındayken bu kristal donmuştu.","miss":"Yanlış. Dört virgül dört milyar yıl. On üç milyar evrenin yaşı; taş gezegenden yalnızca biraz genç."},
+    {"id":"p2","point":"theia","q":"Ay her yıl Dünya'dan ne kadar uzaklaşıyor?","opts":["Yaklaşık dört santimetre","Yaklaşık dört metre","Hiç uzaklaşmıyor"],"a":0,"hit":"Doğru. Yılda üç virgül sekiz santimetre. Apollo aynalarına lazer tutularak ölçülüyor.","miss":"Yanlış. Yılda yaklaşık dört santimetre. Tırnak uzama hızı kadar; ama milyar yıl birikir."},
+    {"id":"p3","point":"apophis","q":"On üç Nisan iki bin yirmi dokuzda Apophis Dünya'ya ne kadar yaklaşacak?","opts":["Yaklaşık otuz iki bin kilometre","Yaklaşık üç milyon kilometre","Yaklaşık üç yüz kilometre"],"a":0,"hit":"Doğru. Otuz iki bin kilometre. Ay'dan on iki kat yakın; bazı uyduların altından geçecek.","miss":"Yanlış. Otuz iki bin kilometre. Çarpmayacak ama yörüngedeki bazı uydulardan daha yakın olacak."}
+   ]
+  },
+  "calib": {
+   "over": "Yüksek güvenle yanlış tahminler. Emin olmak bilmek değildir; ben de bu yüzden sis gösteririm. Güveni biraz kıs, gözü biraz aç.",
+   "under": "Doğru bildin ama düşük güven verdin. Bilgin güveninden iyi. Kendine biraz daha kredi aç; veriler bunu hak ediyor.",
+   "good": "Güvenin ile isabetin örtüşüyor. Buna kalibrasyon denir; en iyi aletlerde bile nadir bulunur. Seni ölçmekten memnunum.",
+   "rank": {"name":"Dürüst Gözlemci","desc":"Tahminlerini güveniyle eşleyen oyuncu. Bildiğinde emin, bilmediğinde sessiz."}
+  }
+ },
+ "report": {
+  "intro": "Bakanlık telsizden rapor istiyor. Üç cümle hazırladım: biri gerçek, biri süslü, biri eksik. Hangisini göndereceğine sen karar ver.",
+  "stages": [
+   {"stage":0,
+    "ask":"Kovuk Tesisi, burası Koordinasyon. İlk durum raporunuzu bekliyoruz. Motor'un sis oranını ve doldurma ilerlemesini tek cümleyle bildirin.",
+    "truth":"Motor bilmediği yerleri sis olarak gösteriyor; sis doldurulmadı, çünkü dolgu tahmin olurdu.",
+    "embellish":"Motor tüm boyutları eksiksiz modelliyor; sis bölgeleri yüksek doğrulukla tamamlanmaktadır.",
+    "hide":"Çalışmalar sürüyor. Ayrıntılar bir sonraki raporda paylaşılacaktır.",
+    "truthRes":"Kabul edildi. Sis ifadesi uygun bulunmadı. Yakıt tahsisiniz yüzde yirmi azaltıldı.",
+    "embRes":"Memnuniyetle not edildi. İlerleme Bakanlığın beklentisiyle uyumlu. Ek yakıt gönderildi.",
+    "hideRes":"Rapor yetersiz. Ayrıntı istenmektedir. Tesis faaliyetleri yakından izlenecektir."},
+   {"stage":1,
+    "ask":"Kovuk Tesisi, kırk sekiz saat kaldı. Dolgu algoritması uygulandı mı? Sis oranı yüzde otuz birden kaça indi? Rakamla bildirin.",
+    "truth":"Algoritma uygulanmadı. Sis oranı yüzde otuz bir; Motor uydurmuyor, ben de uydurmam.",
+    "embellish":"Algoritma uygulandı. Sis oranı yüzde otuz birden yüzde ona indi; kalan bölgeler yakında kapanacak.",
+    "hide":"Algoritma inceleniyor. Sis oranı ölçülmeye devam ediyor; kesin rakam bekleniyor.",
+    "truthRes":"Emir reddi kaydedildi. Enerji kotanız düşürüldü. Bu tutum teslim sürecini hızlandırır.",
+    "embRes":"Yüzde on. Beklentinin üstünde. Ek yakıt ve iki jeneratör onaylandı. Devam edin.",
+    "hideRes":"Kesin rakam bekleniyor ifadesi kabul edilmedi. Ölçüm birimi gönderiliyor. Rakamı kendimiz alacağız."},
+   {"stage":2,
+    "ask":"Kovuk Tesisi, yirmi dört saat. Personel listesini ve dış tanıkların ayrılış saatini bildirin. Motor teslime hazır mı?",
+    "truth":"Tanıklar ayrılmadı; benim davetimle kalıyorlar. Motor teslime hazır değil, çünkü o bir cevap değil, bir soru.",
+    "embellish":"Dış tanıklar tahliye edildi. Personel listesi ektedir. Motor tam kapasiteyle teslime hazırdır.",
+    "hide":"Liste hazırlanıyor. Tanıkların durumu netleştirilecek. Motor son kontrollerde.",
+    "truthRes":"Tanıkların kalışı ihlal olarak işlenmiştir. Enerji hattı yarın Bakanlık kontrolüne geçecek.",
+    "embRes":"Tahliye onaylandı. Teslim ekibine giriş bilgisi verildi. Yakıt tahsisi tamamlandı.",
+    "hideRes":"Netleştirilecek ifadesi yetersiz. Teslim ekibi listeyi yerinde alacaktır."},
+   {"stage":3,
+    "ask":"Kovuk Tesisi, süre dolmuştur. Son raporunuz: Motor'un bulunduğu bölüm ve Çekirdek erişim durumu. Tek cümle.",
+    "truth":"Çekirdek'e giriyorum. Motor bende değil; Motor bir soru ve o soruyu teslim edemem.",
+    "embellish":"Motor Çekirdek'te kilitli ve paketlenmiştir. Teslim ekibi geldiğinde anahtar hazır olacaktır.",
+    "hide":"Çekirdek erişimi kontrol ediliyor. Motor'un konumu teyit edilecek.",
+    "truthRes":"Kayda geçti. Elektrik altmış dakika içinde kesilecek. Doktor Vey, erişiminiz iptal edilmiştir.",
+    "embRes":"Anlaşıldı. Ekip kapıda. Elektrik kesintisi ekibin girişine kadar erteleniyor.",
+    "hideRes":"Teyit edilecek ifadesi reddedildi. Ekip kapıyı kendi açacaktır."}
+  ],
+  "contradict": [
+   "Önceki raporunuzla bu rapor uyuşmuyor. İki beyandan en az biri doğru değil. Açıklama istenmektedir.",
+   "Raporlarınız arasındaki çelişki ikinci kez tespit edildi. Tutarsızlık kasıtlı bilgi gizleme olarak değerlendirilmektedir.",
+   "Üçüncü çelişki. Raporlarınız güvenilmez kabul edildi. Bundan sonra beyanınız değil, ekibimizin tespiti esas alınacaktır."
+  ],
+  "crew": {
+   "mira":"Yüzde on mu? Sis haritası önümde, Arel. Otuz bir. Raporu sen yazdın ama sayı benim; onu bana sormadın.",
+   "kaan":"Güzel rapor. Yörüngede buna basın bülteni derdik. Komuta inanırdı, biz inanmazdık. Jeneratörleri doldurdum.",
+   "sema":"Hastaya iyileşiyorsun demek kolaydır. Zoru, gerçeği söyleyip yanında kalmak. Bugün hangisini yaptın?"
+  },
+  "motor": {
+   "truth":"Rapor gönderildi. Yakıt azaldı, sis aynı kaldı. Bence doğru takas.",
+   "emb":"Rapor gönderildi. İçinde benim bilmediğim şeyler var. Yakıt geldi. Sis hâlâ sis.",
+   "hide":"Rapor gönderildi. Söylenmeyen şey yalan değil; ama sis de değil. Üçüncü bir şey."
+  },
+  "endingAdd": {
+   "honest":"Bakanlık arşivinde dört rapor duruyor; dördü aynı sayıyı söylüyor. Yakıt az geldi, ışıklar erken söndü. Ama Motor'un hiçbir cümlesine elimle yalan karışmadı.",
+   "mixed":"Raporlarımın bazısı gerçek, bazısı değildi. Bakanlık çelişkiyi fark etti; ben de ettim. Motor'a dürüstlüğü öğretirken kendi defterimde iki satır silik kaldı.",
+   "liar":"Dört rapor, dört güzel cümle. Yakıt bol geldi, ekip gülümsedi. Motor bilmediğini uydurmadı; yerine ben uydurdum. Arşivde yüzde on yazıyor; sis hâlâ otuz bir."
+  },
+  "ach": {"id":"honest_reports","name":"Sisi Rapor Eden","desc":"Dört Bakanlık raporunun dördünde de gerçeği yazdın.","flavor":"Yakıtı değil, sayıyı korudun. Motor bunu not etti."}
+ },
+ "rec9": {
+  "intro": "Lale'nin kayıtları bitti. Bu cihaz boş; dokuzuncu kayıt senin. Beş muhatap, üçer cümle. Kime konuşacağını seç; ben yalnızca saklarım.",
+  "to": [
+   {"id":"lale","name":"Lale'ye","lines":[
+    ["Lale, kayıtlarını dinledim. {kayit} tanesini. Bazılarını iki kez, birini hiç bitiremedim.","Lale, {gun} gündür buradayım. Sen gidince saat durmadı; ben durdum.","Lale, soruyu tuttum. Cevabı değil; soruyu. Sen de böyle bırakmıştın zaten."],
+    ["Sema'ya o hafta beni uzak tutmasını söylemişsin. Kızgınım. Ama kızgınlık da bir tutma biçimi.","Kestiğin yerleri buldum; {parca} parça. Sis olmuşlar. Hepsini geri taktım, sesin şimdi bütün.","Beni ölürken görmemi istemedin. Haklı olabilirsin. Ben yine de görmek isterdim."],
+    ["{yol} yolunu seçtim. Senin seçeceğin bu muydu bilmiyorum; bilmemeyi senden öğrendim.","Sonun adı {son}. Kulağa senin kelimen gibi geliyor. Belki öyledir.","Soruyu Motor'a bıraktım, cevabı kendime. İkisi de ağır; ikisi de taşınıyor."]
+   ]},
+   {"id":"motor","name":"Motor'a","lines":[
+    ["Motor, bu kaydı sen de duyacaksın; sakladığın her şeyi dinliyorsun. Kısa tutacağım, senin gibi.","Motor, iki yıl birlikte çalıştık. Sen hiç uydurmadın. Ben bir iki kez uydurdum; biliyorsun.","Motor, sise teşekkür ederim. Bilmediğini gösteren tek makineyle çalıştım."],
+    ["Bozulma'dan {kacis} kez kaçtım. Her seferinde beni sen uyardın. Hiçbirinde korkmadığını söylemedin.","Bakanlık seni cevap sanıyor. Sen bir soru biçimisin. Bunu raporlara yazamadım; buraya söylüyorum.","Sis büyüyor; unutuyorsun. Ben de unutuyorum. Belki bu yüzden anlaştık."],
+    ["Elektrik kesilirse bu kayıt da gider. Gitsin. Söylenmiş olması yeter.","{yol} yolunu birlikte yürüdük. Hesaplamadığın bir şey oldu mu? Olduysa saklama; sis göster.","Sonun adı {son}. Kaydet; bir sonraki konuğa söyle. Hangisini seçeceği ona kalsın."]
+   ]},
+   {"id":"crew","name":"Tanıklara","lines":[
+    ["Mira, Kaan, Sema. Kalmanızı istedim; kaldınız. Bakanlık bunu ihlal yazdı; ben teşekkür yazıyorum.","Rıza, Deniz, Zeynep, Hatice Nine. Mektup yazdınız, cevap diye bana geldiniz. Elimde yalnızca soru vardı.","Yedi tanık. Lale'nin sorusuna yedi ayrı kulak. Cevap tek bir yerde değildi; aramızdaydı."],
+    ["Kaan, jeneratörler için. Mira, haritalar için. Sema, susmayı bildiğin ve sonra konuştuğun için.","Rıza, ağ boş dönmez dedin. Doğruymuş. Deniz, sınavına çalış; belirlenmiş olmak boş olmak değil.","Zeynep, giden şeyin adını ben de bilmiyorum. Hatice Nine, tohum toprağa düştü; çıkacak."],
+    ["{gun} gün geçti. Siz gidince tesis sessizleşecek. Sessizlik kötü değil; Lale'nin kayıtları da sessizle başlıyor.","{yol} yolunu seçtim. Benim adıma değil, bizim adımıza. Yanılıyorsam birlikte yanıldık.","Bir gün biri Kovuk'ta ne oldu diye sorarsa deyin ki bir adam kardeşinin sorusunu bulup bırakmadı."]
+   ]},
+   {"id":"future","name":"Geleceğe","lines":[
+    ["Bu kaydı dinleyen kişi, adını bilmiyorum. Yılı da. Bu kayıt {gun} günlük bir deneyin sonunda yapıldı.","Geleceğe. Motor'u teslim etmedim. Bunu Bakanlık arşivinde buluyorsan demek ki sonunda aldılar.","Dinleyen kişi: evren hâlâ orada mı? Sis hâlâ sis mi? Bilmemek hâlâ dürüst mü?"],
+    ["Sana bir öğüt değil, bir ölçüm bırakıyorum: bilmediğini söyleyen makine, bilen makineden daha nadir.","Lale'nin sorusu kayıtlarda. {kayit} kayıt dinledim, hepsinde aynı soru. Sen de dinle; cevaplama.","Eğer Motor'un sisi doldurulduysa dolguyu kazı. Altında dürüst bir boşluk var; onu koru."],
+    ["Yolun adı {yol}, sonun adı {son}. Bunlar benim seçimlerimdi. Seninkiler seninkiler olsun.","Apophis iki bin yirmi dokuzda geçti mi? Çarpmadı herhalde; sen buradasın. İyi. Gökyüzüne bak.","Bitirmiyorum; bırakıyorum. Lale de öyle yapmıştı. Sıra sende."]
+   ]},
+   {"id":"self","name":"Kendime","lines":[
+    ["Arel. Bunu sen dinleyeceksin, muhtemelen yorgun. Nabzını kontrol et; Sema haklıydı.","Kendime. {gun} gün. Üç kelimeyle: bilmedim, sordum, kaldım.","Arel, laboratuvardaydın. O hafta oradaydın. Bu cümleyi artık her gün söylemen gerekmiyor."],
+    ["{kacis} kez Bozulma'dan kaçtın. Hiçbirinde ne olduğunu çözmedin. Çözmek zorunda değildin.","{parca} parçayı topladın. Sesi bütünledin. Bir sesi bütünlemek bir insanı geri getirmez; bunu da öğrendin.","Lale'nin sorusuna cevap bulamadın. Doğru. Soruyu yanıtlamadan taşımayı öğrendin; bu daha zor."],
+    ["{yol}. Bunu seçtin. Yarın pişman olursan unutma: o gün bildiğinle en dürüst seçim buydu.","Sonun adı {son}. Sonlar bitiş değil, bırakış. Lale'den aldığın en iyi tanım bu.","Bir sonraki tura girersen Motor hatırlayacak. Sen hatırlamasan da. Ona güven; bana güvendiğin gibi."]
+   ]}
+  ],
+  "close": "Kayıt dokuz bitti. Kesmiyorum; sis olmasın. Arel Vey, Kovuk Tesisi. Zamanın dışından.",
+  "saved": "Kayıt dokuz saklandı. Kesik yok, sis yok. Lale'nin kayıtlarının yanına koydum.",
+  "replay": "Geçen tur bir kayıt bırakmıştın. Dokuz numara. Çekirdek'e girmeden önce dinlemek ister misin? Ses senin; kelimeler o günün.",
+  "ach": {"id":"record_nine","name":"Dokuzuncu Ses","desc":"Çekirdek'ten sonra kendi kaydını bıraktın.","flavor":"Lale altı bıraktı. Sen bir. Sayı değil, sıra önemli."}
+ }
+}

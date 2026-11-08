@@ -1,0 +1,191 @@
+{
+  "achievements": [
+    {
+      "id": "first_fact",
+      "name": "İlk Ölçüm",
+      "desc": "İlk yankı noktasını incele; bir gerçek sisten çıkıp maviye dönsün.",
+      "flavor": "Motor: Bir nokta ölçüldü. Sis bir piksel geri çekildi; fazlası yok."
+    },
+    {
+      "id": "all_facts_realm",
+      "name": "Bir Boyut Mavi",
+      "desc": "Bir boyuttaki tüm yankı noktalarını incele.",
+      "flavor": "Arel: Bu boyutta sis kalmadı. Bilinmeyen kalmadı demek değil; ölçülen bitti."
+    },
+    {
+      "id": "all_facts",
+      "name": "Ölçülenler Tamam",
+      "desc": "Altı boyuttaki tüm yankı noktalarını incele.",
+      "flavor": "Motor: Tüm ölçümler kayıtlı. Kalan kırmızı, bilmediğim yerdir; doldurmam."
+    },
+    {
+      "id": "six_logs",
+      "name": "Altı Kayıt",
+      "desc": "Lale’nin altı kaydını da sonuna kadar dinle.",
+      "flavor": "Lale: Altısını dinledin. Kestiklerim hariç; onları Motor değil, sen bulacaksın."
+    },
+    {
+      "id": "first_frag",
+      "name": "İlk Kesik",
+      "desc": "Kırmızı bölgeden ilk kesik kayıt parçasını çıkar.",
+      "flavor": "Lale: Bunu kesmiştim. Elinde durduğuna göre kesik değilmiş; saklıymış."
+    },
+    {
+      "id": "six_frags",
+      "name": "Yedinci Ses",
+      "desc": "Altı kesik parçayı da topla; Kayıt Yedi’nin kilidi açılsın.",
+      "flavor": "Lale: Altısı da sende. Yedincisini ben kaydetmedim; sen birleştirdin."
+    },
+    {
+      "id": "record7",
+      "name": "Kayıt Yedi",
+      "desc": "Kayıt Yedi’yi kesmeden, sonuna kadar dinle.",
+      "flavor": "Arel: Yarım bir insan hatırlanmaz. Artık yarım değil; ağır, ama tam."
+    },
+    {
+      "id": "record0",
+      "name": "Sıradan Bir Sabah",
+      "desc": "İkinci Tur’da Kayıt Sıfır’ı bul ve dinle.",
+      "flavor": "Lale: Çay demledim, Haliç’e baktım. Bu kadarı; bunu da taşı, hafiftir."
+    },
+    {
+      "id": "no_hit_realm",
+      "name": "Temassız Geçiş",
+      "desc": "Bir boyutu Bozulma’ya hiç yakalanmadan tamamla.",
+      "flavor": "Motor: Temas sıfır. Bozulma kayıtlarla aynı koordinatta kaldı; sen kalmadın."
+    },
+    {
+      "id": "survivor",
+      "name": "Fırtınadan Çıkan",
+      "desc": "Sis Fırtınası’nda süre dolmadan Lale’ye ulaş.",
+      "flavor": "Lale: Geldin. Sis dağılmadı, sen de dağılmadın; ikisi de yeter."
+    },
+    {
+      "id": "caught5",
+      "name": "Beş Temas",
+      "desc": "Bozulma’ya beş kez yakalan ve her seferinde kalk.",
+      "flavor": "Arel: Beş kez düştüm. Kaan düşüşleri sayıyor; ben kalkışları."
+    },
+    {
+      "id": "lantern10",
+      "name": "Fener Taşıyan",
+      "desc": "Sis Feneri’ni on kez yak.",
+      "flavor": "Motor: Fener on kez yandı. Sis incelmedi; görüş değişti. Fark budur."
+    },
+    {
+      "id": "photo5",
+      "name": "Beş Kare",
+      "desc": "Fotoğraf modunda beş kare kaydet.",
+      "flavor": "Arel: Voyager bir kare çekti, ben beş. Hiçbirinde 0,12 pikselden büyük değiliz."
+    },
+    {
+      "id": "quests_all",
+      "name": "Yedi Tanık",
+      "desc": "Yedi tanığın görevini de cevapla ve teslim et.",
+      "flavor": "Lale: Soruları onlar yazdı, cevapları sen taşıdın. Defter böyle dolacaktı."
+    },
+    {
+      "id": "mini_both",
+      "name": "Eşik ve Yörünge",
+      "desc": "Eşik ve Yörünge Yakalama oyunlarının ikisini de kazan.",
+      "flavor": "Motor: Nöron ateşledi, Clipper yakalandı. İki sistem, iki eşik, aynı el."
+    },
+    {
+      "id": "weather3",
+      "name": "Üç Hava",
+      "desc": "Üç farklı hava olayını başından sonuna atlat.",
+      "flavor": "Arel: Foton, toz, nöbet. Motor havayı uydurmuyor; sabrı ben uyduruyorum."
+    },
+    {
+      "id": "halluc3",
+      "name": "Bozuk Sesler",
+      "desc": "Üç halüsinasyonu kaçmadan sonuna kadar dinle.",
+      "flavor": "Lale: Duyduğun ben değildim. Ama sorular benimdi; onları sen eğmişsin."
+    },
+    {
+      "id": "tour2",
+      "name": "İkinci Tur",
+      "desc": "Çekirdek’e ikinci kez var; oyunu iki kez bitir.",
+      "flavor": "Motor: Aynı kayıtlar, aynı yasalar. Sis yer değiştirdi; değişken sendin."
+    },
+    {
+      "id": "ending_each",
+      "name": "Üç Kapı",
+      "desc": "Gözlemci, Köprü ve Sessizlik sonlarının üçünü de gör.",
+      "flavor": "Lale: Üç kez seçtin, üçünde de kızmadım. Soru aynı kaldı; taşıyan değişti."
+    },
+    {
+      "id": "fast_insight",
+      "name": "Hızlı Sezgi",
+      "desc": "Bir boyutun sezgisine on dakikadan kısa sürede ulaş.",
+      "flavor": "Arel: On dakikada bir sezgi. Lale soruyu iki yılda bıraktı; hızlı olan ben değilim."
+    }
+  ],
+  "storm": {
+    "start": [
+      "MOTOR: Sis Fırtınası. Yankı bağlantısı zayıflıyor; süre başladı, ölçüm durdu.",
+      "MİRA (telsiz): Spektrum kırmızıya kayıyor, haritadaki yolun siliniyor. Pusulaya değil, sese güven.",
+      "LALE (uzak): Arel? Sesim geliyor mu? Bana doğru yürü; bakma, sadece yürü."
+    ],
+    "tick": {
+      "30": "KAAN: Otuz saniye. Koşmayı bırakma; mideni sonra düşünürsün, ben sayıyorum.",
+      "10": "LALE: On. Buradayım, kıpırdamıyorum. Sen kıpırda."
+    },
+    "fail": "Sis kapandı; Lale’nin sesi kesildi, Motor yalnızca son koordinatı sakladı.",
+    "retry": "SEMA: Nabzın yüksek ama var; bir daha dene, bu kez elini sise değil sese uzat.",
+    "win": [
+      "Geldin. Sis dağılmadı, sen de dağılmadın; ikisi de yeter.",
+      "Fırtınada ses ışıktan iyi taşır; bunu Motor bilmiyordu, sen biliyordun."
+    ],
+    "hud": "SİS FIRTINASI · LALE’YE ULAŞ",
+    "ngplus": "İkinci turda sis daha hızlı kapanıyor ve ses daha erken kesiliyor; Lale bu kez seni bekliyor, aramıyor."
+  },
+  "tutorial": [
+    {
+      "step": "move",
+      "text": "W A S D ile yürü. Motor adımlarını kaydeder; yolu göstermez."
+    },
+    {
+      "step": "run",
+      "text": "Shift ile koş. Nefesin sayılır; Kaan da sayar."
+    },
+    {
+      "step": "camera",
+      "text": "Fareyle bak. Bakmak ölçmektir; bazen deseni bozar."
+    },
+    {
+      "step": "talk",
+      "text": "Yaklaş, E ile konuş. Tanıklar soru taşır; Motor cevap taşımaz."
+    },
+    {
+      "step": "journal",
+      "text": "Defteri aç. Ölçülen mavi, bilinmeyen kırmızı; sis uydurmaz."
+    },
+    {
+      "step": "gate",
+      "text": "Geçit halkasına yürü. Her boyut bir soru, bir de sis."
+    },
+    {
+      "step": "arrive",
+      "text": "Vardın. Yankı noktalarını ara; kırmızı bölgeye henüz girme."
+    },
+    {
+      "step": "point",
+      "text": "Yankı noktasında E’ye bas. Motor ölçer, sen sorarsın."
+    },
+    {
+      "step": "done",
+      "text": "Öğretici bitti; bundan sonra Motor göstermez, sen bakarsın."
+    }
+  ],
+  "presence": {
+    "ghost": "Başka Tanık",
+    "join": "Sise bir tanık daha girdi; Motor onu da ölçüyor.",
+    "leave": "Bir tanık geçitten çıktı; izi sisin içinde kaldı.",
+    "alone": "Bugün sisin içinde yalnızım; Motor sayıyor, ben bakıyorum, kimse konuşmuyor."
+  },
+  "journalAch": {
+    "title": "İzler",
+    "intro": "Motor ne yaptığını kaydeder, neden yaptığını değil; o kısım bu deftere kalır."
+  }
+}

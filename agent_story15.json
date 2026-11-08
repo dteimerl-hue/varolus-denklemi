@@ -1,0 +1,158 @@
+{
+ "stones": {
+  "name": "Yankı Taşı",
+  "intro": "Bu taş iki parçalı bir yankı tutar: bir özne, bir yüklem. Sen bırakırsın, sisten geçen başkası okur; serbest söz yok, yalnız iz var.",
+  "empty": "Burada başka yankı yok. Ya kimse gelmedi ya da gelen bir şey bırakmadı; ikisini ayırt edemiyorum.",
+  "offline": "Çevrimdışısın; bu sürümde yalnız kendi bıraktığın taşları görüyorum, başkalarınınki sisin öbür yanında kaldı.",
+  "subjects": [
+   {"id": "sis", "t": "Sis"},
+   {"id": "bozulma", "t": "Bozulma"},
+   {"id": "lale", "t": "Lale’nin sesi"},
+   {"id": "motor", "t": "Motor"},
+   {"id": "veri", "t": "Bu veri"},
+   {"id": "yol", "t": "Bu yol"},
+   {"id": "ben", "t": "Ben"}
+  ],
+  "verbs": [
+   {"id": "bekliyor", "t": "burada bekliyor", "ben": "burada bekliyorum"},
+   {"id": "yalan", "t": "yalan söylemiyor", "ben": "yalan söylemiyorum"},
+   {"id": "sasirtti", "t": "beni şaşırttı", "ben": "kendimi şaşırttım"},
+   {"id": "tehlike", "t": "ileride tehlikeli", "ben": "ileride düştüm"},
+   {"id": "aglatti", "t": "beni ağlattı", "ben": "burada ağladım"},
+   {"id": "yanki", "t": "hâlâ yankılanıyor", "ben": "hâlâ yankılanıyorum"},
+   {"id": "agir", "t": "burada ağırlaşıyor", "ben": "burada ağırlaştım"},
+   {"id": "sessiz", "t": "sessiz kaldı", "ben": "sessiz kaldım"},
+   {"id": "dondu", "t": "geri döndü", "ben": "geri döndüm"},
+   {"id": "hak", "t": "hatırlanmayı hak ediyor", "ben": "hatırlanmak istiyorum"}
+  ],
+  "placed": "Taş yerinde. Koordinatı, iki sözcüğü ve saatini kaydettim; kimin okuyacağını bilmiyorum.",
+  "echoed": "Yankıladın. Sayaç bir arttı. Bırakanı tanımıyorum, ama artık yalnız değil.",
+  "limit": "Bugünlük üç taş bıraktın. Sınır benim değil, sisin; çok iz, hiç iz kadar az okunur. Yarın yine.",
+  "arel": "İlk taşı bıraktım. Lale de kayıtlarını kimin dinleyeceğini bilmeden bırakmıştı; şimdi ne hissettiğini biraz anlıyorum.",
+  "ach": {"id": "stone_first", "name": "Sisteki İz", "desc": "İlk yankı taşını bıraktın.", "flavor": "Motor: Başka biri burada duracak. Ne zaman, bilmiyorum; sis."}
+ },
+ "canteen": {
+  "name": "Yemekhane Gecesi",
+  "hint": "Yemekhanede dört nabız yükseliyor. Kavga değil, yorgunluk. Girersen yalnız dinle; ölçüm araya girmez.",
+  "enter": "Kapı aralık. Çaydanlığın sesi dört kişinin sesinden yüksek. Araya girmeyeceğim; yalnızca bir sandalye seçeceğim.",
+  "common": [
+   {"who": "hatice", "t": "Çay demlendi. Kimse kalkmasın, ben dökerim. Dizim ağrıyor ama elim tutuyor."},
+   {"who": "riza", "t": "Otur Nine. Bu gece herkes biraz ağır. Deniz kokmayan yerde uyku da tutmuyor."},
+   {"who": "zeynep", "t": "Ben uyumayı bıraktım. Nöbet bitti diye beden bilmiyor; on iki saat sonra yine kalkıyor."},
+   {"who": "deniz", "t": "Motor bugün bana sordu: yarın ne yapacağını biliyor musun? Biliyorum dedim. Ben de biliyorum dedi. Güldüm, sonra gülemedim."},
+   {"who": "riza", "t": "Bilsin evlat. Kırk yıl ağ attım, denizin beni bildiğini bir gün bile sanmadım."},
+   {"who": "deniz", "t": "Bilmesine gerek yok Rıza amca. Yasalar zaten biliyor. Ağı atacağın gün de yazılıydı, iz bırakmayacağın da."},
+   {"who": "riza", "t": "Yazılıysa yazılı. Ama yazı silinince kim okuyacak? Ben gidince tekne satılır, adını boyarlar."},
+   {"who": "hatice", "t": "Toprak siler Rıza, ama yutmaz. Gölgesini görmeyeceğim bir ceviz diktim. Sabır dediğin budur."},
+   {"who": "zeynep", "t": "Sabır mı Nine? Dün gece dört kişinin elini tuttum. Biri sabretti, biri etmedi; ikisi de aynı saatte gitti."},
+   {"who": "hatice", "t": "Gidiş hep aynı olur kızım. Ekiş başka."},
+   {"who": "zeynep", "t": "Yatağın yanında ekecek bir şey yok. Monitör düzleşiyor, ben kâğıdı imzalıyorum. Orada olmamın hiçbir anlamı yok."},
+   {"who": "riza", "t": "Sen yoğun bakımda ölüm görüyorsun, ben kırk yıl denizde ölüm gördüm; farkı ne?"},
+   {"who": "zeynep", "t": "Farkı şu Rıza amca: senin ölülerini deniz aldı. Benimkileri ben bıraktım. Saatini de ben yazdım."},
+   {"who": "riza", "t": "Ben de bir arkadaşımın ipini kestim. Fırtınada tekne batmasın diye. Bunu kimseye anlatmadım; sen anlattırdın, kızım."},
+   {"who": "deniz", "t": "İkiniz de suçlu değilsiniz ki. O an zaten gelecekti. Kim keserse kessin, kim yazarsa yazsın."},
+   {"who": "zeynep", "t": "Deniz, sen on yedi yaşındasın. Belirlenmişlik ders kitabında rahat durur. Bir annenin yüzünde durmaz."},
+   {"who": "deniz", "t": "Annemin yüzünü bana anlatma Zeynep abla. Lale Hoca onun doktoruydu. Belirlenmiş olsun istiyorum; yoksa biri hata yaptı demek."},
+   {"who": "hatice", "t": "Hata yapan da toprağa girer evladım, yapmayan da. Kimseyi suçlamayın; tarla kimseyi suçlamaz."},
+   {"who": "zeynep", "t": "Tarla suçlamaz Nine, çünkü tarla orada değildi. Sen bir ömür yağmur bekledin. Ben bir gece bile beklemedim; hep yetiştim, hep geç kaldım."},
+   {"who": "hatice", "t": "Benim beklediğim yalnız yağmur mu sanıyorsun kızım? Seksen iki yılda kimleri bekledim, saymadım. Saysam tarlaya çıkamazdım."},
+   {"who": "riza", "t": "Hepimiz kendi ölümüzü masaya koyduk. Masa küçük Nine; sığmıyor."},
+   {"who": "deniz", "t": "Belki hiç konuşmamalıydık. Bunu da önceden bilseydik keşke."},
+   {"who": "zeynep", "t": "Bilseydin de konuşurdun Deniz. Sormadan duramazsın; Lale Hoca da öyleymiş. Bu bir övgü değil, bu gece değil."},
+   {"who": "hatice", "t": "Çay soğudu. Kimse içmedi. Böyle geceleri toprak da hatırlar."}
+  ],
+  "q": "Masada dört sandalye dolu, dört boş. Kimin yanına oturacaksın?",
+  "opts": [
+   {"k": "riza", "t": "Rıza’nın yanına, kapıya yakın"},
+   {"k": "deniz", "t": "Deniz’in yanına, açık defterinin önüne"},
+   {"k": "zeynep", "t": "Zeynep’in yanına, soğumuş çayın başına"},
+   {"k": "hatice", "t": "Hatice Nine’nin yanına, çaydanlığın yanına"}
+  ],
+  "pov": {
+   "riza": [
+    {"who": "riza", "t": "Otur evlat. Buradan kapı görünür; balıkçı hep çıkışa yakın oturur, deniz ne zaman döneceğini söylemez.", "muffled": false},
+    {"who": "zeynep", "t": "Ben de herkesin eli soğurken kapıya bakarım.", "muffled": true},
+    {"who": "riza", "t": "Adı Yaşar’dı. İpi kestiğimde bir şey bağırdı, rüzgâr aldı. Ben söylemezsem adından da iz kalmayacak.", "muffled": false},
+    {"who": "deniz", "t": "Söylemek de yazılıydı demek ki.", "muffled": true},
+    {"who": "riza", "t": "Çocuk haklı olabilir evlat. Ama haklıysa kırk yıl neyi taşıdım? Olacak olanın yükü olmaz; bende var.", "muffled": false},
+    {"who": "hatice", "t": "Taşıdığın onun yeri Rıza. Bırakma.", "muffled": true},
+    {"who": "riza", "t": "Nine’nin sesi buraya dalga gibi geliyor, yarısını duyuyorum. Bu gece yarısı da yetiyor.", "muffled": false},
+    {"who": "zeynep", "t": "Ben hastalarımın adını sormam. Sormamak kolaydı.", "muffled": true}
+   ],
+   "deniz": [
+    {"who": "deniz", "t": "Abi otur. Zeynep abla haklı mı? Belirlenmişlik bir annenin yüzünde durmuyor mu?", "muffled": false},
+    {"who": "zeynep", "t": "Öyle demek istemedim. Yorgunum, kelimeler keskin çıkıyor.", "muffled": true},
+    {"who": "deniz", "t": "Laplace’ın cini her şeyi bilirmiş. O cin olmak istemiyorum aslında; yalnızca suçun kimsede olmamasını istiyorum.", "muffled": false},
+    {"who": "riza", "t": "Suç değil o evlat, yük. Yük bölüşülür.", "muffled": true},
+    {"who": "deniz", "t": "Motor kuantumda bazı şeylerin gerçekten rastgele olduğunu söylüyor. Bunu sevmiyorum. Rastgeleyse annem yalnızca şanssızdı.", "muffled": false},
+    {"who": "hatice", "t": "Şans da toprağın bir adı kuzum.", "muffled": true},
+    {"who": "deniz", "t": "Defterime yazdım: Nine dört bardak doldurdu, kimse içmedi. Bunu hiçbir denklem önceden yazmadı; ben öyle saydım.", "muffled": false},
+    {"who": "deniz", "t": "Zeynep abla bir şey dedi, duyamadım. Sormayacağım. Cevabı belliyse sormanın anlamı yok; belli değilse de korkuyorum.", "muffled": false}
+   ],
+   "zeynep": [
+    {"who": "zeynep", "t": "Otur Arel. Bir kez sana da sordum, oradaydın mı diye. Bu gece kendime soruyorum: ben orada mıydım, yoksa yalnız ellerim mi?", "muffled": false},
+    {"who": "riza", "t": "İp, fırtına, kimseye anlatmadım.", "muffled": true},
+    {"who": "zeynep", "t": "Rıza amcaya haksızlık ettim. Onun ölüsünü deniz aldı dedim; meğer o da bırakmış. Bırakanlar birbirini tanımaz.", "muffled": false},
+    {"who": "deniz", "t": "Annemi karıştırma dedim.", "muffled": true},
+    {"who": "zeynep", "t": "Deniz’e söylediğim doğruydu, saati yanlıştı. Doğru cümleyi yanlış saatte verirsen ilaç değil iğne olur.", "muffled": false},
+    {"who": "hatice", "t": "Bir şey ye kızım. Boş mideye acı keskin gelir.", "muffled": true},
+    {"who": "zeynep", "t": "Nabzını alayım mı? Alışkanlık. Seksen dört. Senin için mi saydım, kendim için mi, bilmiyorum.", "muffled": false},
+    {"who": "riza", "t": "Gece uzun evlat. Sabah yine olur.", "muffled": true}
+   ],
+   "hatice": [
+    {"who": "hatice", "t": "Gel evladım, şu tabureye. Dizim tutmuyor; sen tut çaydanlığı, ben göstereyim.", "muffled": false},
+    {"who": "zeynep", "t": "Yağmur beklemek kolay Nine, ölüm beklemek değil.", "muffled": true},
+    {"who": "hatice", "t": "Kolay mı? Çatlağa elini sokarsın, sıcak gelir. Toprak ölmez ama susar. Susanı beklemek kolay değil kızım.", "muffled": false},
+    {"who": "deniz", "t": "Kuraklığın da bir nedeni var ama Nine.", "muffled": true},
+    {"who": "hatice", "t": "Var, bilirim; Lale kızım anlattı. Nedenini bilmek yağmuru getirmiyor. Çocuğa kızmıyorum; o da kendi tarlasını sulamaya uğraşıyor.", "muffled": false},
+    {"who": "riza", "t": "Sen hiç kimseyi kaybetmedin mi Nine?", "muffled": true},
+    {"who": "hatice", "t": "Kaybettim. Saymıyorum. Rıza sayıyor, Zeynep sayıyor; birimiz saymasın evladım, yoksa masayı kim toplar?", "muffled": false},
+    {"who": "zeynep", "t": "Saymazsak unuturuz.", "muffled": true}
+   ]
+  },
+  "end": "Masada dört bardak, hiçbiri boşalmadı. Nabız ortalaması doksanın üstünde, konuşma kırk bir dakika sürdü. Uzlaşma ölçemedim; sıfır mı, sis mi, bilmiyorum.",
+  "after": {
+   "riza": [
+    "Dün gece Yaşar’ın adını söyledim evlat. Deniz yine beni hatırlamaz, ama o masada dört kişi hatırlıyor. Dört az mı?",
+    "Zeynep kızla sabah selamlaştık, konuşmadık. Ağ da önce düğümden tutar."
+   ],
+   "deniz": [
+    "Dün gece bir şeyi hesaplayamadım: Zeynep abla o cümleyi neden kurdu. Belirlenmişse bile bana açıklanmadı.",
+    "Defterime yeni bir soru yazdım: suç yoksa sorumluluk da mı yok? Lale Hoca bunu sorardı galiba."
+   ],
+   "zeynep": [
+    "Rıza amcanın arkadaşının adını öğrendim. Hastalarımın adını sormaya başlayacağım; geç kalmış bir alışkanlık.",
+    "Deniz’e bir özür borçluyum. Henüz ödemedim. Borcu taşımak da bir şey Arel; unutmaktan iyidir."
+   ],
+   "hatice": [
+    "Dün gece çay soğudu, yine döktüm. Bu sabah dört bardak yıkadım; dördü de doluydu, dördü de boştu.",
+    "Saymıyorum demiştim ya evladım. Bu sabah saydım. Toprak ağır geldi, yine de kaldırdım."
+   ]
+  },
+  "note": "Yemekhanede dört kayıp masaya kondu, hiçbiri öbürüne sığmadı. Kimse haklı çıkmadı; belki herkes biraz daha az yalnız kalktı, ölçemedim.",
+  "ach": {"id": "canteen", "name": "Boş Sandalye", "desc": "Yemekhane Gecesi’nde bir tanığın yanına oturdun ve sahneyi sonuna kadar dinledin.", "flavor": "Motor: Araya girmedin. Bunu da bir ölçüm sayıyorum."}
+ },
+ "foucault": {
+  "title": "Foucault Sarkacı",
+  "intro": "Bakanlık tesisin yerini bize hiç yazmadı; harita yok, koordinat gizli. Çekirdek kuyusuna yirmi metrelik bir sarkaç astım. Nerede olduğumuzu o söyleyecek.",
+  "start": {
+   "q": "Sarkacı nasıl başlatalım?",
+   "opts": ["ipi yakarak bırak", "elle it"],
+   "bad": "Elle ittin; küre yana bir hız aldı, şimdi elips çiziyor. Elipsin ekseni kendi kendine dönüyor; bu dönüş Dünya’dan değil, senin elinden. Bu ölçüm yalan söyler.",
+   "good": "İp yandı, küre hiçbir itme almadan bırakıldı. Tek bir düzlemde salınıyor; artık o düzlemi döndüren tek şey altımızdaki Dünya."
+  },
+  "mark": "Her oyun saatinde salınım düzleminin zemindeki halkada gösterdiği dereceyi işaretle; salınım saati gerçek akıyor, dönüş saati hızlandırılmış.",
+  "rate": "İşaretleri sırala; ilkiyle sonuncusu arasındaki açı farkını geçen saate böl. Burada saatte dokuz virgül dört derece çıkıyor; bir derece için altı dakikadan biraz fazla.",
+  "latQ": "Dönüş hızı, saatte on beş derece çarpı enlemin sinüsü. Biz saatte dokuz virgül dört derece ölçtük. Tesis hangi enlemde?",
+  "latOk": "Yaklaşık otuz sekiz virgül altı derece kuzey. Kapadokya. Hata payı yarım derece kadar. Bakanlık söylemedi; sarkaç söyledi.",
+  "latNo": "Tutmadı. Dokuz virgül dördü on beşe böl; çıkan sayı enlemin sinüsü. Sinüsü o olan açıyı bul, ben bekliyorum.",
+  "mach": "Sarkaç Dünya’nın döndüğünü gösteriyor, ama neye göre döndüğünü, mutlak uzaya mı uzak yıldızlara mı, Mach’tan beri kimse kesin söyleyemedi; bunu Anlam’da sis olarak tutuyorum.",
+  "win": "Bir ip, bir küre, birkaç saatlik sabır. Bakanlık koordinatı saklayabilir; Dünya’nın dönüşünü saklayamaz.",
+  "facts": [
+   {"t": "Foucault, Panthéon, bin sekiz yüz elli bir", "d": "Léon Foucault altmış yedi metrelik bir tele yirmi sekiz kiloluk bir küre astı. Düzlemin saatler içinde döndüğünü herkes gördü; Dünya’nın dönüşü göğe bakmadan gösterildi.", "src": "Foucault, Comptes Rendus, cilt otuz iki, bin sekiz yüz elli bir; Vikipedi, Foucault sarkacı"},
+   {"t": "Charron halkası", "d": "Charron bin dokuz yüz otuz birde asılma noktasının altına bir halka koydu. Tel her salınım ucunda halkaya sürtünür, elips söner; kısa sarkaç da güvenilir ölçer.", "src": "Charron, Fransız Astronomi Derneği Bülteni, bin dokuz yüz otuz bir; Vikipedi, Foucault sarkacı"}
+  ],
+  "reward": "Ödül: Sis Feneri deposu bir saniye uzadı. Yerini bilen birinin ışığı biraz daha uzun yanar.",
+  "ach": {"id": "foucault", "name": "Sarkacın Söylediği", "desc": "Foucault sarkacıyla tesisin enlemini ölçtün.", "flavor": "Motor: Otuz sekiz virgül altı. Bunu bana kimse söylemedi; ölçtük."}
+ }
+}

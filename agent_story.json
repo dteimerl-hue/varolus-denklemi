@@ -1,0 +1,260 @@
+{
+  "zones": {
+    "baslangic": {
+      "name": "Enflasyonun Kör Noktası",
+      "enter": "Enflasyon dönemi. Motor burada bilmiyor; sis kırmızıya çalıyor ve Lale’nin ilk kesiği bu olmalı.",
+      "attack": "Bozulma üstüme akıyor: sisin kenarında bekçiydi, içinde sisin kendisi oluyor.",
+      "fragment": [
+        "Burayı kestim çünkü korktum. MR’daki sise bakarken ‘bilmiyorum’ diyemedim; ‘istemiyorum’ dedim.",
+        "Planck’tan önce fizik susar. Ben de o gün sustum. Bu sessizlik sana ait değildi; yine de al, senindir."
+      ]
+    },
+    "kuantum": {
+      "name": "Çökmüş Dalga Vadisi",
+      "enter": "Olay ufkunun gölgesi. Burada her adımım uzaktan yıllar; Bozulmalar bunu benden iyi biliyor.",
+      "attack": "Baktım ve desen silindi. Bozulma bir dedektör gibi: ona bakınca ben de tek bir noktaya çöküyorum.",
+      "fragment": [
+        "Bunu kestim: ölçümü ben yaptım. İkinci MR’da sonucu gördüm ve sana söylemedim; altı hafta yazıyordu.",
+        "Dolanıktık, Arel. Ben ölçüldüm, sen hâlâ süperpozisyondasın. Seni öyle bırakmak istedim; yanlıştı."
+      ]
+    },
+    "gezegen": {
+      "name": "Hastane Odası Krateri",
+      "enter": "Jezero’nun ortasındaki boşluk. Bir hastane odası kadar; Motor orayı uydurmadı, ben sakladım.",
+      "attack": "Bozulma kızıl tozun içinden kalkıyor. Leopar lekeleri gibi: iz var, kanıt yok, ve beni tanıyor.",
+      "fragment": [
+        "Burayı kestim: sana el salladım. Soluk mavi noktada bir el daha; sen laboratuvardaydın, görmedin.",
+        "Seni istedim, Arel. Uzak tut dedim, ama her gece kapıya baktım. Bilmen gerekmiyordu; artık biliyorsun."
+      ]
+    },
+    "bilinc": {
+      "name": "Unutulan Hece Sisi",
+      "enter": "Beynimin son haftası. Hipokampus burada sis; Lale’nin kestiği yer, benim unuttuğum yer.",
+      "attack": "Bozulma benim yüzümle geliyor. Beynim onu her hatırlayışta yeniden yazıyor; demek ki ben besliyorum.",
+      "fragment": [
+        "Burayı kestim çünkü bir sabah adını unuttum. ‘Kardeşim’ dedim, isim gelmedi. Yirmi saniye sürdü; sonsuzdu.",
+        "Zaman hücreleri bunu da yazdı. Sen beni hatırladıkça o yirmi saniye de senin olacak; taşıyabilirsin."
+      ]
+    },
+    "anlam": {
+      "name": "Sütunların Ardı",
+      "enter": "Agoranın arkası. Filozoflar buraya bakmıyor; Uçan Adam’ın gözleri kapalı tarafı burası.",
+      "attack": "Bozulma sütunların arasından çıkıyor. Camus’nün kayası gibi: itiyorum, geri geliyor, itiyorum.",
+      "fragment": [
+        "Burayı kestim: sana kızdım, Arel. Kalibrasyon bitsin diye değil; hastane odasında bir denklem istemedim.",
+        "Kendime daha çok kızdım. Nedenleri anladım, keder geri çekilmedi; Spinoza’ya ancak bu kadar hak verdim."
+      ]
+    },
+    "yuva": {
+      "name": "Theia’nın Gölgesi",
+      "enter": "Genç Dünya’nın karanlık yüzü. Çarpışmanın izi; Motor bunu bilmiyor, Lale’nin son kesiği burada.",
+      "attack": "Bozulma zirkon gibi parlıyor: 4,4 milyar yıl hatırlayan taş, iki yılı unutmuş beni kovalıyor.",
+      "fragment": [
+        "Son kesik. Motor’u senin için kurmadım, Arel; kendim için. Theia gibi: çarpıp geride bir Ay bırakmak istedim.",
+        "Ay her yıl 3,8 santim uzaklaşıyor ve hâlâ aydınlatıyor. Benden de bu kadarı kalsın; fazlası sana yük."
+      ]
+    }
+  },
+  "hallucinations": {
+    "baslangic": [
+      {
+        "lines": [
+          "LALE (bozuk): Planck’tan önce ne vardı, Arel? Benden önce ne vardı?",
+          "MİRA (çarpık): Sis büyüyor. Rapora yazmadım. Sis büyüyor. Rapora yazmadım.",
+          "LALE: İlk ışık 380 bin yıl bekledi. Sen iki yıl bekledin; hangisi daha uzun?",
+          "Ses kesiliyor: ‘…bilmiyorum… bilmiyo…’"
+        ],
+        "who": ["lale", "mira"]
+      },
+      {
+        "lines": [
+          "KAAN (çarpık): Üç gün. Sonra iki. Sonra 13,8 milyar yıl.",
+          "DENİZ (yankı): Arel abi, Planck zamanından önce sınav var mı?",
+          "LALE: 2,7 kelvin. Giden hiçbir şey gitmiyor, soğuyor. Ben soğudum mu?"
+        ],
+        "who": ["kaan", "deniz", "lale"]
+      }
+    ],
+    "kuantum": [
+      {
+        "lines": [
+          "LALE (iki kopya, aynı anda): Hangi yarıktan geçtim? / Bakma. Bakarsan silinirim.",
+          "SEMA (çarpık): Nabzın yüksek. Nabzın yok. Nabzın yüksek.",
+          "LALE: Olay ufkunda bir saat, tesiste yedi yıl. Sen hangi tarafta kaldın?",
+          "Altyazı titriyor: ‘sonuçlardan birinde ben olmayaca—’"
+        ],
+        "who": ["lale", "sema"]
+      },
+      {
+        "lines": [
+          "MİRA (yankı): Dokuz kübit. Negatif enerji. Kapı açıldı; kim girdi, kim çıktı?",
+          "KAAN (çarpık): GPS günde 38 mikrosaniye ileri. Sen kaç yıl geride kaldın, Arel?",
+          "LALE: Dolanıktık. Beni ölçtüler. Sen hâlâ ölçülmedin; belki hiç ölçülmezsin."
+        ],
+        "who": ["mira", "kaan", "lale"]
+      }
+    ],
+    "gezegen": [
+      {
+        "lines": [
+          "LALE (çarpık): Leopar lekeleri. İz var, kanıt yok. Ben de bir izim; kanıtı sensin.",
+          "ZEYNEP (yorgun yankı): Son nefeste bir şey gidiyor. Nereye? Nereye? Nereye?",
+          "LALE: Soluk mavi noktada milyarlarca el. Birini saymıyorsun; neden?"
+        ],
+        "who": ["lale", "zeynep"]
+      },
+      {
+        "lines": [
+          "RIZA (çarpık): Enceladus su püskürtüyor, Haliç kokuyor. Hangi denize ağ atayım, evlat?",
+          "HATİCE (yankı): Mars’ta toprak var, su yok. Hastane odasında su var, sen yoksun.",
+          "LALE: Altı milyar kilometre. Voyager geri baktı. Sen bakmadın.",
+          "Tozun içinde bir pencere beliriyor; ardında boş bir yatak."
+        ],
+        "who": ["riza", "hatice", "lale"]
+      }
+    ],
+    "bilinc": [
+      {
+        "lines": [
+          "LALE (üç kopya): Adın neydi? / Kardeşim. / Adın… neydi?",
+          "SEMA (çarpık): Hafızası parça parça. Hangi parça, Arel? Hangi parça sendin?",
+          "LALE: Her hatırlayışta beni yeniden yazıyorsun. Bu yazdığın ben miyim?",
+          "Ekranda −70 milivolt; eşik aşılmıyor, aşılmıyor, aşılmıyor."
+        ],
+        "who": ["lale", "sema"]
+      },
+      {
+        "lines": [
+          "DENİZ (yankı): Belirlenmiş miyim, Arel abi? Sen de mi unutacaksın beni?",
+          "MİRA (çarpık): Bozulmalar kayıtlarla aynı koordinatta. Sen de aynı koordinattasın.",
+          "LALE: Dopamin beklenmeyene ateşlenir. Beni beklemiyordun; ateşlendin mi?"
+        ],
+        "who": ["deniz", "mira", "lale"]
+      }
+    ],
+    "anlam": [
+      {
+        "lines": [
+          "LALE (çarpık): Havada asılıyım, gözlerim kapalı. Hâlâ buradayım. Sen neredesin?",
+          "RIZA (yankı): Deniz beni hatırlamayacak. Motor seni hatırlayacak mı, evlat?",
+          "LALE: Kayayı it. Tepeye var. Kaya iner. Bu Motor senin kayan mı, benim mi?",
+          "Sütunların gölgesi yanlış yöne düşüyor."
+        ],
+        "who": ["lale", "riza"]
+      },
+      {
+        "lines": [
+          "HATİCE (çarpık): Ceviz diktim, meyvesini görmeyeceğim. Sen ne diktin evladım, sis mi?",
+          "ZEYNEP (yankı): Anlam iki insanın arasında kuruluyor. Odada bir kişi vardı.",
+          "LALE: Spinoza: nedenleri anla, keder azalsın. Anladın mı? Azaldı mı?"
+        ],
+        "who": ["hatice", "zeynep", "lale"]
+      }
+    ],
+    "yuva": [
+      {
+        "lines": [
+          "LALE (çarpık): Zirkon 4,4 milyar yıl hatırlıyor. Sen iki yılı bile tam hatırlamıyorsun.",
+          "KAAN (yankı): Yörüngede günde 16 gün doğumu. Burada hiç. Sayıyorum. Sayıyorum.",
+          "LALE: Theia çarptı, Ay doğdu. Ben çarptım; ne doğdu, Arel?",
+          "Deniz çekiliyor; kıyıda bir hastane yatağı kalıyor."
+        ],
+        "who": ["lale", "kaan"]
+      },
+      {
+        "lines": [
+          "MİRA (çarpık): Planı Lale çizdi. Sen bitirdin. Yoksa sen de plan mısın?",
+          "SEMA (yankı): ‘Çekirdek’e varınca’ dedi. Vardın mı? Vardın mı?",
+          "LALE: Ay her yıl uzaklaşıyor ve hâlâ aydınlatıyor. Ben de uzaklaşıyorum; ışık kaldı mı?"
+        ],
+        "who": ["mira", "sema", "lale"]
+      }
+    ]
+  },
+  "coreHallucination": {
+    "lines": [
+      "Yedi yüz. Hepsi Lale’nin; hiçbiri Lale değil.",
+      "KORO (çarpık): Beni ben yapan şey nereye gider? Nereye gider? Nereye?",
+      "LALE: Altı parça topladın. Yedincisi yok; yedincisi sensin.",
+      "MİRA / KAAN / SEMA (üst üste): Sis büyüyor / Üç gün / Nabzın yüksek",
+      "Ekran kararıyor. Bir ses: ‘Kayıt yedi. Arel, dinliyor musun?’"
+    ],
+    "who": ["lale", "mira", "kaan", "sema", "riza", "deniz", "zeynep", "hatice"]
+  },
+  "record7": {
+    "locked": "Kayıt Yedi kilitli: kesilmiş altı parça eksik, sis burada konuşmuyor.",
+    "lines": [
+      "Kayıt yedi. Bunu ben kaydetmedim, Arel; kestiklerimi sen birleştirdin. Demek ki bu ses senin de.",
+      "Korktum. Sonucu biliyordum ve söylemedim. Seni istedim ve uzak tuttum. Bir sabah adını unuttum.",
+      "Sana kızdım, kendime daha çok. Motor’u kendim için kurdum; geride bir Ay bırakmak istedim.",
+      "Beni ben yapan şey bunlardı: korku, suskunluk, özlem, unutuş, öfke, inat. İyi yanlarımı zaten bırakmıştım.",
+      "Hepsini kestim çünkü sende yalnızca iyi tarafım kalsın istedim. Yanlıştı; yarım bir insan hatırlanmaz.",
+      "Şimdi tamamım, sende. Beni ben yapan şey buraya gitti, Arel: sana. Doldurma; taşı. Ve defteri kapatma."
+    ],
+    "effect": "Kayıt Yedi’yi dinlediği için Arel, Lale’yi yalnızca iyi yanlarıyla değil, kestikleriyle birlikte hatırlar. Yankı artık yarım değildir; soru da."
+  },
+  "radio": [
+    {
+      "stage": 0,
+      "lines": [
+        "Kovuk Tesisi, burası Bakanlık Koordinasyon. Teslim süresi 72 saat; sayım başlamıştır.",
+        "Motor’un sis bölgelerinin tahminle doldurulması beklenmektedir. Rapor formatı ektedir.",
+        "KAAN: Yetmiş iki saat. Sen gez, ben sayarım."
+      ]
+    },
+    {
+      "stage": 1,
+      "lines": [
+        "Kovuk Tesisi, 48 saat kaldı. Raporlarınızdaki ‘henüz hazır değil’ ifadesi kabul edilmemektedir.",
+        "Sis oranı yüzde 31. Dolgu algoritması gönderilmiştir; uygulanması zorunludur.",
+        "KAAN: Kırk sekiz saat. Mira algoritmayı okudu, ‘uydurma’ dedi; ben imzalamadım."
+      ]
+    },
+    {
+      "stage": 2,
+      "lines": [
+        "Kovuk Tesisi, 24 saat. Teslim ekibi yola çıkmıştır. Enerji hattı Bakanlık kontrolüne geçecektir.",
+        "Personel listesi istenmektedir. Dış tanıkların tesisten derhal ayrılması gerekmektedir.",
+        "KAAN: Yirmi dört saat. Jeneratörleri doldurdum; tanıklar kalıyor, listeye ben yazılırım."
+      ]
+    },
+    {
+      "stage": 3,
+      "lines": [
+        "Kovuk Tesisi, süre dolmuştur. Elektrik 60 dakika içinde kesilecektir. Motor’u teslim edin.",
+        "Bu son uyarıdır. Dr. Vey, Çekirdek erişiminiz iptal edilmiştir.",
+        "KAAN: Sıfır. Jeneratör dört saat verir; Çekirdek’e şimdi gir, gerisini ben konuşurum."
+      ]
+    }
+  ],
+  "crewSide": {
+    "mira": [
+      "Parçanın spektrumu kayıtlarla örtüşüyor; uydurma değil, gerçekten Lale’nin sesi.",
+      "Her parça alındığında sis bir noktacık küçülüyor. Bunu raporlara yazdım bu kez."
+    ],
+    "kaan": [
+      "Sahadan çıkmışsın; nabzın 130. Otur, su iç, sonra dinle.",
+      "Bozulma’yla yüz yüze geldin demek. Yörüngede buna ‘alarm’ derdik; sen ‘parça’ diyorsun."
+    ],
+    "sema": [
+      "O kesiği ben de dinlemiştim, Arel. Lale ‘sana ait değil’ dedi; ben ‘tam tersi’ dedim.",
+      "Elini uzat. Titriyor; bu geçitten değil, kayıttan."
+    ],
+    "riza": [
+      "Ağa takılan şey hep balık olmaz evlat. Ama atılan ağ boş da dönmez.",
+      "Ablanın sesi mi o? Hiç duymadım ama tanıdım. Deniz gibi konuşuyor, sakin ama derin."
+    ],
+    "deniz": [
+      "Parça mı buldun? Onu da Motor hesaplamış mıydı, yoksa gerçekten saklı mıydı?",
+      "Kesilmiş bir kaydı birleştirmek… Lale Hoca bunu da planlamış, değil mi?"
+    ],
+    "zeynep": [
+      "Hastalar da son günlerde bazı şeyleri söylemez. Söylemedikleri onlarla gitmez; kalır.",
+      "Yorgun görünüyorsun. Ama bu sefer başka bir yorgunluk; bir şey taşıyorsun."
+    ],
+    "hatice": [
+      "Topraktan bir şey çıkarmışsın evladım, yüzünden belli. Tohum mu, taş mı?",
+      "Ablanın sesi deftere yazdığı gibi mi? Sakin, çocuk gibi. Otur, beraber dinleyelim."
+    ]
+  }
+}

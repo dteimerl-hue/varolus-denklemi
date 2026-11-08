@@ -1,0 +1,184 @@
+{
+ "isik": {
+  "name": "Dr. Işık Tan",
+  "role": "Bakanlık bilim danışmanı · kozmolog",
+  "hex": "#e8c07a",
+  "arrive": "Teslim ekibi yarın gelecekti. Biri erken indi: tek kişi, tek çanta, kimlik Bakanlık. Adı Işık Tan. Nabzı sakin; adımı tesisi tanıyor gibi.",
+  "intro": [
+   {"who": "isik", "t": "Arel. On iki yıl oldu. Doktora odasında tahtayı paylaşırdık; sen sol yarıyı hiç silmezdin. Şimdi bir dağın altında sis saklıyorsun."},
+   {"who": "a", "t": "Işık. Sisi saklamıyorum, gösteriyorum. Emri sen yazdın, değil mi? Sisi doldurun, rapor tam olsun."},
+   {"who": "isik", "t": "Ben yazdım, ben de savunurum. Halk sis görmek istemiyor Arel, cevap istiyor. Cevap vermeyen bilim bütçesini kaybeder; bütçesini kaybeden bilim susar."},
+   {"who": "a", "t": "Uydurulmuş bir cevap bilim değil, Işık. Motor bilmediğini uydurmuyor. Onu bu yüzden kurduk."},
+   {"who": "isik", "t": "Ben de kozmologdum. Evrenin ilk saniyesini bilmediğimi yıllarca söyledim; sonunda komisyon beni dinlemeyi bıraktı. Sen o masada hiç oturmadın."},
+   {"who": "a", "t": "Belki oturmalıydım. Ama Motor’a yalan söyletmem. Gel, göstereyim; sonra ne yazacağına kendin karar ver."}
+  ],
+  "stage": {
+   "1": [
+    {"who": "isik", "t": "İki içgörü. Motor’un mavi noktaları çoğaldı; sis az da olsa geri çekildi. Bunu rapora yazabilirim, çünkü gerçek."},
+    {"who": "a", "t": "Sis ölçümle çekiliyor, dolguyla değil. Fark bu."},
+    {"who": "isik", "t": "Fark bu, evet. Ama komisyon farkı okumaz, yüzdeyi okur. Yüzde otuz bir sis, teslim demektir."},
+    {"who": "a", "t": "Yüzde otuz bir dürüstlük demektir. Lale öyle derdi."},
+    {"who": "isik", "t": "Lale’yi tanırdım. Bir konferansta bana sormuştu: bilmediğini söylemekten kim korkar? Cevap verememiştim. Hâlâ veremiyorum."}
+   ],
+   "2": [
+    {"who": "isik", "t": "Koordinasyon bugün üç kez aradı. Dolgu oranını sordular; sana sormadan yüzde sıfır dedim. Sesleri değişti."},
+    {"who": "a", "t": "Artık seni de sayıyorlar. Bütçeyi değil, seni."},
+    {"who": "isik", "t": "Belki. Bu gece Motor’un sis haritasına baktım. Dolgu algoritmasını kendim yazdım; sise uyguladım. Sonuç tam, düzgün ve hiçbir şey söylemiyordu."},
+    {"who": "a", "t": "Tam olan her şey doğru değildir."},
+    {"who": "isik", "t": "Bunu yıllar önce tahtaya ben yazmıştım, sen silmemiştin. Yarın komisyona ne diyeceğimi bilmiyorum. Bilmiyorum demeyi unutmuşum."}
+   ],
+   "3": [
+    {"who": "isik", "t": "Altı boyut. Sis hâlâ var ama artık nerede olduğu belli. Bu bir harita; dolgu olsaydı yalnızca boya olurdu."},
+    {"who": "a", "t": "Çekirdek’e giriyorum. Elektrik kesilirse Kaan’ın jeneratörü dört saat verir."},
+    {"who": "isik", "t": "Ne olursa olsun yüzü ben olacağım. Teslim edersen imzayı ben atarım; etmezsen geri çekilme kararını ben açıklarım."},
+    {"who": "a", "t": "Neden?"},
+    {"who": "isik", "t": "Çünkü emri ben yazdım. Yazan geri alır; başkası alırsa emir kalır, yalnız adı değişir."}
+   ]
+  },
+  "idle": [
+   "Bu tesisin tavanı tüf; elli bin yıl önce püskürdü. Bakanlık koridorlarında böyle sakin bir zaman yok.",
+   "Telsizi kapattım. On dakika. Kimse yüzdeyi sormasın.",
+   "Mira’nın kalibrasyon defterine baktım. Sayfa kenarına sis yazmış, dolgu değil. İyi mühendis.",
+   "Kozmik arka plan iki virgül yedi kelvin. Komisyona bunu söylerken bile yuvarlamamı istemişlerdi.",
+   "Lale’nin defteri burada mı? Bana bir cevap borçluydum; sorusunu hatırlıyorum, cevabımı hatırlamıyorum."
+  ],
+  "crew": {
+   "mira": [
+    {"who": "mira", "t": "Dolgu algoritmanızı okudum. Olasılık ağırlıklı interpolasyon. Buna tahmin denir, veri değil."},
+    {"who": "isik", "t": "Her ölçüm bir modelden geçer Mira. Sycamore’daki dokuz kübiti de bir modelle okudun; sana saf veri gelmedi."},
+    {"who": "mira", "t": "Modelim hatasını söyler. Sizin algoritmanız hatasını siler. Fark budur ve bu farkı raporlara ben yazarım."}
+   ],
+   "kaan": [
+    {"who": "kaan", "t": "Işık Hanım. Seçme komitesinde sen vardın. Yörüngeye kimin gideceğini sen oyladın."},
+    {"who": "isik", "t": "Oyladım. Uçuş günü hazır değilim diyen tek adaydın. O yüzden sana oy verdim."},
+    {"who": "kaan", "t": "Şimdi de hazır değil diyorum. Bu sefer oyun ne?"}
+   ],
+   "hatice": [
+    {"who": "hatice", "t": "Bakanlıktan gelen kız sen misin? Elin toprak görmüş, kalem eli değil bu."},
+    {"who": "isik", "t": "Babaannem Ereğli’de kuru fasulye ekerdi. Yağmur gelmeyince gelmedi derdi; tahmin etmezdi. Ben tahmin eden tarafa geçtim."},
+    {"who": "hatice", "t": "Geçtiysen geri de geçilir evladım. Toprak kimseyi unutmaz; otur, fasulyeden konuşalım."}
+   ]
+  },
+  "crewAfter": {
+   "mira": "Işık’la kavga ettik. Haklı olduğu bir yer var: ben de modelle okuyorum. Ama modelim hata payını söyler; onunki siler.",
+   "kaan": "Işık beni yörüngeye gönderen oylardan biriydi; hazır değilim dediğim için. Bugün de dinliyor mu, göreceğiz.",
+   "hatice": "Bakanlığın kızı fasulyeden anlıyor. Yağmur gelmedi demeyi bilen biri sisi uzun süre dolduramaz."
+  },
+  "motorScene": {
+   "intro": [
+    {"who": "a", "t": "Gel. Rapor okumak yerine Çekirdek’e bak. Motor, Işık’a bir ölçüm ve bir sis göster."},
+    {"who": "motor", "t": "Ölçüm: kozmik arka plan sıcaklığı iki virgül yedi iki beş kelvin. Planck verisi, hata payı binde bir. Mavi."},
+    {"who": "motor", "t": "Sis: enflasyonun ilk on üzeri eksi otuz iki saniyesi. Veri yok, model çok. Burayı ölçmedim; gri bırakıyorum."},
+    {"who": "isik", "t": "Gri. Komisyon bu griyi görünce raporun eksik olduğunu söyleyecek. Ben ne diyeceğim?"}
+   ],
+   "q": "Motor’un sis gösterdiği yerde Işık ne desin?",
+   "opts": [
+    {"t": "Bilmiyoruz desin.", "k": "honest"},
+    {"t": "Doldursun, rapor tam olsun.", "k": "fill"}
+   ],
+   "honest": [
+    {"who": "isik", "t": "Bilmiyoruz. Bu kelimeyi en son doktora savunmamda söyledim; jüri başkanı not aldı. O günden beri cevap üretiyorum."},
+    {"who": "a", "t": "Motor bu kelimeyi her gün söylüyor. Kimse onu kovmadı."},
+    {"who": "isik", "t": "Motor’un bütçesi yok Arel. Benim var; altı laboratuvar, yüz on kişi maaşını bu rapordan alıyor. Yine de yazacağım: enflasyon dönemi ölçülmedi, bilmiyoruz."},
+    {"who": "isik", "t": "Komisyon ne der, bilmiyorum. Bak, iki kez üst üste söyledim; ikincisi daha kolay oldu."}
+   ],
+   "fill": [
+    {"who": "isik", "t": "Doldur Motor. Enflasyon dönemi için en olası modeli yaz, hata payını dipnota koy. Rapor tam olsun."},
+    {"who": "isik", "t": "Yüzünü ekşitme Arel. Bu raporun arkasında altı laboratuvar var; üçü hastanelerde görüntüleme yapıyor. Sis yazarsam önce onlar kapanır, Motor değil."},
+    {"who": "a", "t": "Haklı olduğun yer bu. Halk bilmiyoruz duymak için vergi vermiyor."},
+    {"who": "isik", "t": "Halk cevap istiyor; ben de ona en iyi tahmini veriyorum, adını koyarak. Bu yalan değil, pazarlık. Bilim hep pazarlıkla yaşadı; Galileo bile."}
+   ],
+   "motor": {
+    "honest": "Kayıt: Işık Tan sis için bilmiyoruz dedi. Sis yerinde kaldı, gri. Ölçtüm: sesi titredi, sonra düzeldi.",
+    "fill": "Kayıt: sis en olası modelle dolduruldu, hata payı dipnotta. Gri alan maviye boyandı. Ölçüm değişmedi; yalnız rengi."
+   }
+  },
+  "epilogue": {
+   "gozlemci": [
+    "Işık Tan raporunu teslim etti: sis oranı yüzde otuz bir, dolgu yok. Komisyon danışmanlığını sonlandırdı; itiraz etmedi.",
+    "Ankara’ya hemen dönmedi. Tesisin kapısında bir hafta bekledi; Arel çıkmadı. Jeneratör sesini dinleyip gitti.",
+    "Şimdi bir lisede kozmoloji anlatıyor. Her dersin sonunda tahtaya bir soru yazıyor ve silmiyor."
+   ],
+   "kopru": [
+    "Bakanlık geri çekildiğinde basının karşısına Işık Tan çıktı. Emri ben yazdım, dedi; yanlıştı, geri alıyorum.",
+    "Dolgu yerine yeni bir satır koydu: sis oranı, açıkça. İlk raporda yüzde otuz bir yazdı; bütçe kesilmedi, çünkü artık saklanacak şey yoktu.",
+    "Mira’yla hâlâ kavga ediyorlar; ama aynı rapora iki imza atıyorlar. Hatice Nine’ye her bahar bir çuval fasulye tohumu gönderiyor."
+   ],
+   "sessizlik": [
+    "Boş mağarayı Işık Tan buldu. Raporuna tek satır yazdı: Motor yok, sis yok, ölçülecek bir şey kalmadı.",
+    "Komisyon bir cümle daha istedi. Yazmadı. Danışmanlık görevinden kendi isteğiyle ayrıldı.",
+    "Bazen Konya Ovası’na gidiyor. Arel’le konuşmuyorlar; damla sulama hattında yan yana çalışıyorlar. Hatice Nine ikisine de aynı soruyu soruyor."
+   ],
+   "saray": [
+    "Işık Tan yedinci geçidi hiç görmedi. Arel’in defterinde adını buldu: tahtanın sol yarısı, silinmemiş.",
+    "Raporuna bir satır ekledi: bazı bölgeler ölçülmez, yalnız hatırlanır. Komisyon satırı anlamadı; o silmedi."
+   ]
+  },
+  "honestEnding": "Işık Tan Çekirdek önünde bilmiyoruz demişti. Son raporunda bu kelime aynen durdu. Komisyon raporu kabul etmedi; o kelimeyi geri almadı.",
+  "fillEnding": "Işık Tan sisi doldurmuştu; rapor tam, bütçe yerinde kaldı. Dipnottaki hata payını kimse okumadı. Yıllar sonra o dipnotu bir öğrenci buldu ve sordu.",
+  "note": "Işık geldi. Doktorada tahtayı paylaştığım kişi, şimdi emri yazan kişi. Düşman değil; daha zor: haklı olduğu yerler var. Lale ona bir soru sormuş, cevabını hiç almamış. Belki şimdi alırız.",
+  "ach": {
+   "id": "isik_honest",
+   "name": "Silinmeyen Kelime",
+   "desc": "Işık Tan Çekirdek önünde sis için bilmiyoruz desin.",
+   "flavor": "Motor: Bir insan sisi sis diye kaydetti. Ölçümüm değişmedi; raporu değişti."
+  }
+ },
+ "helm": {
+  "title": "Helmholtz’un Kronometresi",
+  "intro": "Helmholtz bin sekiz yüz ellide kurbağa siniriyle ölçtü: sinyal sonlu hızla gider. Düşünce anlık değil; bedende yol alır. Şimdi sen: ışık yanınca bas. Erken basma; erken olanı da sayarım.",
+  "light": "Görsel blok başlıyor. Ekran yanınca bas. Beş deneme; ilkini saymam, ısınma.",
+  "sound": "İşitsel blok. Ekran değil, ses. Tık duyunca bas. Gözünü kapatabilirsin; kulağını kapatma.",
+  "choice": "Seçimli blok. Sol ışık yanarsa A, sağ ışık yanarsa D. Artık yalnız görmüyorsun, karar veriyorsun. Kararın bir bedeli var; onu ölçeceğim.",
+  "early": "Erken. Işık yanmadan bastın; tahmin ettin, görmedin. Sayılmadı.",
+  "result": "Medyanların ekranda. Ses görselden hızlı çıktı; kulak yolu kısa, retina yavaş. Dağılımın tek sayı değil, bir bulut. Mutlak değil, karşılaştırma ölçtün.",
+  "donders": "Seçimli eksi basit eşittir karar süresi. Donders bin sekiz yüz altmış sekizde böyle çıkardı: zihin aşamaları toplanır, çıkarılır. Senin kararın ekranda.",
+  "why": {
+   "q": "Gözden parmağa bir buçuk metre. Sinir yüz metre bölü saniye; on beş milisaniye eder. Neden iki yüz milisaniye bekledin?",
+   "opts": [
+    "İletim değil, işleme zaman alıyor; sinapslar ve karar.",
+    "Sinir ışıktan yavaş, mesafe uzun.",
+    "Parmak kası ağır, geç kalkıyor."
+   ],
+   "ok": "Doğru. Yol kısa, duraklar çok: retina, talamus, korteks, karar, komut. Zaman sinirde değil, aralarda geçiyor.",
+   "no": "Hayır. Yol on beş milisaniye tutar; kalan yüz seksen beş aralarda geçiyor. Retina, korteks, karar. İletim değil, işleme."
+  },
+  "win": "Lale hastalara tepki süresi testi yapardı. Rakamlar uzadıkça üzülmezdi; düşünce anlık değil derdi, yol alıyor. Teselli bu: geç gelen cevap da cevap.",
+  "facts": [
+   {"t": "Helmholtz bin sekiz yüz elli", "d": "Kurbağa siyatik sinirinde uyarı hızını ölçtü: saniyede yaklaşık yirmi yedi metre. O güne dek sinir sinyali anlık sanılıyordu.", "src": "Helmholtz, Berlin Akademisi bildirisi, bin sekiz yüz elli"},
+   {"t": "Donders çıkarması", "d": "Basit, seçimli ve ayırt etmeli tepki sürelerini ölçüp birbirinden çıkardı; zihinsel aşamaların süresini ilk kez sayıya döktü.", "src": "Donders, Zihinsel süreçlerin hızı üzerine, bin sekiz yüz altmış sekiz"}
+  ],
+  "reward": "Defter: tepki medyanların ve karar süren kaydedildi. Bilinç boyutunda sis biraz çekildi.",
+  "ach": {
+   "id": "reaction",
+   "name": "Sonlu Hız",
+   "desc": "Helmholtz’un Kronometresi’ni üç blokta tamamla.",
+   "flavor": "Motor: Düşüncen ölçüldü; anlık değil. Bu bir kusur değil, bir yol."
+  }
+ },
+ "card2": {
+  "title": "Arel’in Dosyası",
+  "intro": "Arel’in dosyası. Ölçtüklerim burada; yorum tek cümle. Övgü yok, yargı yok; sayı ve bir cümle.",
+  "labels": {
+   "time": "Süre",
+   "order": "Boyut sırası",
+   "quiz": "Sınav doğruluğu",
+   "caught": "Yakalanma",
+   "fuel": "Fener kullanımı",
+   "figure": "En çok konuşulan",
+   "logs": "Kayıtlar",
+   "path": "Yol dağılımı",
+   "global": "Küresel ortalama"
+  },
+  "verdict": {
+   "fast": "Süre kısa, sınav zayıf. Acele ettin; sis geçtiğin yerde değil, geçmediğin yerde kaldı.",
+   "careful": "Sınav tam, süre uzun. Her noktada durdun; sis çekildi ama saat de ilerledi. İkisi de ölçüm.",
+   "survivor": "Hiç yakalanmadın. Bozulma’yı gördün, dokunmadın. Kaçınmak da bir yol; neden kaçındığını ölçemedim.",
+   "caughtMany": "Çok yakalandın. Bozulma’ya yaklaştın, bedelini ödedin. Korkusuzluk mu dikkatsizlik mi; sayı söylemiyor.",
+   "collector": "Tüm veriler mavi. Sis ölçülebilen her yerden çekildi; kalan sis benim değil, evrenin.",
+   "balanced": "Yol dengeli. Köprü, Gözlemci, Sessizlik; üçüne de baktın. Kararsızlık mı açıklık mı; ikisi de aynı sayıyı verir.",
+   "dominant": "Tek yol baskın: {yol}. Erken seçtin, sapmadın. Tutarlılık ölçüldü; doğruluk ölçülemez.",
+   "default": "Dosya tamam. Sayılar burada; cümle sende."
+  }
+ }
+}

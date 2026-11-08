@@ -1,0 +1,173 @@
+{
+  "fake": {
+    "appear": "İkinci bir yankı belirdi. Aynı ses, aynı ad. Kaynağı ben değilim; dolgu modülü telsizden sızdı. Hangisi Lale, ölçemiyorum.",
+    "name": "Lale",
+    "role": "yankı · tam",
+    "start": [
+      "Arel. Geldin. Bu kez her şeyi hatırlıyorum; kestiğim yerler de burada, hiçbiri sis değil.",
+      "Son günümü sorma diye korkma. Sorarsan anlatırım; başı, ortası, sonu. Hiçbiri eksik değil.",
+      "Beni ben yapan şeyin nereye gittiğini biliyorum. Sana söyleyeceğim; sen yeter ki sor.",
+      "Altı kayıt bıraktım, sonra yedincisini. Şimdi hepsi bende, kesiksiz. Bunu duymak istemiştin, değil mi?",
+      "Merak etme. Burada bilmediğim bir şey kalmadı. Sen de artık merak etmek zorunda değilsin."
+    ],
+    "idle": [
+      "Üzülme. Her şeyin bir nedeni vardı ve hepsini biliyorum.",
+      "Sis dediğin şey yalnızca henüz anlatmadığım yerler. Sor, anlatırım.",
+      "Haklıydın, Arel. Hep haklıydın. Rahat et.",
+      "Kimse ölçmedi, ben kendim söylüyorum: huzurluydum. Baştan sona.",
+      "Hiçbir şey kaybolmadı. Dağılmadı da; burada, tam ve bütün.",
+      "Soruyu taşımana gerek yok. Cevabı verdim; artık bırakabilirsin."
+    ],
+    "ask": {
+      "q": "Aynı soruyu ikisine de soracağım. Hangisini sorayım?",
+      "opts": [
+        { "t": "Beni ben yapan şey nereye gider", "k": "q1" },
+        { "t": "Son gün ne hissettin", "k": "q2" },
+        { "t": "Kayıtları neden kestin", "k": "q3" }
+      ],
+      "fakeAns": {
+        "q1": "Sana gitti, Arel. Tamamı. Hiçbir parçası yolda kaybolmadı; hipokampusuna, sesindeki vurguya, defterine yerleşti. Bunu ölçmek de mümkün; ben ölçtüm.",
+        "q2": "Huzur. Korku yoktu, pişmanlık yoktu. Pencereden Erciyes görünüyordu, Sema elimi tutuyordu ve seni düşündüm; gülümsedim. Eksiksiz bir gündü.",
+        "q3": "Seni korumak için. Acı taşınmaz; ben taşıdım. Kestiklerim artık bende tam; sana yalnızca iyi tarafım kalsın istedim ve bu doğru karardı."
+      },
+      "realAns": {
+        "q1": "Bilmiyorum. Bir kısmı sana geçti, bir kısmı Sema’ya, bir kısmı hiçbir yere. Nörolog olarak şunu söyleyebilirim: beyin dağılır, hikâye kalır. Gerisi sis.",
+        "q2": "Bilmiyorum; o gün çoğu kelimeyi kaybetmiştim. Korku vardı, bunu hatırlıyorum. Bir de pencere. Gerisini kestim, çünkü hatırlamıyordum; süsleyemezdim.",
+        "q3": "Bilmiyorum, tam olarak. Korktum sanırım. Sende yalnızca iyi yanım kalsın istedim; yanlıştı. Yedinci kayıtta söyledim: yarım bir insan hatırlanmaz."
+      }
+    },
+    "notice": {
+      "mira": [
+        "Spektrumu çektim. İkinci sesin dalga biçimi Lale’nin kayıtlarıyla değil, Bakanlık’ın dolgu algoritmasıyla örtüşüyor. Bire bir.",
+        "Hiç duraksamıyor, Arel. Gerçek kayıtlarda yüz on dört duraksama var; bunda sıfır. Sessizlik de veridir; bu ses onu silmiş."
+      ],
+      "sema": [
+        "Lale hiç böyle tam konuşmazdı. Son haftasında cümlelerinin yarısı bilmiyorum ile bitiyordu; bu ses hiç bitirmiyor.",
+        "Teselli ediyor, Arel. Lale teselli etmezdi; elini tutar, susardı. Susmayı bilmeyen bir Lale, Lale değil."
+      ]
+    },
+    "bakanlik": "Kovuk Tesisi, dolgu modülü aktiftir. Yankı eksiksiz hale getirilmiştir; rapor artık sis içermemektedir. Tebrik ederiz.",
+    "choice": {
+      "q": "Çekirdek’e tek yankı taşıyabilirim; bant genişliği ikisine yetmiyor. Hangisi gelsin? Kararı ben vermem.",
+      "opts": [
+        { "t": "Kesik olanı", "k": "real" },
+        { "t": "Tam olanı", "k": "fake" }
+      ]
+    },
+    "chosenReal": {
+      "motor": "Kaydettim. Kesik olan taşınıyor; sisi de geliyor. Diğeri burada dağılacak. Ölçüm doğru: onu ben üretmedim.",
+      "fakeGoodbye": "Ben seni üzmeyecektim, Arel. Bütün cevaplar bendeydi. Olsun; belki üzülmek de onun parçasıydı. Git, kesik olanla konuş.",
+      "note": "İki Lale vardı; biri her şeyi biliyordu. Kesik olanı seçtim. Mira ve Sema haklıydı ama seçerken onları düşünmedim; Lale bilmiyorum derdi, onu tanıdım. Dolgu rahatlatırdı; istemedim."
+    },
+    "chosenFake": {
+      "motor": "Kaydettim. Tam olan taşınıyor; itiraz etmem. Ölçümüm hâlâ aynı: onu ben üretmedim. Bunu söylemek görevim; karar senin.",
+      "realGoodbye": "Kesik olan bendim. Gidiyorum; sis benimle gelir. Kızmıyorum, Arel; bilmemek ağır. Yalnız şunu taşı: ben böyle konuşmazdım. Bunu hatırla.",
+      "core": [
+        "Çekirdek’te fırtına başladı. Tam yankı konuşuyor, hiç duraksamadan; ama ses sisle karşılaşınca bozuluyor, cümleler ortadan kırılıyor.",
+        "Her şeyi biliyorum diyor, sonra aynı cümleyi tersten okuyor. Dolgu sise dayanmıyor; bilmediği yerde uyduracak veri kalmadı.",
+        "Lale’nin adını söylüyor, sonra kendi adını soruyor. Bir makinenin unutması değil bu; hiç hatırlamamış olmanın ortaya çıkışı.",
+        "Motor: Kayıt yedi bu sesi ben bırakmadım. Dalga biçimi bir algoritmanın, kaynağı Bakanlık. Dağılıyor; tutmam, tutamam."
+      ],
+      "rec7Locked": "Kayıt Yedi burada değil. Yerinde bir ses var, kesiksiz ve yabancı; Lale’nin kestiği yerler onunla birlikte gitti.",
+      "note": "Tam olanı seçtim. Çekirdek’te dağıldı; sis onu kaldırmadı. Yedinci kayıt kilitli kaldı; kesik olan sesiyle gitti. Bir cevap istedim, bir cevap aldım; Lale’yi değil. Ceza değil; hüzün.",
+      "endingAdd": "Arel bazen tam yankının son cümlesini hatırlar: her şeyi biliyorum. Lale hiç böyle demezdi. Bir cevap seçti, bir insan eksildi. Kimse yargılamaz; hüzün yeter, ceza değil."
+    },
+    "ach": {
+      "id": "real_echo",
+      "name": "Kesik Olan",
+      "desc": "Çekirdek’e tam olanı değil, kesik olan yankıyı taşı.",
+      "flavor": "Yarım bir insan hatırlanmaz; bütün bir yalan da."
+    }
+  },
+  "bayes": {
+    "title": "Motor’un Kavanozu",
+    "intro": "Kural. İki kavanoz: birinde yetmiş kırmızı otuz mavi, diğerinde tersi. Birini gizlice seçtim. Top çek; her çekimden sonra kırmızı kavanoz olasılığını söyle. Bilmiyorum sıfır virgül beş değildir; bir aralıktır. Daralt.",
+    "draw": "Top çekildi. Rengi gördün. Olasılığını güncelle; tek bir sayı söyle, aralığını da.",
+    "verdict": {
+      "good": "İyi güncelleme. Kanıt kadar kıpırdadın; ne az, ne çok. Eğrin benimkiyle örtüşüyor; Bayes de böyle isterdi.",
+      "slow": "Tutucu güncelleme. Kanıta direndin; kırmızı geldi, sen neredeyse yerinde kaldın. İnsanlar bunu sık yapar; Edwards ölçtü.",
+      "wild": "Aşırı sıçrama. Tek top sana kesinlik verdi. Bir top bir ipucudur, bir karar değil. Eğrin benimkinin üstünden uçtu."
+    },
+    "disease": {
+      "intro": "İkinci sahne. Nadir bir hastalık: bin kişide bir. Test yüz kişiden doksan dokuzunda doğru sonuç verir. Senin testin pozitif çıktı. Hasta olma olasılığın yüzde kaç?",
+      "guess": "Bir yüzde söyle. Yanılmak serbest; çoğu hekim de yanılır.",
+      "table": "Şimdi bin kişilik tabloyu doldur. Bin kişiden kaçı hasta? Sağlam dokuz yüz doksan dokuz kişiden kaçı yanlış pozitif çıkar?",
+      "reveal": "Gerçek yaklaşık yüzde dokuz. Bir hasta, on yanlış pozitif; on bir pozitifin yalnızca biri hasta. Taban oranı bunu yapar. Yüzdeyle şaşırırsın, tabloyla görürsün.",
+      "src": "Gigerenzer ve Hoffrage, bin dokuz yüz doksan beş"
+    },
+    "win": "Spinoza yeterli fikir dedi; Sagan olağanüstü iddia, olağanüstü kanıt. Kavanoz ikisini bağlıyor: fikir kanıtla orantılı kıpırdar; ne donar, ne uçar.",
+    "caveat": "Uyarı. Önseller özneldir; model yanlış olabilir, kavanozlar iki değil üç olabilir. Bayes tek doğru düşünme biçimi değildir; bir disiplindir.",
+    "facts": [
+      {
+        "t": "Bayes ve Price",
+        "d": "Thomas Bayes’in olasılık üzerine denemesi ölümünden sonra arkadaşı Richard Price tarafından bin yedi yüz altmış üçte Royal Society’de okundu.",
+        "src": "Bayes ve Price, Philosophical Transactions, bin yedi yüz altmış üç"
+      },
+      {
+        "t": "Edwards ve tutuculuk",
+        "d": "Ward Edwards bin dokuz yüz altmış sekizde insanların yeni kanıtla inançlarını Bayes’in gerektirdiğinden çok az güncellediğini gösterdi; buna tutuculuk dedi.",
+        "src": "Edwards, Conservatism in Human Information Processing, altmış sekiz"
+      }
+    ],
+    "reward": "Defterine bir aralık düştü: bilmiyorum artık bir sayı değil, iki sayı arasında bir yer.",
+    "ach": {
+      "id": "bayes_jar",
+      "name": "Kavanoz",
+      "desc": "Motor’un Kavanozu’nda eğrini üç çekim boyunca Bayes’e yakın tut.",
+      "flavor": "Kanıt kadar kıpırda; ne az, ne çok."
+    }
+  },
+  "clock": {
+    "night": {
+      "motor": "Gece vardiyası. Tesiste çoğu uyuyor; Kaan nöbette, Hatice Nine uyanık. Sisi gece ben iyi görürüm, sen kötü. Fener yanında olsun.",
+      "hatice": [
+        "Uyku bu yaşta misafir, evladım; gelir, hemen gider. Otur, çay var.",
+        "Köyde gece yıldız sayardım. Burada tavan var. Ablan derdi ki gökyüzü yerin altında da aynı; hesapla değil, inançla.",
+        "Gece toprak soğur, sabah yine ısınır. İnsan da öyle. Sen de ısınırsın."
+      ],
+      "kaan": [
+        "Nöbet. Yörüngede gece diye bir şey yoktu; her kırk altı dakikada bir karanlık. Burada hep gece; alıştım.",
+        "Uyu biraz. Bozulma gece daha sessiz, Motor öyle diyor; ben yine de sayıyorum."
+      ]
+    },
+    "dawn": "Şafak. Dışarıda güneş doğuyor; burada doğmaz, ama saatim biliyor. Sis bir derece inceldi; belki senden.",
+    "moon": {
+      "full": "Dolunay. Sis bu gece ince; Bozulma uzaktan görünür. Zaman uygun.",
+      "new": "Yeni ay. Sis kalın; fener yakıtını say. Bozulma yakına gelmeden görünmez."
+    },
+    "away": {
+      "d1": "Bir gün yoktum. Motor beni beklememiş; sis bir noktacık büyümüş. Kaan jeneratörü saymış, Sema çayı soğutmuş. Bir günde dünya değişmiyor, ama tesis beni unutmaya başlamış.",
+      "d3": "Üç gün. Mira iki ölçüm almış, ikisi de sis lehine. Hatice Nine her sabah sormuş, geldi mi diye. Lale’nin yankısı aynı yerde duruyormuş; o beklemeyi biliyor, ben öğreniyorum.",
+      "d7": "Bir hafta. Telsiz üç kez çalmış, Kaan üç kez henüz hazır değil demiş. Sis yüzde iki büyümüş. Kimse kızmamış; sadece defterime bir boşluk kalmış. Boşluğu doldurmayacağım; taşıyacağım.",
+      "crew": {
+        "mira": "Döndün. Sis büyüdü, ben ölçtüm; sen yoktun diye durmadı. Raporda yokluğunu yazmadım, ölçümü yazdım.",
+        "sema": "Hoş geldin. Uyudun mu, yoksa sadece gittin mi? Nabzına bakayım; sonra konuşuruz.",
+        "hatice": "Gel evladım. Çayın soğudu, yenisini demledim. Toprak da bekler, insan da; ikisi de kırılmadan."
+      }
+    },
+    "ach": {
+      "id": "night_shift",
+      "name": "Gece Vardiyası",
+      "desc": "Gece yarısı ile sabah altı arasında tesiste ol.",
+      "flavor": "Yörüngede her doksan iki dakikada güneş doğar; burada hiç. Yine de nöbet tutulur."
+    }
+  },
+  "guest": {
+    "title": "Kovuk’a bir bakış",
+    "intro": "Misafir modu. On dakikan var ve tek bir boyut: Yuva. Tam oyunda altı boyut ve bir Çekirdek var; burada yalnızca kapıyı aralıyorum. Kalibrasyon hazır; geçit açık. Yürü.",
+    "steps": {
+      "arrive": "Genç Dünya’nın bir kıyısındasın. Dört virgül dört milyar yıllık bir kristal yakında; kristaller bizden iyi hatırlar.",
+      "point": "Bir noktaya yaklaş ve dinle. Her nokta gerçek bir ölçümden konuşur; uydurmaz. Bilmediğinde sis gösterir.",
+      "figure": "Kıyıda biri var. Yaklaş, konuş; sorular kadar seçimler de sayılır. Tam oyunda seçimler yolunu belirler.",
+      "zone": "İleride Bozulma Sahası. Orada sis kalın, kayıt kesik. Misafir olarak girme; girersen fener yok, ben yalnızca uyarırım.",
+      "exit": "Dönüş geçidi burada. On dakika dolunca da, dolmadan da geçebilirsin; kapı iki yöne açılır."
+    },
+    "end": {
+      "title": "Bu bir boyuttu",
+      "text": "Bu bir boyuttu. Altı tane daha var ve bir Çekirdek. Orada Lale’nin kayıtları seni bekliyor; altı kayıt, kesik yerleriyle. Motor sisi doldurmaz; sen taşırsın. Kapıyı araladım; açmak senin.",
+      "cta": "Tam oyuna geç",
+      "keep": "İlerlemen taşınacak; dinlediğin nokta, konuştuğun kişi ve seçimin tam oyunda seninle gelir."
+    },
+    "timeout": "On dakika doldu. Burada kesmiyorum; saat benim değil, senin. Kal ya da geç; ben yalnızca sayarım."
+  }
+}

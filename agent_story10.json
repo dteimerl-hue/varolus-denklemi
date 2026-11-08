@@ -1,0 +1,122 @@
+{
+ "sema": {
+  "trigger": "Sema asansöre yürüyor. Çantası elinde, kartını okuttu. Bir dakika içinde yukarıda olur. Sormadım; söylüyorum.",
+  "scene": [
+   {"who": "sema", "t": "Kapıyı tutma Arel. Asansör beni bekliyor; sen bekleme."},
+   {"who": "a", "t": "Çanta elinde. Bakanlık dış tanıklar ayrılsın dedi; sen tanık değilsin, buranın hekimisin."},
+   {"who": "sema", "t": "Sözümü tuttum. Lale Çekirdek’e varınca dedi; vardın, söyledim. Sözün bittiği yerde kalmak zorunda değilim."},
+   {"who": "a", "t": "Burada sana ihtiyacım var. Nabzımı sen sayıyorsun; kayıttan titreyen eli senden başka kim ayırt eder?"},
+   {"who": "sema", "t": "Yorgunum. Geçitten değil; serviste öğrendiğim yorgunluk, birinin gidişini izlerken birikir. Listeye imzamı attım, kimse zorlamadı."},
+   {"who": "a", "t": "Asansör gelene kadar bir cümlem var. Hangisini söyleyeceğimi bilmiyorum."}
+  ],
+  "choice": {
+   "q": "Asansör kapısı açılıyor. Sema’ya ne söylersin?",
+   "opts": [
+    {"t": "Lale’nin adını söyle", "k": "lale"},
+    {"t": "Kendi korkunu söyle", "k": "korku"},
+    {"t": "Hiçbir şey söyleme", "k": "sessiz"}
+   ]
+  },
+  "leave": {
+   "lale": [
+    "Lale. Adını söyledin; bak, elim durdu, ayağım durmadı.",
+    "O da beni tutmaya çalışmadı son hafta. Git, dedi, uyu. Ben kaldım; o yüzden bugün gidebiliyorum.",
+    "Kayıtları dinlerken titreyen elini uzaktan da tanırım. Zeynep nabzını sayacak; ona söyledim.",
+    "Adını bir daha söyle, ama bana değil, ona. Ben yukarıdayım; kapı kapanıyor, sen açık kal."
+   ],
+   "sessiz": [
+    "Hiçbir şey demiyorsun. İyi; ben de son hafta bir şey diyemedim, ne demek olduğunu bilirim.",
+    "Çanta hafif. İçinde steteskop, bir defter, Lale’nin bana verdiği kalem. Fazlası tesiste kalıyor.",
+    "Kapı kapanmadan nabzına bakacağım; alışkanlık. Yüz. Geçitten değil, bu seferlik benden.",
+    "Işıkları açık bırak Arel; aşağıda biri kalıyorsa yukarıdan görünür."
+   ]
+  },
+  "stay": [
+   {"who": "a", "t": "Korkuyorum Sema. Lale giderken yanında sen vardın; ben giderken kimse olmayacak diye korkuyorum."},
+   {"who": "sema", "t": "Hekime korkunu söylemek kolay, Arel. Sema’ya söyledin; bunu duydum."},
+   {"who": "sema", "t": "Kalıyorum. Ama beni tutan sen değildin; korkunu dinlerken kendi korkumu duydum, o tuttu."},
+   {"who": "a", "t": "Fark eder mi?"},
+   {"who": "sema", "t": "Eder. Senin için kalsaydım bana borçlu olurdun; kendim için kaldım, kimse kimseye borçlu değil. Çantayı rafa koyuyorum, elini ver."}
+  ],
+  "gone": {
+   "motor": "Sema’nın kaydı silinmedi; yeri boş. Revirdeki sandalye hâlâ onun biçiminde çökük. Bunu ölçemem; görüyorum.",
+   "crew": {
+    "mira": "Sema gitti. Nabız kayıtlarını bana bıraktı; sayıları okuyabilirim, elini okuyamam.",
+    "kaan": "Listede bir isim eksildi. Bakanlık sevindi, ben saymadım. Çayı o demlerdi; şimdi acı.",
+    "riza": "Doktor hanım gitti mi evlat? Ağ bir ilmek eksik atılır, yine tutar; ama sen o ilmeği bilirsin.",
+    "deniz": "Sema abla gitti. Nabzımı ben sayıyorum artık abi; yetmiş iki, ama yanlış sayıyor olabilirim.",
+    "zeynep": "Sema’nın ardından nabzına ben bakacağım. Elin kayıttan titriyorsa söyle; henüz ayırt edemiyorum.",
+    "hatice": "Giden gider evladım, yeri kalır. Sema’nın sandalyesine bir süre kimse oturmasın; yer de yas tutar."
+   },
+   "radio": "Kovuk Tesisi, tahliye listesi alınmıştır. Bir personel ayrılışı kaydedildi. Kalanlar için sayım devam etmektedir.",
+   "epilogue": {
+    "gozlemci": "Sema yoktu. Nabzımı kimse saymadı; içeride kaldım, düştüğünü ben de fark etmedim. Onun sözünü tuttuğunu biliyorum; benimkini kime tuttum, bilmiyorum.",
+    "kopru": "Sema yoktu. Lale’nin yankısını herkes dinledi; kalabalıkta kayıtlar daha az yalan söyler demişti, denedim, haklıydı. Ona mektup yazdım; cevap gelmedi.",
+    "sessizlik": "Sema yoktu. Kayıtları sakladım; bir gün dinlersen yanında olurum demişti, o cümle ondan önce gitti. Ovada yağmuru beklerken nabzımı kendim sayıyorum.",
+    "saray": "Sema yoktu. Üç odayı yalnız kurdum; son haftayı bilen tek kişi yukarıdaydı. Kopya beni on beş saniye geriden izledi; Sema’nın da beni öyle izlediğini şimdi anlıyorum."
+   },
+   "ending": "Sorunu cevaplayamadım. Ama nereye gittiğini biliyorum: buraya, bana, üç yabancıya. Biri eksik; dağıldı, yok olmadı.",
+   "note": "Sema gitti. Kapıda bir cümle söyledim ya da söylemedim; asansör ikisini de aynı hızla taşıdı. Sözünü tuttu, yoruldu, imzaladı. Suçlamıyorum. Nabzımı kendim sayıyorum; yüz on, kayıttan."
+  },
+  "stayed": {
+   "motor": "Sema’nın kartı asansörden geri okutuldu. Çanta revirdeki rafta. Kalma kararını ölçemem; kapı sesini kaydettim.",
+   "sema_after": [
+    "Kaldım, ama senin için değil; bunu unutma, iyi gelir. Nabzın yüz; bu kez kimden, bilmiyorum.",
+    "Çantayı boşaltmadım. Rafta duruyor; bir gün yine toplarım belki. Bugün değil.",
+    "Korkunu söylediğin gün serviste bir hastam aklıma geldi. Göremeden gitti; sen görüyorsun. Fark bu."
+   ],
+   "note": "Sema kaldı. Korkumu söyledim; beni tutan sen değildin dedi, kendi korkusuymuş. Kapı önünde iki insan, iki korku, bir çanta. Kimse kimseye borçlu değil; bunu yazıyorum ki unutmayayım."
+  },
+  "ach": {
+   "id": "sema_stay",
+   "name": "Kapı Önünde",
+   "desc": "Sema asansöre binmeden ona kendi korkunu söyledin; kaldı.",
+   "flavor": "Hekime korkunu söylemek kolaydır; Sema’ya söyledin."
+  }
+ },
+ "seis": {
+  "name": "Sismograf",
+  "label": "Sismograf Terminali: son depremler",
+  "intro": "Bu ekrandaki noktalar en son bildirilen depremler; tahmin değil, kayıt. Deprem kehaneti yoktur; uzun vadeli olasılık vardır. Fay nerede, ne kadar birikti, bunu söyleyebilirim. Ne zaman kırılır, bunu kimse söyleyemez.",
+  "task": "Üç istasyonun kaydında P dalgası önce, S dalgası sonra gelir. S eksi P süresini sekizle çarp; kabaca kilometre. Üç çemberi çiz; kesiştikleri yer deprem.",
+  "good": "Tahminin merkez üssüne yakın. Üç çember tek noktada kesişti; bu bir bilgi, kehanet değil.",
+  "far": "Uzak düştün. Bir istasyonun süresini yanlış okudun ya da sekiz fazla kabaydı; yeniden ölç, çemberler yalan söylemez.",
+  "offline": "Veri gelmiyor. Hat kopuk ya da sunucu sessiz. Boş ekranı doldurmam; bekleriz.",
+  "facts": [
+   {"t": "Moment büyüklüğü", "d": "Her bir birim artış yaklaşık otuz bir kat daha fazla enerji demektir; altı ile sekiz arasında yaklaşık bin kat fark vardır.", "src": "Gutenberg ve Richter bin dokuz yüz elli altı; Kanamori bin dokuz yüz yetmiş yedi"},
+   {"t": "P ve S dalgaları", "d": "P dalgası kabukta saniyede yaklaşık altı kilometre, S dalgası yaklaşık üç buçuk kilometre hızla gider; aradaki gecikme uzaklığı verir.", "src": "Amerika Jeoloji Araştırmaları Kurumu, deprem terimleri sözlüğü"},
+   {"t": "Küçük depremlerin sıklığı", "d": "Büyüklük bir birim düştükçe deprem sayısı yaklaşık on kat artar; dünyada yılda yüz binlerce küçük, on beş kadar yedi üstü deprem olur.", "src": "Gutenberg Richter yasası; Amerika Jeoloji Araştırmaları Kurumu istatistikleri"}
+  ],
+  "arel": "Kapadokya’nın altında Dünya’nın nabzı atıyor; Motor onu da sayıyor. Lale’nin son deprem gecesi, yatakta elimi tuttu ve bu da geçer dedi.",
+  "ach": {
+   "id": "seis_locate",
+   "name": "Üç Çember",
+   "desc": "Üç istasyonun S eksi P süresiyle bir depremin yerini buldun.",
+   "flavor": "Kehanet yok; üç saat, üç çember, bir nokta."
+  }
+ },
+ "decay": {
+  "title": "Yarı Ömür Zarları",
+  "intro": "Bin atom, bin zar. Her atışta her atom kendi başına söner ya da kalır; hangisi, bilmem. Tek atom için kehanet yok. Bin atom için var: yarısı kaç atışta söner, bunu söyleyebilirim. Kural bu; at ve say.",
+  "readHalf": "Kaç atışta yarıya indi? Ben söylemem; sen oku. Ekrandaki sayıyı değil, eğrinin yarıya düştüğü yeri say.",
+  "sample": "Aşıklı Höyük kömürü. Kalan karbon on dört oranı yüzde otuz altı. Yarı ömür beş bin yedi yüz otuz yıl. Kaç yarı ömür geçti, yaş kaç; hesapla.",
+  "calib": "Radyokarbon yılı takvim yılı değildir. Atmosferdeki karbon on dört sabit değildi; ağaç halkalarıyla çizilen eğriyle düzelt. Aralık ver, tek sayı değil.",
+  "win": "Dokuz bin yıl önce Kapadokya’da birileri ateş yaktı, ekmek pişirdi, öldü. Kömürleri konuşuyor. Zirkonla aynı mantık, başka saat: biri milyar yıl sayar, biri bin.",
+  "fail": [
+   "Yarı ömür okuması çok sapmış. Eğriye yeniden bak; yarı dediğim bin değil, beş yüz.",
+   "Yaş hesabı yanlış. Yüzde otuz altı, bir buçuk yarı ömürden biraz az demek; yeniden say.",
+   "Kalibrasyon aralık dışı. Eğri sekiz bin dört yüz radyokarbon yılını takvime dokuz bin dört yüz dolayına taşır."
+  ],
+  "reward": "Bin atom, bir yarı ömür, bir höyük. Tek atomun kaderini bilmeden bin atomun yaşını buldum.",
+  "facts": [
+   {"t": "Radyokarbon yöntemi", "d": "Willard Libby karbon on dörtle yaş tayinini bin dokuz yüz kırk dokuzda yayımladı; bin dokuz yüz altmışta kimya Nobel ödülünü aldı.", "src": "Libby, Anderson ve Arnold, Science, bin dokuz yüz kırk dokuz"},
+   {"t": "Kalibrasyon eğrisi", "d": "IntCal yirmi eğrisi ağaç halkaları, mağara çökelleri ve mercanlarla elli beş bin yıla kadar radyokarbon yaşını takvim yaşına çevirir.", "src": "Reimer ve arkadaşları, Radiocarbon, iki bin yirmi"}
+  ],
+  "ach": {
+   "id": "half_life",
+   "name": "Yarı Ömür",
+   "desc": "Bin atomun yarı ömrünü okudun, höyüğün yaşını hesapladın ve eğriyle düzelttin.",
+   "flavor": "Tek atom için kehanet yok; bin atom için takvim var."
+  }
+ }
+}

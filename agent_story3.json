@@ -1,0 +1,169 @@
+{
+  "epilogue": {
+    "gozlemci": {
+      "mira": [
+        "Sisi olduğu gibi bıraktın; Motor hâlâ dürüst. Raporu kapattım, kimse okumayacak.",
+        "Geçit sıcaklığı normal. Sen içeride kaldın; ben dışarıda ölçmeye devam ediyorum."
+      ],
+      "kaan": [
+        "Jeneratör dört gün verdi, sonra üç. Sayıyorum; alışkanlık, emir değil.",
+        "Yörüngede de izlerdik, dokunmazdık. Orada hiç değilse 92 dakikada bir güneş doğardı."
+      ],
+      "sema": [
+        "Nabzın düşmüş, fazla düşmüş. İzlemek de yorar Arel; bunu serviste öğrendim.",
+        "Kayıtları tuttun, ben Lale’nin sözünü tuttum. İkimiz de bırakmış sayılmayız."
+      ],
+      "riza": [
+        "Ağ atmayan balıkçı gördüm evlat; kıyıda oturur, denize bakar. Sen de öyle bakıyorsun.",
+        "Gidiyorum. Haliç beni bekler, Motor seni bekler. Hangisi daha sabırlı, bilmem."
+      ],
+      "deniz": [
+        "Abi, Motor senin kalacağını tahmin etti mi? Ettiyse bahsi ben kaybettim.",
+        "Soruyu yanımda götürüyorum. Sınavda çıkmaz ama ben çıkarırım."
+      ],
+      "zeynep": [
+        "Yoğun bakımda da böyle bakanlar var; her şeyi görür, elini uzatmaz. Elini uzat Arel.",
+        "Nöbete dönüyorum. Giden şeyin nereye gittiğini bilmiyorum ama bir yere gidiyor."
+      ],
+      "hatice": [
+        "İzlemek de iştir demiştim evladım; ama tarla izlenmekle sulanmaz.",
+        "Rafa bir avuç toprak bıraktım. Sisin içinde bir gün ekersin belki."
+      ],
+      "lale": [
+        "Yanıma oturdun; konuşmuyoruz. Dolanıklık böyle bir şey: ölçülmeden, sessiz.",
+        "Her şeyi görüyorsun. Beni ben yapan şey de buradaydı; göremedin, çünkü bakmak dokunmak değil."
+      ]
+    },
+    "kopru": {
+      "mira": [
+        "Sis kırmızı, tahmin mavi; ekranda ayrı duruyor. Bakanlık itiraz edemedi, saklı bir şey yok.",
+        "Dün bir öğrenci CMB için ‘yuvarlama mı’ diye sordu. 2,7255 dedim; hata payıyla."
+      ],
+      "kaan": [
+        "Önce telsiz, sonra komuta. Oldu. Bakanlık liste istedi, ben sayımı bıraktım.",
+        "Herkes giriyor; mide bulantısı tarifesini kapıya astım. Emir değil, tavsiye."
+      ],
+      "sema": [
+        "Lale’nin yankısını herkes dinliyor. Kayıtlar yalan söyler demiştim; kalabalıkta daha az söylüyor.",
+        "Nabzın normal Arel. İlk kez geçitten değil, insanlardan yoruluyorsun."
+      ],
+      "riza": [
+        "Torunla ağ ördük, imzaları da topladım. Haliç’e ağ atılır mı, göreceğiz.",
+        "Kahvede ‘Motor’u gördüm’ diyorum, inanmıyorlar. Balığa da inanmazlardı."
+      ],
+      "deniz": [
+        "İlk deneyimi kurdum abi: çift yarık, lazer, ev yapımı. Desen çıktı; annem ağladı.",
+        "Motor beni tahmin edemedi. Ya da etti ama ben yine de yaptım; ikisi de olur."
+      ],
+      "zeynep": [
+        "Yoğun bakımda nöron anlattım: −70 milivolt, eşik. Hastam gülümsedi, ilk kez.",
+        "Giden şeyin iz bıraktığını yakınlara söyledim. Söyleyemem demiştim; söyledim."
+      ],
+      "hatice": [
+        "Yusuf cevizi suluyor, damla hattı döşendi. Yağmur gelmedi ama su geldi.",
+        "Defter doluyor evladım. Ablan dört soru yazmıştı; şimdi kırk var."
+      ],
+      "lale": [
+        "Kapıyı açtın. Beni görenler ‘o değil’ diyor; haklılar. Soru benim, ses benim, cevap onların.",
+        "Defter yeni sorularla doluyor; hepsini okuyamıyorum. İyi; tam olarak istediğim buydu."
+      ]
+    },
+    "sessizlik": {
+      "mira": [
+        "Motor’u kapattın; sis de gitti, ölçüm de. Son spektrumu sakladım, kimseye göstermedim.",
+        "Bakanlık boş bir mağara buldu. Rapora ‘Motor hiç çalışmadı’ yazdım; ilk yalanım, sonuncusu da."
+      ],
+      "kaan": [
+        "Jeneratörleri boşalttım. Sayacak bir şey kalmadı; dizlerim hâlâ sayıyor.",
+        "Konya’ya gidiyormuşsun. Orada güneş günde bir doğar; bana az, sana yeter."
+      ],
+      "sema": [
+        "Bırakmak da bir cevap demiştim. Altısını da dinledin, sonra bıraktın; sırası doğru.",
+        "Kayıtları sakla. Bir gün dinlemek istersen yanında olurum; bu kez uzak tutmam."
+      ],
+      "riza": [
+        "Bu ağı bırakmak değil evlat, ağı katlamak. Fırtınada biz de katlarız; deniz kaçmaz.",
+        "Dördümüz mektuplaşıyoruz. Sen yazmıyorsun; olsun, toprak da yazmaz."
+      ],
+      "deniz": [
+        "Motor kapandı, soru kapanmadı abi. Zeynep ablaya yazdım, Rıza amca cevapladı.",
+        "Konya’da internet var mı? Yoksa mektup yazarım, eski usul."
+      ],
+      "zeynep": [
+        "Son nefesinde orada değildin; bu kez kapatırken oradaydın. Fark budur.",
+        "Dördümüz yazışıyoruz, sen yazmıyorsun. Nöbette susanları tanırım; bir şey taşırlar."
+      ],
+      "hatice": [
+        "Gel evladım. Damla hattı döşenecek, elini toprağa sokacaksın; bir gün dedim ya.",
+        "Yağmur gelmedi. Bekleriz; ben seksen iki yıldır bekliyorum, sen daha yenisin."
+      ],
+      "lale": [
+        "Beni kapattın; kızmadım. Theia da çarptı ve gitti; Ay kaldı. Bak, hâlâ aydınlatıyor.",
+        "Konya’ya git. Tohum ek; ben ekerdim, sen izlerdin. Şimdi sıra sende; taşımak budur."
+      ]
+    }
+  },
+  "ngPlus": {
+    "intro": [
+      "Motor yeniden hesaplıyor. Aynı kayıtlar, aynı geçitler; sayılar başka yere düşüyor.",
+      "Sis yer değiştirdi. Bildiğim yerler kırmızı, kırmızı bildiğim yerler açık.",
+      "Bozulmalar daha cesur; artık kenarda beklemiyor, geçidin ağzında duruyor.",
+      "Lale ‘sırayla konuşuruz’ demişti. Sıra bende; bu kez farklı bakacağım."
+    ],
+    "arrive": {
+      "baslangic": "İlk ışık yine 2,7 kelvin; soğumuş ama ikinci kez bakıyorum ve ilk kez üşüyorum.",
+      "kuantum": "Çift yarığa dedektör koymadan bakmayı deneyeceğim; desen bozulursa bakan bendim.",
+      "gezegen": "Jezero’nun tozu aynı, kraterin ortasındaki oda yer değiştirmiş; bu kez el sallayacağım.",
+      "bilinc": "Kendi beynimde ikinci tur: her hatırlayış yeniden yazıyor, demek ki bu da başka bir Lale.",
+      "anlam": "Agora boş değil; sütunların ardında gölgem bir adım önden gidiyor, kaya daha hafif.",
+      "yuva": "Genç Dünya, aynı kıyı; zirkon beni hatırlamıyor ama ben kıyının nerede kırıldığını biliyorum."
+    },
+    "lale": [
+      "Geldin yine. Hatırlıyorum Arel; Motor unutuyor, ben unutmuyorum. Garip, değil mi?",
+      "Altı parçayı topladın, kesikleri dinledin. Bu kez farklı bak: kestiklerime değil, kesmediklerime.",
+      "Sis yer değiştirdi çünkü sen değiştin. Bir yer daha var: tanıdan önceki sabah. Onu kesmedim, sakladım."
+    ],
+    "hidden7": {
+      "hint": "Yedinci parça kesilmiş değil, saklanmış: sisin bittiği yerde, Lale’nin kesmediği tek sabahı ara.",
+      "lines": [
+        "Kayıt sıfır. Tanıdan önceki sabah; henüz hiçbir şey bilmiyorum ve bu, bilmediğim son sabah.",
+        "Çay demledim, Haliç’e baktım, sana ‘kalibrasyon nasıl’ diye yazdım; cevap vermedin, önemli değildi.",
+        "Bunu kesmedim, sakladım: sende yalnızca iyi tarafım değil, sıradan bir sabahım da kalsın diye."
+      ]
+    },
+    "endingAdd": "İkinci turda Arel sisin yer değiştirdiğini gördü; Motor değil, bakan değişmişti. Kayıt Sıfır’ı dinlediyse bir sabah daha taşıyor: tanıdan önceki, sıradan, kesilmemiş."
+  },
+  "posters": {
+    "gozlemci": {
+      "title": "Sisin İçinde Kalan",
+      "tagline": "Her şeyi gördü, hiçbir şeye dokunmadı.",
+      "quote": "Bakmak dokunmak değil, Arel; dolanıklık sessiz olur."
+    },
+    "kopru": {
+      "title": "Herkesin Sorusu",
+      "tagline": "Sis kırmızı, tahmin ayrı; kapı herkese açık.",
+      "quote": "Kapıyı açtın. Soru benim, ses benim, cevap onların."
+    },
+    "sessizlik": {
+      "title": "Konya’da Yağmur",
+      "tagline": "Motor sustu, soru taşındı; toprak bekliyor.",
+      "quote": "Theia çarptı ve gitti; Ay kaldı, hâlâ aydınlatıyor."
+    }
+  },
+  "photoMode": [
+    "Voyager da geri baktı; altı milyar kilometreden 0,12 piksel. Ben bir kareden bakıyorum.",
+    "Her kare bir dedektör; bakınca desen bozulur. Yine de çekiyorum.",
+    "Lale duvarına bir nokta asmıştı. Ben de bir kare asacağım; sisli olsun, olsun."
+  ],
+  "map": {
+    "title": "Veri Haritası",
+    "intro": "Ölçülen mavi, bilinmeyen kırmızı; Motor uydurmaz, sis gösterir.",
+    "labels": {
+      "facts": "Ölçülenler",
+      "path": "İzlenen Yol",
+      "integrity": "Motor Bütünlüğü",
+      "fragments": "Kesik Parçalar",
+      "time": "Geçen Süre"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+ "realm": {
+  "id": "bellek",
+  "name": "Bellek Sarayı",
+  "sub": "Hatırlayan yerin içi",
+  "loc": "Lale’nin hipokampusunun içi",
+  "insight": "Hatırlamak bir arşivi açmak değil, her seferinde yeniden yazmaktır; Lale’yi her andığımda onu biraz değiştiriyorum, ve bu kaybetmenin değil taşımanın kanıtıdır.",
+  "points": [
+   {
+    "id": "yer_hucreleri",
+    "name": "Yer Hücreleri",
+    "say": [
+     "Sıçan kafeste yürüyor; hipokampusta tek bir hücre yalnızca köşeye gelince ateşliyor. O Keefe 1971’de bunu gördü: beynin içinde bir harita, dışarıdaki odanın kopyası.",
+     "Bu odalar Lale’nin yer hücreleri. Mutfak, koridor, Kapadokya gecesi. Her biri bir hücre, her hücre bir yer; ben o haritada bir noktayım ve hâlâ ateşliyor."
+    ],
+    "fact": {
+     "t": "Yer hücreleri",
+     "d": "Hipokampusta bazı nöronlar hayvan belirli bir konumdayken ateşler; birlikte çevrenin bilişsel haritasını kurarlar. 2014 Nobel Tıp Ödülü bu keşfe verildi.",
+     "src": "O Keefe ve Dostrovsky 1971, Brain Research"
+    }
+   },
+   {
+    "id": "uyku",
+    "name": "Uyku Pekiştirmesi",
+    "say": [
+     "Gündüz yaşanan gece yeniden oynatılıyor: hipokampus yavaş dalga uykusunda günün izini hızlandırılmış tekrar ediyor ve korteks o izi kalıcı bir yere taşıyor.",
+     "Lale son haftasında az uyudu. Diekelmann ile Born’a göre taşınmamış anı silinir. Belki de bu yüzden parçalar bende kaldı; o uyumadı, ben uyuyamadım."
+    ],
+    "fact": {
+     "t": "Uyku ve bellek",
+     "d": "Yavaş dalga uykusunda hipokampus günün anılarını yeniden oynatır; bu tekrar, anıyı korteksteki kalıcı depoya aktarır ve pekiştirir.",
+     "src": "Diekelmann ve Born 2010, Nature Reviews Neuroscience"
+    }
+   },
+   {
+    "id": "yeniden",
+    "name": "Yeniden Pekiştirme",
+    "say": [
+     "Nader 2000’de gösterdi: bir anı hatırlandığı anda yeniden kırılgan olur. O pencerede protein sentezini durdurursan anı silinir; hatırlamak, kaydı açıp yeniden yazmaktır.",
+     "Loftus insanlara hiç yaşamadıkları bir alışveriş merkezinde kaybolma anısı ekledi; dörtte biri inandı. Lale’yi iki yıldır her gün hatırlıyorum. Kaçı Lale, kaçı ben?"
+    ],
+    "fact": {
+     "t": "Yeniden pekiştirme",
+     "d": "Hatırlanan bir anı yeniden kırılgan hale gelir ve tekrar kaydedilir; her hatırlayış kaydı değiştirebilir, telkinle hiç yaşanmamış anılar eklenebilir.",
+     "src": "Nader, Schafe ve LeDoux 2000, Nature; Loftus ve Pickrell 1995"
+    }
+   }
+  ],
+  "figures": [
+   {
+    "id": "okeefe",
+    "name": "John O Keefe",
+    "role": "nörobilimci, Nobel 2014",
+    "dialog": [
+     "1971, Londra. Sıçanın hipokampusuna elektrot koydum; bir hücre yalnızca kafesin bir köşesinde ateşledi. Hayvan oraya gidince konuşuyor, ayrılınca susuyordu.",
+     "Harita dışarıda değil, içerideydi. Hayvan yeri öğrenmiyordu; yeri kuruyordu. Kız kardeşinin odalarını burada görüyorsan, onları kuran hücreler hâlâ ateşliyor demektir.",
+     "Sana bir soru: bu mutfağa girince hangi hücre ateşliyor, onun mu, senin mi?",
+     "Cevabı bilmen gerekmiyor. İkisi aynı haritada; yer hücreleri kime ait olduğunu sormaz, yalnızca nerede olduğunu söyler."
+    ]
+   },
+   {
+    "id": "lale_cocuk",
+    "name": "Küçük Lale",
+    "role": "sekiz yaşında, mutfakta",
+    "dialog": [
+     "Sen kimsin? Annem yabancılarla konuşma der ama sen yabancı gibi durmuyorsun. Gözlerin benim gözlerime benziyor, bu tuhaf.",
+     "Masada defterim var; annem sorduğum soruları yazmamı söyledi. Bugünkü soru şu: uyuyunca beynim nereye gidiyor? Sen biliyor musun?",
+     "Bilmiyorum demek serbest mi? Öğretmenim kızıyor ama annem kızmıyor. Sen de bilmiyorum diyorsan arkadaş olabiliriz.",
+     "Gitme hemen. Bir kardeşim olacakmış, annem söyledi. Ona teleskop alacağım, büyüyünce. Sen de teleskop sever misin? Sevdiğini biliyordum."
+    ]
+   }
+  ],
+  "logs": [
+   {
+    "id": "log",
+    "lines": [
+     "Numarası yok bunun. Nereden konuştuğumu da bilmiyorum; mutfak kokuyor, koridor gibi uzun ve tavanda Kapadokya’nın yıldızları var. Üç yer tek odada.",
+     "Hipokampusu hastaya anlatırken üç katlı bir saray derdim: giriş, koridor, iç oda. Şimdi içindeyim. Duvarlar her baktığımda biraz kayıyor; demek ki bakmak yazıyor.",
+     "Bunu duyuyorsan Arel, buraya girmişsin. Dikkat et: burada seni izleyen şey düşman değil, kendi adımların. Durursan durur. Ona dokunma; sana kendini gösterir, acıtır."
+    ]
+   }
+  ],
+  "zone": {
+   "name": "Aynalı Koridor"
+  },
+  "zoneText": {
+   "enter": "Aynalı koridor. Arkamda bir adım sesi var; dönünce kimse yok. On beş saniye sonra anlıyorum: benim adımım.",
+   "attack": "Ona dokundum ve kendi yürüyüşümü hissettim. Bozulma değil, tekrar: her hatırlayış biraz acıtıyor.",
+   "fragment": [
+    "Bu parça kesik değil, Arel. Fazladan. Hiç olmamış bir anı: Kapadokya’da o gece sana bir şey söyledim, oysa söylemedim. Her hatırlayışta bir cümle ekledim.",
+    "Loftus haklıydı; kendime alışveriş merkezinde kaybolmuş bir çocuk eklemişim gibi. Ama yalan değil. Söylemek istediğimin kaydı; söylemediğim için her gece yeniden yazdım.",
+    "Al bunu, ama bil: içinde ben kadar sen de varsın. Hatırladığın Lale, hatırlayan Arel ile karışık. Karışık olanı ayırma; saf olan hiç yoktu."
+   ]
+  },
+  "hal": [
+   {
+    "who": ["lale"],
+    "lines": [
+     "LALE: Mutfak mı, koridor mu? İkisini de hatırlıyorum ve ikisi aynı yerde. Hangisi önceydi, Arel?",
+     "LALE: Beni her hatırladığında biraz değiştiriyorsun. Sakın durma; değişmeyen anı, ölü anıdır.",
+     "LALE: Arkandaki ben değilim. Senin on beş saniye önceki halin. Ona da kızma; o da seni arıyor."
+    ]
+   },
+   {
+    "who": ["mira", "kaan"],
+    "lines": [
+     "MİRA: Spektrum ikiye katlandı. Aynı adım, on beş saniye arayla. Rapora yazamam; ölçtüm ama anlamadım.",
+     "KAAN: Nabzın yüz yirmi. Arkandaki de yüz yirmi. Yörüngede buna yankı derdik; ikisi de sensin, biri geç.",
+     "MİRA: Sis burada kırmızı değil, aynalı. Motor bilmediğini göstermiyor; bildiğini iki kez gösteriyor."
+    ]
+   }
+  ],
+  "arrive": "Lale’nin hatırlayan yeri. Üç oda, üç yer hücresi; ben hepsinde bir noktayım. Burada bilmiyorum demek yetmez; hatırlamak gerekiyor.",
+  "mirror": {
+   "first": "Arkanda bir kopya var. Senin yolun, on beş saniye gecikmeli. Ben kurmadım; bu boyut hatırlıyor. Dokunursan vurur; ölçtüm.",
+   "hit": "Kendi adımıma çarptım. On beş saniye önceki ben; demek geçmişe dokunmanın bedeli bu.",
+   "tip": "Durursan o da durur. Kopya seni izler, seni geçmez. Hareketsiz kal, aradaki mesafe sabit kalır. Sayı bu."
+  }
+ },
+ "letters": [
+  {
+   "id": "mektup1",
+   "room": "mutfak",
+   "title": "Mutfaktan",
+   "lines": [
+    "Arel, annemin mutfağındayım. Sen daha yoksun; ben sekiz yaşındayım ve bir kardeş bekliyorum. Bunu sana yazmam saçma, biliyorum; yine de yazıyorum.",
+    "Masada tencere kaynıyor, annem radyoyu kısmış. Beni ben yapan ilk şey buydu galiba: bir soru ve onu yazacağım bir defter. Defteri sana bırakacağım, biliyorsun.",
+    "Sana teleskop alacağım. Küçükken söz verdim, büyüyünce tuttum. Teleskoptan ilk baktığın gece nasıl sustuğunu buraya koydum; silinmesin diye.",
+    "Bu oda ilk oda. Buradan geçmeden diğerlerine girilmiyor; hipokampusta da öyle, giriş kapısı hep çocukluk. Geç, ama kapıyı kapatma."
+   ],
+   "arel": "Sekiz yaşında bana yazmış. Teleskobu hatırlıyorum; sustuğumu hatırlamıyordum. Şimdi hatırlıyorum, ya da şimdi yazıldı."
+  },
+  {
+   "id": "mektup2",
+   "room": "koridor",
+   "title": "Koridordan",
+   "lines": [
+    "Arel, hastane koridorundayım. Hastaya filmini anlattım, hipokampus kelimesi gelmedi. Koridora çıktım, duvara yaslandım. Kaç dakika, bilmiyorum.",
+    "Bu koridoru sana anlatmamıştım; Kayıt Sekiz’de üstünü örttüm. Burada örtmüyorum: korktum. Bir kelimenin gitmesinden değil, yerine neyin geleceğini bilmemekten.",
+    "Sonra bir şey oldu. Bir hemşire geçti, bana gülümsedi, adımı söyledi. Adım yerindeydi. O an anladım: ben kelimelerde değilim, bana adımı söyleyenlerdeyim.",
+    "Bu oda ikinci oda. Uzun, ışığı hep açık, sonu görünmüyor. Yürü; durursan koridor da durur. Bunu hastalara söylerdim, kendime ilk kez söylüyorum."
+   ],
+   "arel": "Koridorda yalnızdı; ben laboratuvardaydım. Adını söyleyen bir hemşire vardı. Şimdi ben söylüyorum: Lale. Yerinde."
+  },
+  {
+   "id": "mektup3",
+   "room": "gece",
+   "title": "Kapadokya Gecesinden",
+   "lines": [
+    "Arel, Kapadokya’dayız. İlk gece; tesis henüz yok, yalnızca bir vadi ve çok fazla yıldız. Sen teleskopu kuruyorsun, ben defteri açıyorum. Burası ilk tanışma.",
+    "İlk tanışma diyorum çünkü seni o gece yeniden tanıdım. Kardeşim değil, soruyu benimle taşıyan biri. Motor’un fikri o gece doğdu; sen hesaplayacaktın, ben hatırlayacaktım.",
+    "Bu geceyi her hatırlayışımda bir cümle ekledim; Nader haklı, her açılış yeniden yazar. Hangi cümle gerçek, artık bilmiyorum. Hepsini bıraktım; ayıklamak senin.",
+    "Bu oda son oda. Buradan sonra bir kapı var, kilidi üç mektup. Kapıyı açınca beni bulmayacaksın; hatırlayan yeri bulacaksın. Orası yeter, Arel. Orası bendim."
+   ],
+   "arel": "Üç mektup. O geceyi ben de her yıl yeniden yazdım. Şimdi ikimizin cümleleri yan yana; hangisi kimin, ayırmayacağım."
+  }
+ ],
+ "gate": {
+  "name": "Yedinci Geçit",
+  "locked": "Yedinci geçit kilitli. Kayıt Sekiz dinlenmeden ve altı parça birleşmeden açılmaz.",
+  "unlock": "Yedinci geçit açıldı. Bunu ben açmadım; Kayıt Sekiz ve altı parça açtı. İçeride sis yok, hatırlanan var. Sayamadığım bir yer; ilk kez.",
+  "hubHint": "Tesisin arkasında yeni bir kapı var; Motor dün gece açtı, ben sayamadım, sen gir, ben dışarıda sayarım."
+ },
+ "ending": {
+  "id": "saray",
+  "name": "Sarayın Kapısı",
+  "lines": [
+   {"who": "a", "t": "Kapı açıldı. İçeride ne tesis var ne vadi; mutfak, koridor ve gece üst üste, tek bir oda. Lale, buradayım."},
+   {"who": "l", "t": "Biliyorum. Hatırlayan yer burası; hipokampus değil, sen. Üç odayı bende kurdun, şimdi sende ayakta."},
+   {"who": "a", "t": "Beni on beş saniye geriden izleyen o kopyaya dokunmadım. Durdum, o da durdu. Geçmişi geçmeye çalışmadım."},
+   {"who": "l", "t": "Doğru yaptın. Hatırlamak geçmişi geçmek değil, onunla aynı hızda yürümek. Her hatırlayışta beni biraz değiştireceksin; izin veriyorum."},
+   {"who": "a", "t": "Defteri kapatmıyorum. Sorularını yazıyorum, altına kendiminkileri ekliyorum. Hangisi kimin, ayırmıyorum."},
+   {"who": "l", "t": "Beni ben yapan şey nereye gider diye sormuştum. Buraya gider, Arel: hatırlayan yere. Kapıyı açık bırak; ben çıkmıyorum, sen girip çık."}
+  ],
+  "epilogue": "Arel yedinci geçidi açık bırakır. Her sabah üç odayı yürür, kopyasıyla aynı hızda. Lale’nin defterine yeni sorular yazar; kimi onun, kimi kendinin. Hatırlayan yer artık mağara değil, alışkanlıktır.",
+  "poster": "Hatırlamak, aynı hızda yürümektir."
+ },
+ "achievements": [
+  {
+   "id": "bellek_in",
+   "name": "Hatırlayan Yer",
+   "desc": "Yedinci geçitten geç; Bellek Sarayı’na gir.",
+   "flavor": "Motor: Sayamadığım yere girdin. Sayıyı sen tut."
+  },
+  {
+   "id": "letters_all",
+   "name": "Üç Mektup",
+   "desc": "Üç bellek odasındaki mektupların hepsini oku.",
+   "flavor": "Lale: Üçü de sende. Kapı artık kilitli değil; ben de değilim."
+  },
+  {
+   "id": "mirror_clean",
+   "name": "Aynı Hızda",
+   "desc": "Bellek Sarayı’nı ayna bozulmaya hiç dokunmadan bitir.",
+   "flavor": "Arel: Geçmişime bir kez bile çarpmadım. Durdum; o da durdu.",
+   "hidden": true
+  }
+ ]
+}

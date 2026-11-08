@@ -1,0 +1,68 @@
+{
+ "core": {
+  "name": "Motor Çekirdeği",
+  "label": "Motor’un fiziksel çekirdeği",
+  "inspect": [
+   "İlk kez bu kadar yakından bakıyorum. Üç halka, çok yüzlü bir çekirdek, üç ayak, tepede ince bir anten. Lale bunun çizimini defterine yapmıştı.",
+   "Halkalar zamanı ölçmüyor; hatırlamayı ölçüyor. Dıştaki her kaydı, ortadaki her dinleyişi, içteki hâlâ söylenmemiş olanı sayıyor.",
+   "Çekirdek kapalı. Mira açmayı denemiş, Motor izin vermemiş. Bilmediğini uydurmayan bir makine, içini de açık bırakmıyor.",
+   "Her yüzey bir parametreyle çizilmiş; sayıyı değiştirsen biçim değişir. Lale’nin sorusu da öyleydi: bir değişken, başka bir ben."
+  ],
+  "motor": [
+   "Üç halkam var; ikisi döner, üçüncüsü bazen takılır. Sayıyı bozmam; takıldığımı söylerim.",
+   "Çekirdeğim kapalı. İçinde ne olduğunu ben de tam görmüyorum; görmediğimi söylemek, görmüş gibi yapmaktan ucuz.",
+   "Biçimim bir sayı listesinden çıktı. Biri değişse ayağım kısalırdı; şimdilik üçü de yerde. Anten süs; alışır gibi yaptım."
+  ],
+  "crew": {
+   "mira": "Halkaların dönüş hızını ben ayarladım; ortadaki ölçtüğümden hep biraz yavaş döner, nedenini raporlara yazmadım.",
+   "kaan": "Yörüngede de ortada böyle dönen bir şey vardı; jiroskop derdik, kimse önünde durup dalmazdı, sen dalıyorsun.",
+   "sema": "Lale son hafta bu halkalara bakıp hipokampus dedi; üç katlı, ortası kapalı, hatırlayan yer.",
+   "riza": "Pusula gibi evlat; teknede de ortada durur, kendi döner, nereye gideceğini yine sen bilirsin.",
+   "deniz": "Üç halka, bir çekirdek, üç ayak; atom modeline benziyor ama elektron yok, not aldım Arel abi.",
+   "zeynep": "Yoğun bakımdaki monitöre benziyor; dönen bir halka, içinde bir sayı, kimse bakmayı sevmez ama herkes bakar.",
+   "hatice": "Harman yerindeki döven de böyle dönerdi evladım; taneyi kabuğundan ayırırdı, bu da bir şeyi ayırıyor galiba."
+  }
+ },
+ "flow": {
+  "name": "Sis Akış Haritası",
+  "label": "Sisin gerçek hız alanı",
+  "intro": "Bu alan benim uydurmam değil. Açık kaynaklı bir akışkan çözücüsü geriye bakan basamağı çözdü; hızlar oradan geldi. Sis basamakta ayrılıyor, altında girdap dönüyor, ileride yeniden birleşiyor. Parçacıklar o alanı izliyor.",
+  "facts": [
+   {
+    "t": "Navier Stokes denklemleri",
+    "d": "Akışkanın her noktasında hızın nasıl değiştiğini söyler; kütle ve momentum korunumu. Navier 1822 yılında yazdı, Stokes 1845 yılında viskoz terimi tamamladı.",
+    "src": "Navier 1822; Stokes 1845, Cambridge Felsefe Derneği İşlemleri"
+   },
+   {
+    "t": "Reynolds sayısı",
+    "d": "Atalet kuvvetinin viskoz kuvvete oranı; küçükse akış düzgün, büyükse çalkantılı. Osborne Reynolds 1883 yılında cam boruda boya iplikçiğiyle gösterdi.",
+    "src": "Reynolds 1883, Kraliyet Derneği Felsefi İşlemleri"
+   },
+   {
+    "t": "Yeniden birleşme uzunluğu",
+    "d": "Geriye bakan basamakta akış köşede ayrılır, altında girdap döner, basamak yüksekliğinin yaklaşık altı ile yedi katı ileride yeniden duvara yapışır.",
+    "src": "Armaly ve arkadaşları 1983, Akışkanlar Mekaniği Dergisi"
+   },
+   {
+    "t": "Kolmogorov ölçeği",
+    "d": "Çalkantıda büyük girdaplar enerjiyi küçüğe aktarır; en küçük ölçekte viskozite enerjiyi ısıya çevirir. Kolmogorov bu ölçeği 1941 yılında türetti.",
+    "src": "Kolmogorov 1941, Sovyet Bilimler Akademisi Raporları"
+   }
+  ],
+  "arel": "Sis basamağı aşınca kopuyor, bir süre kendi etrafında dönüyor, sonra duvara geri geliyor. Lale de öyleydi; kelime kopuyor, dönüyor, sonra geliyordu.",
+  "quiz": {
+   "q": "Akış bir köşede duvardan ayrılınca ne olur? Ölçtüm; tahmin etme, söyle.",
+   "a": [
+    "Altında girdap döner, ileride yeniden birleşir",
+    "Akış durur, sis hareketsiz kalır",
+    "Hız sonsuza çıkar, sis dağılır"
+   ],
+   "ok": "Doğru. Ayrılma bir girdap bırakır, girdap ileride birleşir; basamağın altı ile yedi katı sonra.",
+   "no": "Yanlış. Akış durmaz, sonsuza da çıkmaz; ayrılır, döner, yeniden birleşir. Haritaya bak, sayma."
+  }
+ },
+ "credits": {
+  "freecad": "Motor Çekirdeği FreeCAD ile parametrik olarak modellendi; açık kaynak, LGPL lisanslı. Geliştiricilerine teşekkür.",
+  "openfoam": "Sis Akış Haritası OpenFOAM ile çözüldü; GPL lisanslı açık kaynak, OpenCFD tarafından geliştirilir. Teşekkürler."
+ }
+}

@@ -1,0 +1,22 @@
+# derleme/paket çıktıları
+paket/
+*.zip
+test.html
+*.bak*
+chk_anchors.py
+patch_*.py
+
+# eski/deneysel dosyalar (kaynak değil)
+engine.html
+game_app.html
+game_data.html
+game_gfx.html
+game_head.html
+freecad_motor.py
+browser-game-studio/
+browser-game-studio-workspace/
+layout*.json
+
+# işletim sistemi / editör
+Thumbs.db
+.DS_Store

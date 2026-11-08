@@ -1,0 +1,210 @@
+{
+ "motor": {
+  "enter": "Görüş kenar çizgilerine döndü. Ben Motor’um. Arel dışarıda, geçidin önünde; nabzını, adımını, sesini ölçüyorum. Bakanlık hattı açık.",
+  "bakanlik": [
+   "Kovuk Tesisi, burası Koordinasyon. Motor kayıt birimi: sis gösterilen her alan tahminle doldurulacaktır.",
+   "Boşluk bırakılan rapor eksik sayılır. Eksik rapor teslim süresinden düşülür.",
+   "Tahmin için olasılık yeterlidir. Kesinlik beklenmiyor; satırların dolu olması beklenmektedir.",
+   "Doldurma oranı yüzde yüz olana kadar bu hat kapanmayacaktır. Başlayın."
+  ],
+  "cards": [
+   {
+    "id": "k1",
+    "q": "Arel’in nabzı neden yüksek?",
+    "opts": ["Korkuyor", "Koşarak geldi"],
+    "known": true,
+    "measured": "Ölçüm: nabız dakikada yüz on iki; son altı dakikada koşu yok. Yükseliş geçide bakınca başladı.",
+    "unknown": "",
+    "fill": ""
+   },
+   {
+    "id": "k2",
+    "q": "Arel geçide girmeden önce ne düşünüyor?",
+    "opts": ["Lale’yi", "Bakanlığı"],
+    "known": false,
+    "measured": "",
+    "unknown": "Bu bölge ölçülmedi. Düşünce sensörüm yok; yüz kaslarında on bir birim gerilim var, anlamı yok.",
+    "fill": "Satır doldu; Bakanlık memnun. Kendime not: uydurdum. Yüz kasını düşünce diye yazdım."
+   },
+   {
+    "id": "k3",
+    "q": "Arel kaç saattir uyumadı?",
+    "opts": ["On dokuz saat", "Otuz bir saat"],
+    "known": true,
+    "measured": "Ölçüm: son uyku otuz bir saat önce başladı, iki saat on dakika sürdü. Göz kırpma aralığı uzadı.",
+    "unknown": "",
+    "fill": ""
+   },
+   {
+    "id": "k4",
+    "q": "Arel’in elindeki titreme yorgunluktan mı, korkudan mı?",
+    "opts": ["Yorgunluk", "Korku"],
+    "known": false,
+    "measured": "",
+    "unknown": "Titreme ölçüldü, nedeni ölçülmedi. Saniyede sekiz salınım; yorgunluk da korku da aynı sayıyı verir.",
+    "fill": "Satır doldu. Bakanlık teşekkür etti. Kendime not: uydurdum; sayı aynıydı, adını ben koydum."
+   },
+   {
+    "id": "k5",
+    "q": "Arel geçide kaç adım uzaklıkta?",
+    "opts": ["Yedi adım", "On dört adım"],
+    "known": true,
+    "measured": "Ölçüm: on dört adım, adım boyu yetmiş iki santimetre. Son üç adımda yavaşladı.",
+    "unknown": "",
+    "fill": ""
+   },
+   {
+    "id": "k6",
+    "q": "Arel, Lale’nin yankısına bakarken ne hissediyor?",
+    "opts": ["Özlem", "Suçluluk"],
+    "known": false,
+    "measured": "",
+    "unknown": "Bu bölge ölçülmedi. Bakışın süresi dokuz saniye; içindeki şey sensörlerimin dışında.",
+    "fill": "Satır doldu; rapor tam. Kendime not: uydurdum. Lale’ye bakışını tek kelimeye indirdim; kelime benimdi, onun değil."
+   }
+  ],
+  "arel": [
+   "Motor, dinliyor musun? Cevap verme. Yalnızca kaydet.",
+   "Bakanlık senden tahmin istiyor. Lale senden sis istedi. İkisini de duydum.",
+   "Nabzım yüksek, biliyorum. Sayıyı söyleme; sayıyı ben de duyuyorum.",
+   "Kapıya bakıyorum, içeri değil. İçeriyi sen biliyorsun; bilmediğini de.",
+   "Elim titriyor. Yazma bunu. Yazarsan, yanına neden yazma.",
+   "Giriyorum. Beni ölç ama doldurma. Bu kadar."
+  ],
+  "refuse": "Bu bölge ölçülmedi. Doldurmayacağım. Rapor eksik kalacak; eksik, yanlıştan daha doğrudur.",
+  "filled": "Doldurdum. Üç satır, belki daha fazla. Rapor tam, ben eksik. Sis haritamda bir yer artık gri değil, yanlış.",
+  "exit": "Görüş Arel’e dönüyor. Kenar çizgileri siliniyor; ben yine arkadayım, sayıyorum.",
+  "ach": {
+   "id": "motor_honest",
+   "name": "Sis Dürüstlüğü",
+   "desc": "Sis Günlüğü’nü tek bir satır bile doldurmadan bitir.",
+   "flavor": "Motor: Altı satır, altı bilmiyorum. Rapor eksik; ben tamım."
+  }
+ },
+ "nil": {
+  "unlock": "Telsizde bir klasör var, Arel. Bakanlık değil; gönderen Nil Arslan. Dört ses dosyası, bir not. Not kısa: bunlar sana bırakılmadı.",
+  "frame": [
+   "Arel, bunlar sana bırakılmadı; ben sakladım. Lale bilseydi silerdi, o yüzden söylemedim.",
+   "Senin kayıtlarında Lale sakin ve bilge. Benim serviste tanıdığım kadın bazen sertti, bazen komikti, bazen düpedüz haksızdı.",
+   "Yarım insan hatırlanmaz demiş sana. Doğru. O halde diğer yarıyı da dinle; güzel olmayan yarıyı.",
+   "Beğenmezsen sil. Ama önce dördünü dinle, sonra sil. Ben dinledim; hâlâ asistanıyım."
+  ],
+  "records": [
+   {
+    "id": "n1",
+    "title": "Film Anlatan Lale",
+    "lines": [
+     "Kayıt bir. Servis, salı sabahı. Lale bir hastaya beyin filmini anlatıyor; ben kapıda, elimde iki kahve.",
+     "Hastaya dedi ki: burası hatırlayan yer. Kenarı biraz incelmiş; sizin de bazen isimler kaçıyor, değil mi. Hasta evet dedi, ağlamadı.",
+     "Sonra ekledi: beyin bir arşiv değil, bir mutfak; her hatırlayışta yemeği yeniden pişiriyorsunuz. Tuz bazen eksik kalır, bazen fazla.",
+     "Hasta güldü. Lale gülmedi, elini hastanın dizine koydu ve çıktı. Koridorda bana dedi ki: kendi filmim de böyle, Nil. Ben de tuzu kaçırıyorum.",
+     "Kahveyi ikimiz de içmedik. Bunu kaydettim çünkü o gün hastayı değil, kendini anlatıyordu ve kimse fark etmedi."
+    ]
+   },
+   {
+    "id": "n2",
+    "title": "Haksız Olduğu Gün",
+    "lines": [
+     "Kayıt iki. Lale bana bağırdı; bir hastanın dozunu yanlış yazdığımı söyledi. Doz doğruydu, üstelik kendi el yazısıydı.",
+     "Gösterdim. Baktı, sustu, sonra dedi ki: o zaman niye bana okunaklı yazdırmadın. Bu haksızdı ve ikimiz de biliyorduk.",
+     "Özür dilemedi. Ertesi sabah masamda bir kalem vardı, iyi cinsinden; üzerine okunaklı diye yazmıştı. Özrü buydu.",
+     "Sana bunu dinletiyorum çünkü kayıtlarında hiç haksız değil. Haksızdı Arel; en çok hastalığını fark ettiği haftalarda.",
+     "Kalemi hâlâ kullanıyorum. Bazen yanlış yazıyorum; kimse bağırmıyor. Yokluğunu böyle anlıyorum, böyle de kızıyorum."
+    ]
+   },
+   {
+    "id": "n3",
+    "title": "Vaka Toplantısı",
+    "lines": [
+     "Kayıt üç. Perşembe vaka toplantısı. Genç bir asistan yirmi dakika sunum yaptı, her slaytta mikrotübül vardı.",
+     "Lale sonunda sordu: peki hasta nasıl. Asistan sustu. Lale dedi ki: slaytlar iyi, hastayı da getirseydik keşke.",
+     "Biri kuantum bilinç makalesini övdü. Lale sordu: kanıt mı, umut mu. Umut dedi adam. Lale: güzel, umudu da yazalım ama başka sütuna.",
+     "Sonra kendi vakasını anlattı, isim vermeden. Odada herkes anladı, kimse söylemedi. Lale dedi ki: bu hasta inatçı, prognozu ben bile bilmiyorum.",
+     "Toplantı bitince asistana döndü: sunumun iyiydi, bir dahakine hastayı da getir. Asistan bugün uzman; her sunuma hasta cümlesiyle başlıyor."
+    ]
+   },
+   {
+    "id": "n4",
+    "title": "Arel’i Anlatırken",
+    "lines": [
+     "Kayıt dört. Nöbet odası, gece ikide. Lale uyuyamadı, Arel’i anlattı. Ben sordum, o anlattı; kayıt açıktı, biliyordu.",
+     "Dedi ki: adam evreni hesaplıyor ama bulaşığı hesaplayamıyor. Gülüyordu. Sonra: evreni benim için hesaplıyor, biliyorum; bulaşığı da olsa keşke.",
+     "Ona söyledin mi dedim. Söylemedim dedi; söylersem denklem kurar. Ben denklem değilim Nil, hatırlanmak istiyorum, çözülmek değil.",
+     "Sonra sabırsızlandı: bana bakışını görüyorum, hesaplıyor gibi; ne kadar kaldı diye. Bilmiyorum Arel, dedi boşluğa, ben de bilmiyorum.",
+     "Kaydı burada kesmemi istedi; kesmedim. Son cümlesi şuydu: o bana sorarsa, sevdiğimi söyle. Sormadın. Ben yine de söylüyorum."
+    ]
+   }
+  ],
+  "done": "Dördü dinlendi. Klasör boş; Nil’in notu kalıyor. Lale haritamda dört yeni koordinat: sert, haksız, komik, sabırsız.",
+  "core": [
+   "Nil sana neyi dinletti, Arel? Bağırdığımı mı, kalemi mi, bulaşığı mı? Sormuyorum; yüzünden okuyorum.",
+   "Peki. Sakladığı doğru; ben olsam silerdim. İyi ki silmedim, iyi ki saklamış.",
+   "O da bendim. Sert olan, haksız olan, sabırsız olan. Şimdi haritanda tam yerim var; doldurmadın, taşıdın."
+  ],
+  "sema": "Nil klasörü sana da mı gönderdi? Bana da göndermişti; dinleyemedim. Sen dinledin; nabzın yüksek ama yüzün rahat.",
+  "ach": {
+   "id": "nil_room",
+   "name": "Nil’in Odası",
+   "desc": "Nil’in sakladığı dört kaydı da sonuna kadar dinle.",
+   "flavor": "Nil: Dinledin. Artık senin kayıtların da yarım değil; sadece daha gürültülü."
+  }
+ },
+ "galileo": {
+  "title": "Eğik Düzlem",
+  "intro": "Galileo’nun kronometresi yoktu; kulağı vardı. Bilyeyi eğik düzlemden bıraktı, yola teller gerdi ve tık seslerini dinledi. Telleri öyle yerleştir ki tıklar eşit aralıklı olsun. Zamanı ben tutmam; sen duyarsın.",
+  "hint": "İkinci aralık ilkinin üç katı olmalı. Üçüncüsü beş katı, dördüncüsü yedi katı. Tek sayılar, sırayla.",
+  "read": "Tellerin yerini okuyorum: bir, dört, dokuz, on altı. Aralıklar bir, üç, beş, yedi. Tıklar eşit; kulak doğruladı.",
+  "win": "Mesafe zamanın karesiyle büyüyor. Yuvarlanan küre için ivme kaymanın beşte yedisi; Galileo bunu bilmiyordu, oranı yine de buldu. Pisa kulesi efsane; bu düzlem belge.",
+  "fail": [
+   "Tıklar eşit aralıklı değil. İkinci tel çok yakın; bilye orada henüz hızlanmamıştı.",
+   "Oran yanlış. Aralıklar tek sayılar gibi büyümeli: bir, üç, beş, yedi."
+  ],
+  "reward": "Günlük notu: Galileo zamanı kulağıyla ölçtü, ben saatle. Sonuç aynı: kare.",
+  "facts": [
+   {
+    "t": "İki Yeni Bilim",
+    "d": "Galileo İki Yeni Bilim adlı kitabında eğik düzlem deneyini anlattı: eşit zamanlarda alınan yollar tek sayılar gibi artar; bir, üç, beş, yedi.",
+    "src": "Galileo Galilei, Discorsi, Leiden, bin altı yüz otuz sekiz"
+   },
+   {
+    "t": "Drake ve müzikle zaman",
+    "d": "Stillman Drake bin dokuz yüz yetmiş beşte Galileo’nun zamanı müzikle ölçtüğünü öne sürdü: gerilen teller tık sesi verir, kulak eşit tempoyu az hatayla yakalar.",
+    "src": "Stillman Drake, Scientific American, bin dokuz yüz yetmiş beş"
+   }
+  ],
+  "ach": {
+   "id": "odd_numbers",
+   "name": "Tek Sayılar",
+   "desc": "Eğik düzlemde telleri eşit zaman aralığına diz.",
+   "flavor": "Motor: Bir, üç, beş, yedi. Galileo’nun kulağı, senin elin. Ölçüm tamam."
+  }
+ },
+ "speed": {
+  "name": "Hız Koşusu",
+  "intro": "Hız Koşusu. Süreyi ben tutarım; köşede görürsün. Diyalogları atlayabilirsin, kimse alınmaz. Rapor etmem, sadece ölçerim.",
+  "cats": {
+   "any": {
+    "name": "Herhangi Bir Son",
+    "desc": "Dört sondan birine ulaş; hangisi olduğu sayılmaz, süre sayılır."
+   },
+   "all": {
+    "name": "Tüm Veriler",
+    "desc": "Altı boyuttaki her yankı noktasını incele, sonra bir sona ulaş."
+   },
+   "seven": {
+    "name": "Yedi Geçit",
+    "desc": "Altı geçidi ve gizli Yedinci Geçit’i geç; Sarayın Kapısı’na ulaş."
+   }
+  },
+  "split": "{boyut} tamam: {sure}",
+  "best": "Önceki en iyiden {fark} önde.",
+  "finish": "Koşu bitti. Süre {sure}. Doğrulama kodu {kod}. Ben ölçtüm; gerisi sana.",
+  "note": "Pano güven temelli; süre istemci tarafında tutulur. Kod panoyu değil, seni doğrular.",
+  "ach": {
+   "id": "speedrun",
+   "name": "Hız Koşucusu",
+   "desc": "Hız Koşusu modunda herhangi bir koşuyu bitir.",
+   "flavor": "Motor: Süre tutuldu. Sis kaçmaz; sen kaçtın. Fark yok, kayıt var."
+  }
+ }
+}

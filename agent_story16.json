@@ -1,0 +1,120 @@
+{
+ "local": {
+  "archive": "Bu sürümde canlı gözlemci verisi yok; sisin öbür yanına bağlantım kapalı. Gördüklerin mürettebatın, bu bilgisayarın ve senin girdiğin kodların kaydı; başka bir şey değil.",
+  "statsLabel": "Tesis arşivi",
+  "statsNote": "Bu oranlar dünyadan değil, sekiz kişilik bir masadan ve bu bilgisayardan; küçük örnek, büyük sis.",
+  "boardLabel": "Vardiya panosu",
+  "boardNote": "Mürettebat koşuları benim kaydımdan, onlar bildirdi ben yazdım. Seninki ölçüldü; aradaki farkı ben de biliyorum.",
+  "traceJoin": "Koridorda soluk bir iz belirdi. Adım ritmi tanıdık; senin.",
+  "traceLine": "{n} eski iz tesiste dolaşıyor",
+  "traceMotor": "Bu izler başka insanlar değil; bu bilgisayarda daha önce yürüdüğün yolun kaydı. Dünkü sen, bugünkü seni geçemez ama yanından yürür.",
+  "liveJoin": "Aynı bilgisayarda ikinci bir pencere açıldı. Orada da sen varsın; iki ölçüm, tek gözlemci."
+ },
+ "crewStones": {
+  "mira": [
+   {"realm": "kuantum", "s": "veri", "v": "yalan"},
+   {"realm": "kuantum", "s": "sis", "v": "bekliyor"},
+   {"realm": "baslangic", "s": "motor", "v": "yanki"}
+  ],
+  "kaan": [
+   {"realm": "gezegen", "s": "yol", "v": "tehlike"},
+   {"realm": "gezegen", "s": "ben", "v": "dondu"},
+   {"realm": "baslangic", "s": "bozulma", "v": "tehlike"}
+  ],
+  "sema": [
+   {"realm": "bilinc", "s": "lale", "v": "yanki"},
+   {"realm": "bilinc", "s": "veri", "v": "agir"}
+  ],
+  "riza": [
+   {"realm": "yuva", "s": "ben", "v": "sessiz"},
+   {"realm": "anlam", "s": "yol", "v": "hak"}
+  ],
+  "deniz": [
+   {"realm": "kuantum", "s": "ben", "v": "sasirtti"},
+   {"realm": "anlam", "s": "veri", "v": "sasirtti"}
+  ],
+  "zeynep": [
+   {"realm": "bilinc", "s": "ben", "v": "aglatti"},
+   {"realm": "anlam", "s": "lale", "v": "hak"}
+  ],
+  "hatice": [
+   {"realm": "yuva", "s": "ben", "v": "bekliyor"},
+   {"realm": "yuva", "s": "yol", "v": "hak"}
+  ],
+  "isik": [
+   {"realm": "baslangic", "s": "veri", "v": "yalan"},
+   {"realm": "gezegen", "s": "sis", "v": "bekliyor"},
+   {"realm": "anlam", "s": "motor", "v": "sasirtti"}
+  ]
+ },
+ "crewEndings": {
+  "mira": {"ending": "gozlemci", "why": "Motor bilmediğini söylediği sürece ona güvenirim. Sisi doldurursak geçitlerin hangisinin gerçek olduğunu kimse bilemez."},
+  "kaan": {"ending": "sessizlik", "why": "Yörüngede öğrendim, her sorunun cevabını yere indiremezsin. Bazen kapağı kapatır, nefes alırsın."},
+  "sema": {"ending": "kopru", "why": "Lale sorusunu son haftasında bile bırakmadı. Birinin o soruyu öbür yana taşıması gerekiyor; ben köprüden yanayım."},
+  "riza": {"ending": "kopru", "why": "Ağ tek başına balık tutmaz evlat, iki ucu da birine bağlı olmalı. Köprü de öyle bir şey işte."},
+  "deniz": {"ending": "gozlemci", "why": "Belirlenmiş olsa bile ölçmek istiyorum. Sonucu bilsem de görmeden inanmam; Lale Hoca böyle öğretti."},
+  "zeynep": {"ending": "sessizlik", "why": "Her gece bir monitörün düzleştiğini görüyorum. Bazen en dürüst şey konuşmamak, yanında oturmak."},
+  "hatice": {"ending": "kopru", "why": "Tohum ekersin, gölgesinde başkası oturur. Ben köprü derim evladım; bu yana da öbür yana da su gitsin."},
+  "isik": {"ending": "gozlemci", "why": "Dolgu algoritmasını kendim yazdım, çıktısı hiçbir şey söylemedi. Komisyona yüzde değil harita götüreceğim; sis de haritanın parçası."}
+ },
+ "crewDaily": {
+  "mira": {"k": 1.15, "line": "Geçitleri ezbere biliyorum, sisi bilmiyorum. Yine de iyi koştum."},
+  "kaan": {"k": 1.55, "line": "Hızlıyım ama hep ilk düşen de benim. Fener yakıtını sayın."},
+  "sema": {"k": 1.05, "line": "Nabzımı sabit tuttum. Hız ikinci sırada."},
+  "riza": {"k": 0.9, "line": "Acele eden balıkçı ağını yırtar evlat. Yavaş geldim, eksiksiz geldim."},
+  "deniz": {"k": 1.3, "line": "Rotayı önceden hesapladım, sis hesabımı bozdu. Yine de defterime yazdım."},
+  "zeynep": {"k": 1.2, "line": "Nöbetten çıkıp koştum. Uykusuzken bile düşmedim, bunu saymıyorum."},
+  "hatice": {"k": 0.78, "line": "Yavaş yürüdüm kuzum, ama hiç yere düşmedim. Tarla da acele etmez."}
+ },
+ "share": {
+  "stoneGive": "Bu taşın kodu. Bir arkadaşına gönder; o kodu girerse taş onun sisinde de belirir. Kimin girdiğini ben görmem.",
+  "stoneEnter": "Bir arkadaşının taş kodunu gir",
+  "stoneOk": "Kod çözüldü. Taş sisinde yerini aldı; bırakanı tanımıyorum, ama izini okuyabiliyorum.",
+  "stoneBad": "Bu kodu çözemedim. Bir harf eksik ya da fazla olabilir; bir kez daha bak.",
+  "stoneDup": "Bu taş zaten sisinde duruyor. Aynı izi iki kez saymam.",
+  "dailyGive": "Bugünkü süren için kod. Arkadaşına gönder; o da girerse aynı tohumda yan yana görünürsünüz.",
+  "dailyEnter": "Bir arkadaşının süre kodunu gir",
+  "dailyOk": "Süre panoya eklendi. Ölçen ben değilim, kod söylüyor; yanına bunu not ettim.",
+  "dailyBad": "Bu süre kodunu çözemedim. Sayılar karışmış olabilir; yeniden dene.",
+  "dailyOld": "Bu kod başka bir günün tohumuna ait. Bugünkü panoya koyarsam iki ölçümü karıştırmış olurum.",
+  "endOk": "Arkadaşının Yol Kartı arşive eklendi. Bir masa daha büyüdü; hâlâ dünya değil, ama yalnız değilsin."
+ },
+ "cloud": {
+  "title": "Bulut Odası",
+  "intro": "Kayanın altındayız, yine de yukarıdan bir şeyler yağıyor. Görmek için bu cam kutuyu alkol buharıyla aşırı doygun hale getir; parçacık geçince arkasında sis bırakacak.",
+  "tune": "Alkol buharı kadranını aç, soğutma kadranını dibe indir. Tabanın hemen üstünde ince bir sis katmanı arıyoruz; ne yağmur ne kuru hava.",
+  "tuneNo": "Tutmadı. Sis ya taşıyor ya hiç oluşmuyor; iz yok. Buharı ya da soğutmayı biraz oynat, ben ölçmeye devam ediyorum.",
+  "tuneOk": "Tuttu. Hava aşırı doygun; ilk izler beliriyor. Gördüğün her çizgi bir parçacığın geçişi, kendisi değil.",
+  "tracks": {
+   "alfa": "Kalın, kısa, dümdüz bir iz. Ağır ve yavaş bir parçacık; birkaç santimetrede durur.",
+   "beta": "İnce, kıvrık, titrek bir iz. Hafif bir elektron; her çarpışmada yön değiştirir.",
+   "muon": "İnce ve dümdüz, odanın bir ucundan öbür ucuna. Hızlı ve delici; yukarıdan geliyor."
+  },
+  "pickQ": "Şu üç izden hangisi müon?",
+  "pickOk": "Doğru. İnce, düz, bitmeyen iz. Bu parçacık atmosferin tepesinde doğdu ve kayayı aşıp buraya geldi.",
+  "pickNo": "O değil. Kalın kısa izler çoğunlukla duvarlardaki radondan çıkan alfalar; burada baskın onlar. Her iz uzaydan gelmez, ayırt etmeyi öğrenmeliyiz.",
+  "count": "Şimdi odayı üç yere taşıyacağız. Her yerde bir dakika boyunca yalnız müon izlerini say; alfaları ve betaları sayma.",
+  "places": {
+   "dag": "Dağ zirvesi",
+   "deniz": "Deniz seviyesi",
+   "tesis": "Tesis · kayanın altı"
+  },
+  "countDone": "Dağda en çok, deniz seviyesinde daha az, burada çok az. Kesin oran veremem; kayanın kalınlığını bilmiyorum. Kalınlığa göre yüzde birlere, binde birlere iner.",
+  "whyQ": "Müonun ömrü yaklaşık iki virgül iki mikrosaniye. Işığa yakın hızla bu sürede altı yüz altmış metre kadar gider. Oysa on beş kilometre yukarıda doğuyor. Neden geliyor?",
+  "whyOpts": [
+   "İki bakış birlikte: yerden bakınca ömrü uzar, müonun kendi çerçevesinde yol kısalır.",
+   "Müonlar ışıktan hızlı gidiyor; o yüzden kısa ömürleri yetiyor.",
+   "Ömür yalnız bir ortalama; şanslı olanlar bozunmadan yetişiyor, görelilik gerekmez."
+  ],
+  "whyOk": "Doğru. Biz bakınca müonun saati yavaş işler; müona göre kaya ve hava kısalır. İki çerçeve de aynı sayıyı verir, hiçbiri öbüründen daha gerçek değil.",
+  "whyNo": "Tutmadı. Hiçbir şey ışıktan hızlı gitmez; şans da yetmez, göreliliksiz hesapta bu kadar müon gelmezdi. Zaman genişlemesini ve uzunluk kısalmasını birlikte düşün.",
+  "win": "Tesisi neden bu kadar derine kazdıklarını hep Bakanlığa sorardım. Cevap yukarıdan yağıyormuş; kaya gürültüyü süzüyor. Burada fısıltıyı duymak için susturulmuşuz.",
+  "facts": [
+   {"t": "Wilson, bin dokuz yüz on iki", "d": "Charles Wilson bulutları laboratuvarda üretmeye çalışırken iyonların su damlası çekirdeği olduğunu gördü. Aşırı doygun havada ilk parçacık izlerini fotoğrafladı.", "src": "Wilson, Proceedings of the Royal Society A, cilt seksen yedi, bin dokuz yüz on iki; Vikipedi, Bulut odası"},
+   {"t": "Anderson ve pozitron, bin dokuz yüz otuz üç", "d": "Carl Anderson kurşun plakalı bir bulut odasında elektron kütleli ama zıt yüklü bir iz yakaladı. Patlama yok; elektronun karşı yüklü eşi, o kadar.", "src": "Anderson, The Positive Electron, Physical Review, cilt kırk üç, bin dokuz yüz otuz üç; Vikipedi, Pozitron"},
+   {"t": "Frisch ve Smith, bin dokuz yüz altmış üç", "d": "Bir dağın tepesinde ve deniz kıyısında müonları saydılar. Göreliliksiz beklenenden çok daha fazlası aşağıya ulaştı; zaman genişlemesi doğrudan ölçüldü.", "src": "Frisch ve Smith, American Journal of Physics, cilt otuz bir, bin dokuz yüz altmış üç; Vikipedi, Müon"}
+  ],
+  "reward": "Ödül: Sis Feneri deposu bir saniye uzadı. Yukarıdan gelen ışığı sayan, kendi ışığını biraz daha uzun tutar.",
+  "ach": {"id": "cloud", "name": "Kayanın Altındaki Yağmur", "desc": "Bulut odasında müon izini ayırt ettin ve neden hâlâ geldiğini açıkladın.", "flavor": "Motor: Kayanın kalınlığını hâlâ bilmiyorum. Ama izleri saydık; bu bir başlangıç."}
+ }
+}

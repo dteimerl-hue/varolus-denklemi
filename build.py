@@ -1,0 +1,19 @@
+import io,re,subprocess,os
+g=io.open('game_gfx.html',encoding='utf-8').read().split('\n');k=[i for i,l in enumerate(g) if l.startswith('/* ---------- camera tween')][0]
+core='\n'.join(g[:k]).replace("const stub={ok:false,init(){},show(){},travel(a,b,c,d,e,f,cb){cb&&cb()},gateOpen(){},gateTune(){},gateClose(){},bindLabels(){},setDone(){},branch(){},onPick(){},flash(){}};",
+ "const stub={ok:false,init(){},load(){return{ents:[],gates:{},points:{},npcs:[]}},setStage(){},onNear(){},input(){},setLocked(){},bindLabels(){},travel(a,b,c,swap,cb){swap&&swap();cb&&cb()},gateOpen(){},gateTune(){},gateClose(){},flash(){},setGate(){},markPoint(){},setTalk(){},island:null,near:null,playerPos(){return null}};")
+core=core.replace("const t=new T.CanvasTexture(c);t.anisotropy=8;return t","const t=new T.CanvasTexture(c);t.anisotropy=8;t.encoding=T.sRGBEncoding;return t")
+core=core.replace("const camera=new T.PerspectiveCamera(55,1,0.05,6000);","const camera=new T.PerspectiveCamera(48,1,0.05,6000);")
+core=core.replace("function pr(){/* at least 1080 rendered lines, up to 2x on dense screens */const d=window.devicePixelRatio||1;return Math.min(2,Math.max(d,1080/Math.max(1,innerHeight)))}","let QUAL=2160;function pr(){const d=window.devicePixelRatio||1;return Math.min(3,Math.max(d,QUAL/Math.max(1,innerHeight)))}")
+assert "let QUAL=2160" in core and "PerspectiveCamera(48" in core
+out=io.open('w_head.html',encoding='utf-8').read()+'\n'+core+'\n'+io.open('w_world.js',encoding='utf-8').read()+'\n'+io.open('w_data.html',encoding='utf-8').read()+'\n'+io.open('w_app.html',encoding='utf-8').read()
+io.open('varolus-denklemi.html','w',encoding='utf-8').write(out)
+ok=True
+for i,sc in enumerate(re.findall(r'<script>(.*?)</script>',out,re.S)):
+    io.open(f'chk{i}.js','w',encoding='utf-8').write(sc);r=subprocess.run(['node','--check',f'chk{i}.js'],capture_output=True,text=True);ok=ok and r.returncode==0;print(i,r.returncode,r.stderr[-300:]);os.remove(f'chk{i}.js')
+shim='<script>try{if(!location.search.includes("keep"))localStorage.clear()}catch(e){}window.__errs=[];addEventListener("error",e=>__errs.push(e.message+" @"+e.lineno));let VT=1000;performance.now=()=>VT;window.__q=[];window.requestAnimationFrame=f=>{__q.push(f);return 1};window.__step=(n,ms=16.7)=>{for(let i=0;i<n;i++){VT+=ms;const q=__q;__q=[];q.forEach(f=>f(VT))}return VT};window.__snap=async(name,n=1)=>{__step(n);const d=document.getElementById("gl").toDataURL("image/jpeg",.85);return fetch("http://127.0.0.1:8766/"+name,{method:"POST",body:d}).then(r=>r.text())};window.__key=(k,down)=>document.dispatchEvent(new KeyboardEvent(down?"keydown":"keyup",{key:k,bubbles:true}));</script>'
+test_hook="window.__G=()=>({S,cur,mode,GFX,GAME,travel,startDlg,finale,thought,interact,save,objectives,closeOv,help,storm,halWas,startStorm,PREF,YK,DAILY,GPAD,VOX,CHAT,note,MUS,predictOv,reportOv,rec9Ov,predStats,SEIS,DC,openSeis,semaScene,ISS,openIss,codeMake,codeParse,guessStart,makeCard,clarity,rehearse,EGGS,SPEED,speedStart,motorChapter,nilRoom,GL,gateGo,BJ,CLOCK,GUEST,guestStart,fakeChoice,fakePick,isikTalk,isikMotorScene,HM,renderHelm,dosyaHtml,stoneOpen,STONES,stonePlace,canteenScene,canteenReady,FC,renderFoucault,LDB,TRACE,ROOM,GST,stoneCode,stoneParse,dailyCode,dailyParse,dayIdx,CL,renderCloud,openMini,mini:()=>mini,motor:()=>motor});window.__setS=o=>{S=Object.assign(fresh(),o);save()};\n})();"
+BOOT="buildLabels();setLoc();title();\n})();"
+io.open('test.html','w',encoding='utf-8').write('<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'+shim+'</head><body style="margin:0">'+out.replace(BOOT,"buildLabels();setLoc();title();\n"+test_hook,1)+'</body></html>')
+print('built',ok,len(out))
+import shutil as _sh;_sh.copyfile('varolus-denklemi.html','index.html')

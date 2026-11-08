@@ -1,0 +1,331 @@
+{
+  "companion": {
+    "baslangic": {
+      "who": "kaan",
+      "arrive": "İlk kez bir geçide seninle giriyorum. Mide bulantısı var mı? Yok mu? İyi; benimki var.",
+      "firstPoint": "‘Bilmiyorum’ diyen profesör. ISS’te öyle birine rastlamadım; herkes bilirdi, kimse bilmezdi.",
+      "afterFigure": [
+        "Rahip, kozmolog, bir de genişleyen evren. ‘Neden’i sormuyormuş; ben de rapora yazmıyorum.",
+        "Plakanın üstüne ‘VAR!’ yazmış. Biz de alarm paneline öyle yazardık: büyük harf, ünlem."
+      ],
+      "zoneEdge": "Dur. Orası kırmızı; Mira’nın haritasında bile yok. Girersen ben dışarıda sayıyorum.",
+      "zoneWait": "Arel, nefes al! Üç saniye içeri, üç saniye dışarı. Sesimi duyduğun sürece kaybolmadın.",
+      "fragment": "Çıktın mı? Elinde ne var, kaset mi? Önce su iç, sonra dinle. Emir değil, tavsiye.",
+      "caught": "Temas. Yörüngede buna ‘alarm’ derdik; sen ‘Bozulma’ diyorsun. Kalk, yeniden.",
+      "hallucination": "Az önce beni duydun mu? Ben konuşmadım. ‘Üç gün’ diyen ben değildim; ben ‘iki’ demiştim.",
+      "weather": "Foton fırtınası. Görüş sıfır; kaskın yok, benim de. Yere yakın dur, ışık geçene kadar.",
+      "exit": "Geçit. Çıkmadan söyleyeyim: ilk sefer için fena değildi. Mide hariç.",
+      "idle": [
+        "Burada güneş doğmuyor Arel. Yörüngede 92 dakikada bir doğardı. Hangisini özledim, bilmiyorum.",
+        "Şu kırmızı kristaller sağlam mı? Jeneratör için fikir alıyorum.",
+        "Profesör, bir soru: Büyük Patlama’dan önce saat var mıydı? Yoksa ben sayamam."
+      ]
+    },
+    "kuantum": {
+      "who": "deniz",
+      "arrive": "Vay be, buz ve su! Abi, kuantum ülkesi bu mu? Fotoğraf çeksem Motor kızar mı?",
+      "firstPoint": "Dur dur dur. Elektron tek tek gidiyor ama desen yine çıkıyor? Sınavda sorsalar ‘imkânsız’ yazardım.",
+      "afterFigure": [
+        "‘It from bit’ dedi ya, soru sormak evreni kurmakmış. Yani ben soru sorunca evren biraz değişiyor mu?",
+        "Dokuz kübit, solucan deliği ama solucan deliği değil. Kerem abi gibi ben de anlatabilir miyim bunu?"
+      ],
+      "zoneEdge": "Abi o taraf çok karanlık. Mira abla ‘kırmızı bölge’ dedi. Gidiyorsun, değil mi? Tamam, buradayım.",
+      "zoneWait": "Arel abi! Seni görüyorum, bulanık ama görüyorum. Gözlemci etkisi mi bu? Bakmayayım mı?",
+      "fragment": "Buldun mu? Lale Hoca’nın sesi mi? Dinle dinle, ben uzağa giderim. Yani gitmem ama susarım.",
+      "caught": "Abi! Bozulma seni yakaladı! Dalga fonksiyonu mu çöktü, sen mi? Neyse, kalk.",
+      "hallucination": "Az önce ben konuştum mu? ‘Belirlenmiş miyim’ diye? Sormadım. Yani sordum ama şimdi değil.",
+      "weather": "Çökme dalgası geliyor! Her şey tek bir yere çöküyor; abi, biz de çöker miyiz?",
+      "exit": "Geçit açıldı. Abi, bir şey diyeceğim: Motor beni tahmin etti mi? Etmediyse ben kazandım.",
+      "idle": [
+        "Abi, Çoklu Dünyalar’da başka bir Deniz şu an burada değil mi? O da mı soru soruyor?",
+        "Buzun altında su var, Europa gibi. Yürürken kırılır mı? Kırılırsa simülasyon mu kırılır?",
+        "Olay ufkuna gidince saatim yavaşlar mı? Keşke sınav saatim de yavaşlasa."
+      ]
+    },
+    "gezegen": {
+      "who": "riza",
+      "arrive": "Kızıl bir kıyı. Deniz yok ama kıyı var; kırk yıl sonra ilk kez ağsız geldim.",
+      "firstPoint": "Leopar lekeleri mikrop artığı olabilirmiş, olmayabilirmiş. Balık da ağdan çıkana kadar belli olmaz evlat.",
+      "afterFigure": [
+        "Kamerayı Dünya’ya çevirtmiş adam. Ben de tekneden Karaköy’e bakardım; küçücük olurdu, yine evdi.",
+        "Jüpiter uyduyu üç buçuk günde bir esnetiyormuş, ısı ondanmış. Gelgit bizde de var; balık ona göre gelir."
+      ],
+      "zoneEdge": "Orası sisli evlat. Denizde sis varsa ağ atılmaz, beklenir. Sen bekleyemeyeceksin, biliyorum.",
+      "zoneWait": "Arel! Sesim geliyor mu? Ben kıyıdayım, bir yere gitmem. Ağ bekler gibi bekliyorum.",
+      "fragment": "Çıktın. Elinde ne var, ablanın sesi mi? Otur, dinle; ben öbür tarafa bakarım, kızıl tarafa.",
+      "caught": "Düştün mü evlat? Dalga da öyle yapar; ayağını kaydırır, sonra bırakır. Kalk, kıyıya gel.",
+      "hallucination": "Az önce beni duydun mu? ‘Hangi denize ağ atayım’ demişim. Demedim. Ama sorardım, doğru.",
+      "weather": "Toz geliyor! Denizde buna sis deriz, burada kızıl. Sırtını rüzgâra ver, ben yanındayım.",
+      "exit": "Geçit açıldı. Bu kıyıda balık yok evlat, ama ben yine de bakacaktım. Alışkanlık.",
+      "idle": [
+        "Bu taşlar sıcak mı soğuk mu evlat? Elini sürdün mü hiç, yoksa hep ölçüyor musun?",
+        "Soluk Mavi Nokta bizim Dünya mı? Haliç de o noktanın içindeyse kirletmek daha ayıp.",
+        "Profesör, Mars’ta eskiden deniz varmış. Balık da var mıydı?"
+      ]
+    },
+    "bilinc": {
+      "who": "zeynep",
+      "arrive": "Burası senin beynin mi? Yoğun bakımda MR’lara bakarım; içinde yürümek başka.",
+      "firstPoint": "−70 milivolt, eşik, hepsi ya da hiç. Monitörde her gün görüyorum; nöronun kendisini ilk kez.",
+      "afterFigure": [
+        "Hücreler birbirine değmiyormuş, konuşuyormuş. Servisteki gibi: kimse değmez, herkes konuşur.",
+        "Nil Hanım yorgun görünüyordu. Lale’nin asistanıymış; en son kimin yanında kalmış, belli."
+      ],
+      "zoneEdge": "Sis orası. Hipokampus mu dedin? Girersen seni adınla çağıracağım. Unutursan hatırlatırım.",
+      "zoneWait": "Arel. Arel Vey. Adını söylüyorum ki içeride kaybolmasın. Buradayım, çıkışta.",
+      "fragment": "Çıktın. Nefes al. Elinde ne var, bir ses mi? Hastalar da son günlerde bir şeyler saklar; bu onlardan.",
+      "caught": "Yakalandın. Nöbette böyle düşenleri gördüm; kalkarlar. Elimi tut, kalk.",
+      "hallucination": "Az önce duyduğun ben değildim. ‘Nereye’ diye üç kez sormuşum; bir kez sorarım, o da sessizce.",
+      "weather": "Nöbet! Her şey aynı anda ateşliyor. Yere yat, başını koru; geçer, hep geçer.",
+      "exit": "Geçit. Yorgunsun ama bu başka bir yorgunluk; nöbet sonrası gibi. Bir şey taşıyorsun, belli.",
+      "idle": [
+        "Burada hiç uyuyor musun Arel? Beyin dinlenince susmuyormuş; benimki nöbette de susmuyor.",
+        "Dopamin beklenmeyene ateşleniyormuş. Hastam gözünü açınca işte o. Hiç alışmıyorum.",
+        "Lale’nin hangi kaydını dinledin bugün? Sesi nasıl? Sakin mi?"
+      ]
+    },
+    "anlam": {
+      "who": "sema",
+      "arrive": "Agora. Lale burayı anlatırken gülüyordu: ‘Filozoflar denklem istemez, Arel’e iyi gelir’ dedi.",
+      "firstPoint": "Uçan Adam. Lale bunu bana nöbette anlattı; sen şimdi söylüyorsun. Aynı cümle, iki ağız.",
+      "afterFigure": [
+        "Hekim filozof. ‘Hasta giderken soru kalır’ dedi; bin yıldır serviste aynı cümle dolaşıyor.",
+        "Nedenleri anlamak kederi azaltır demiş. Ben nedenleri biliyordum Arel; azalmadı. Sana da söylüyorum.",
+        "Kardeşinin kim olduğu onu kuranların sorusu, dedi. Ben de kuranlardanım; son haftayı ben tuttum."
+      ],
+      "zoneEdge": "Sütunların ardı. Lale’nin ‘kızdım’ dediği yer orası olmalı. Girmezsen anlarım; girersen de.",
+      "zoneWait": "Arel, buradayım. Lale’nin sözünü şimdi söylüyorum: sana kızdı, kendine daha çok. Çık, konuşuruz.",
+      "fragment": "Çıktın. Elin titriyor; geçitten değil, kayıttan. Ver, beraber dinleyelim. Hayır; önce sen.",
+      "caught": "Yakalandın. Nabzın yüksek. Otur. Hayır, oturamazsın; kalk o hâlde, ama yavaş.",
+      "hallucination": "Az önce ‘nabzın yok’ diyen ben değildim. Nabzın var; saydım. Yüksek ama var.",
+      "weather": "Gölge tutulması. Işık yön değiştiriyor; göz kararır, baş döner. Elimi tut, geçene kadar.",
+      "exit": "Geçit. Lale ‘Çekirdek’e varınca’ demişti; yaklaştın. Söylemem gerekeni söyledim.",
+      "idle": [
+        "Hiç uyuyor musun Arel? Anestezide uyutmak kolay; uyandırmak zor.",
+        "Spinoza mercek parlatıyormuş. Lale de MR’larını kendi okurdu; ikisi de kendine bakmış.",
+        "Bana kızgın mısın? Seni uzak tuttum. Lale’nin kararıydı ama el benimdi."
+      ]
+    },
+    "yuva": {
+      "who": "hatice",
+      "arrive": "Toprak var, ağaç var, su var. Evladım, burası benim ova gibi; yalnız daha genç.",
+      "firstPoint": "Dört milyar yaşında bir taş suyu hatırlıyormuş. Benim ovadaki taşlar da yağmuru hatırlasa keşke.",
+      "afterFigure": [
+        "Kadın komutan günde on altı gün doğumu görüyormuş. Ben seksen iki yıldır günde bir tane; yeter.",
+        "Yusuf burada! Benim torunum, Motor’un içinde. Cevizi sulayacakmış; duydun mu evladım?"
+      ],
+      "zoneEdge": "Orası karanlık evladım. Ablanın son kesiği orada dedin. Git; ben beklerim, beklemeyi bilirim.",
+      "zoneWait": "Arel evladım! Buradayım, ağacın dibinde. Sis olsun, toz olsun; ninen bir yere gitmez.",
+      "fragment": "Çıktın mı evladım? Yüzün değişmiş. Ablanın sesi mi o? Otur yanıma, beraber dinleyelim.",
+      "caught": "Düştün mü yavrum? Toprağa düşen kalkar; ben seksen iki yıldır kalkıyorum. Gel, elimi tut.",
+      "hallucination": "Az önce ‘ne diktin, sis mi’ demişim. Demedim evladım. Sen soru ekmişsin; o da biter.",
+      "weather": "Gök taş yağdırıyor, kuzeyde de renkli ışık! Ağacın altına gel evladım; yağmur gibi bu, geçer.",
+      "exit": "Geçit. Son boyut buymuş. Bir avuç toprak aldım, cebime koydum; ablana götürürüm.",
+      "idle": [
+        "Bu ağaçlar meyve verir mi evladım? Vermezse de olur, gölge verir.",
+        "Ay her yıl uzaklaşıyormuş; benim de gözüm azaldı. Aynı şey mi?",
+        "Ablan bir yaz köye geldi, tohum ekti. Sen hiç ekmedin dedin. Burada ek; toprak genç."
+      ]
+    }
+  },
+  "companionArel": {
+    "baslangic": [
+      "Saat yoktu Kaan; zaman o patlamayla başladı. Sayman gerekmez.",
+      "Mideni boş ver; evren de ilk üç dakikada bulantı gibiydi. Sonra ışık geldi."
+    ],
+    "kuantum": [
+      "Başka bir Deniz olsa da soru senin; Everett bile bunu paylaştırmadı.",
+      "Saatin yavaşlar ama sınav da seninle yavaşlar Deniz. Görelilik adildir."
+    ],
+    "gezegen": [
+      "Balık yok Rıza; belki mikrop, belki o da yok. Leopar lekeleri daha konuşmadı.",
+      "Taşlara elimi sürmedim, hep ölçtüm. Bugün ilk kez tutuyorum; sıcak."
+    ],
+    "bilinc": [
+      "Pek uyumuyorum Zeynep. Varsayılan mod ağı Lale’yi tahmin ediyor; kapatamıyorum.",
+      "Sesi sakin. Kestiği yerlerde değil; orada ses yok, sis var."
+    ],
+    "anlam": [
+      "Sana kızmıyorum Sema. Nedenleri biliyorum; Spinoza haklıymış, keder yine de kalıyor.",
+      "Uyumuyorum. Beynim gece Lale’yi tahmin ediyor, gündüz Motor’u. Bazen anestezi isterdim."
+    ],
+    "yuva": [
+      "Meyve vermez nine; bu ağaçlar Motor’un kopyası. Gölgesi gerçek ama.",
+      "Aynı şey değil ama benzer: ikisi de uzaklaşırken hâlâ aydınlatıyor."
+    ]
+  },
+  "quests": [
+    {
+      "id": "q_mira",
+      "giver": "mira",
+      "title": "Altı Ondalık",
+      "ask": "Motor’un CMB kopyasında 2,73 K yazıyor; yuvarlama mı, ölçüm mü bilmiyorum. İlk Işık’ta gerçek değer ve hata payı ne, bak gel.",
+      "hint": "Başlangıç boyutu, İlk Işık yankı noktası; sıcaklığın ondalıklarına ve ± değerine bak.",
+      "realm": "baslangic",
+      "target": "cmb",
+      "found": "2,7255 ± 0,0006 K. Motor altı ondalığı ve hata payını tutmuş; uydurmamış.",
+      "deliver": [
+        "2,7255, artı eksi 0,0006. Hata payını da kopyalamış; uydursaydı yuvarlardı, uyduranlar hep yuvarlar.",
+        "Bunu rapora yazıyorum. Bakanlık tahmin istiyor; ben ölçüm veriyorum.",
+        "Sis haritasında bir nokta daha maviye döndü. Teşekkürler."
+      ],
+      "rewardText": "Sis haritası güncellendi: kırmızı bölgeler daha net."
+    },
+    {
+      "id": "q_kaan",
+      "giver": "kaan",
+      "title": "Dizlerin Sorusu",
+      "ask": "ISS’ten dönünce kemiğin geri gelip gelmediğini kimse söylemedi. Yuva’da Komutan Elif var; Kelly’nin 340 günü sonrası ne oldu, sor.",
+      "hint": "Yuva boyutu, Komutan Elif Aras; dönüş sonrası toparlanmayı sor.",
+      "realm": "yuva",
+      "target": "f:elif",
+      "found": "Değişimlerin çoğu dönüşten sonra normale dönmüş. Kaan’ın dizlerine götürülecek haber.",
+      "deliver": [
+        "Çoğu normale dönmüş. ‘Çoğu’ kelimesine dizlerim takıldı ama kabul.",
+        "Yörüngede ‘alışırsın’ dediler; alıştım. Dönmeye alışamadım, Elif de alışamayacak.",
+        "Sağ ol. Jeneratöre bir gün daha ekledim; sayıyorum."
+      ],
+      "rewardText": "Jeneratör yakıtı +1 gün: sayaç biraz nefes aldı."
+    },
+    {
+      "id": "q_sema",
+      "giver": "sema",
+      "title": "Mikrotübül Notu",
+      "ask": "Lale son ayında mikrotübül çalışmasını merak ediyordu; ben anestezide bunu her gün görüyorum. Nil’e sor: 2024’te sıçanlarda ilaç anesteziyi gerçekten geciktirdi mi?",
+      "hint": "Bilinç boyutu, Dr. Nil Arslan; mikrotübül ve anestezi bulgusunu sor.",
+      "realm": "bilinc",
+      "target": "f:nil",
+      "found": "Geciktirmiş; Nil kaynağıyla söylüyor. Kuantum bilinç kanıtı değil; Sema bunu da duymak ister.",
+      "deliver": [
+        "Geciktirmiş demek. İlginç; ama ben bilinci her gün kapatıyorum, nereye gittiğini hâlâ bilmiyorum.",
+        "Lale buna gülerdi; ‘mikrotübül’ derken bile ‘kanıt değil’ diye eklerdi.",
+        "Teşekkür ederim Arel. Nabzın bu kez normal."
+      ],
+      "rewardText": "Sema’nın defterine bir not: anestezi ve bilinç."
+    },
+    {
+      "id": "q_riza",
+      "giver": "riza",
+      "title": "Kaya mı Ağ mı",
+      "ask": "Kahvede biri ‘Sisifos’ dedi; kayayı boşuna itiyormuş. Benim ağ da boşuna mı evlat? Filozoflara sor, bana getir.",
+      "hint": "Anlam boyutu, Sisifos’un Kayası; Camus’nün ne dediğine bak.",
+      "realm": "anlam",
+      "target": "sisifos",
+      "found": "Camus: Sisifos’u mutlu düşünmeliyiz. Rıza’nın ağı boşuna değil; her sabah yeniden örülen bir cevap.",
+      "deliver": [
+        "Mutlu mu düşünelim? Kırk yıl ağ attım, deniz unuttu; ben unutmadım. Demek kaya benim değil, ağ benim.",
+        "Kahvedekine söyleyeceğim: Fransız da aynısını demiş, biz balıkçılar önce dedik.",
+        "Sağ ol evlat. Boş ağ da dönmez, demiştim ya."
+      ],
+      "rewardText": "Rıza’dan bir düğüm: ağ ilmeği, cebinde taşınır."
+    },
+    {
+      "id": "q_deniz",
+      "giver": "deniz",
+      "title": "Bahis: Bir Piksel",
+      "ask": "Hocamla bahse girdim: Soluk Mavi Nokta’da Dünya bir piksel mi, daha az mı? Gezegenler’de fotoğrafın yanında yazıyormuş, bak gel abi.",
+      "hint": "Gezegenler boyutu, Soluk Mavi Nokta yankı noktası; piksel değerine bak.",
+      "realm": "gezegen",
+      "target": "dot",
+      "found": "0,12 piksel. Deniz bahsi kazandı, hocası kaybetti. Lale bunu duvarına asmıştı.",
+      "deliver": [
+        "0,12! Bir pikselin altında! Hocaya yarın söyleyeceğim, ödevden puan kırsa da değer.",
+        "Dur bir saniye. Altı milyar kilometreden 0,12 piksel… O kadar küçüğüz ve ben sınav diye uyuyamıyorum.",
+        "Lale Hoca bunu duvarına asmış, değil mi? Ben kilit ekranıma koyacağım."
+      ],
+      "rewardText": "Deniz’in kilit ekranı: Soluk Mavi Nokta."
+    },
+    {
+      "id": "q_zeynep",
+      "giver": "zeynep",
+      "title": "Giden Şeyin İzi",
+      "ask": "Hastalar son nefesini verirken bir şey gidiyor; fizik buna ne diyor? Bilgi yok olur mu, bana bir hesap getir Arel.",
+      "hint": "Kuantum boyutu, Simülasyon Kafesi; Landauer sınırına bak.",
+      "realm": "kuantum",
+      "target": "lattice",
+      "found": "Landauer: tek bir biti silmek bile ısı bırakır. Zeynep’e söylerim: hiçbir şey iz bırakmadan gitmiyor.",
+      "deliver": [
+        "Bir biti silmek bile ısı bırakıyormuş. Demek giden şey iz bırakıyor; odada kalan sıcaklık belki ondan.",
+        "Bunu hasta yakınlarına söyleyemem ama kendime söyleyebilirim. Nöbetler biraz hafifler.",
+        "Sağ ol Arel. Sen de bir şey sildin mi, iz bıraktı mı?"
+      ],
+      "rewardText": "Zeynep’ten bir nöbet defteri sayfası: ‘kT ln2’."
+    },
+    {
+      "id": "q_hatice",
+      "giver": "hatice",
+      "title": "Ekmeğin Yaşı",
+      "ask": "Yusuf diyor ki unun karbonu yıldızlardan gelmiş. Doğru mu evladım, ilk yıldız ne zaman yandı? Bak gel, tandırı ona göre yakarım.",
+      "hint": "Başlangıç boyutu, Karanlık Çağın Sonu; ilk yıldızların zamanına bak.",
+      "realm": "baslangic",
+      "target": "stars",
+      "found": "Büyük Patlama’dan 300 milyon yıl sonra ilk yıldızlar. Hatice Nine’nin tandırı oradan başlıyor.",
+      "deliver": [
+        "Üç yüz milyon yıl mı? Benim buğday dört ayda biter. Yıldız sabırlıymış.",
+        "Demek ekmek yıldızdan. Ablan deftere böyle yazmıştı, inanmamıştım; şimdi inandım.",
+        "Al, bu ekmeği yanına koy evladım. Yıldız tozu, sıcak."
+      ],
+      "rewardText": "Hatice Nine’nin ekmeği: sıcak, 13,8 milyar yaşında."
+    }
+  ],
+  "weather": {
+    "baslangic": {
+      "name": "Foton Fırtınası",
+      "start": "Foton fırtınası: ilk ışık saçılıyor, görüş düşük",
+      "arel": "380 bin yıl önce ışık böyle hapisti: her elektrona çarpıp duruyordu. Şimdi ben çarpıyorum.",
+      "end": "Fırtına dindi; ışık serbest kaldı."
+    },
+    "kuantum": {
+      "name": "Çökme Dalgası",
+      "start": "Çökme dalgası: dalga fonksiyonları dağılıyor, dur",
+      "arel": "Dekoherans. Ortam her şeyi ölçüyor; Tegmark 10⁻¹³ saniye demişti, burada biraz uzun sürüyor.",
+      "end": "Dalga geçti; süperpozisyon geri geldi."
+    },
+    "gezegen": {
+      "name": "Toz Fırtınası",
+      "start": "Toz fırtınası: Jezero kızıla kesti, görüş 10 metre",
+      "arel": "2018’deki küresel toz fırtınası Opportunity’yi susturdu. Motor onu da kopyalamış; ben susmam.",
+      "end": "Toz çöktü; kıyı yeniden görünüyor."
+    },
+    "bilinc": {
+      "name": "Nöbet",
+      "start": "Nöbet: nöronlar senkron ateşliyor, zemin titriyor",
+      "arel": "Eşik kalktı; 86 milyar hece aynı anda bağırıyor. Hepsi ya da hiç; şimdi hepsi.",
+      "end": "Nöbet geçti; ritim −70 milivolta döndü."
+    },
+    "anlam": {
+      "name": "Gölge Tutulması",
+      "start": "Gölge tutulması: gölgeler yön değiştiriyor",
+      "arel": "Gölgeler yanlış yöne düşüyor. Agora zamanın dışında; güneşi de ödünç, gölgesi de.",
+      "end": "Tutulma bitti; gölgeler yerine döndü."
+    },
+    "yuva": {
+      "name": "Meteor Yağmuru",
+      "start": "Meteor yağmuru: gök yanıyor, kuzeyde aurora",
+      "arel": "Geç Ağır Bombardıman; genç Dünya’ya böyle yağdı. Aurora: güneş rüzgârı, manyetik kalkan tutuyor.",
+      "end": "Yağmur seyreldi; aurora sönüyor."
+    }
+  },
+  "minigames": {
+    "esik": {
+      "title": "Eşik",
+      "intro": "Nöronun zarı −70 milivoltta; uyarımları zamanla, eşik −55 milivolt. Çok yüklersen aşırı uyarım olur, hücre susar; hata sayılır.",
+      "win": "Eşik aşıldı; sodyum içeri, zar pozitife fırladı. Hepsi ya da hiç; bu kez hepsi.",
+      "fail": [
+        "Çok zayıf: toplam eşiğe varmadı, zar −70’e geri süzüldü.",
+        "Aşırı uyarım: kanallar kilitlendi, nöron sustu.",
+        "Zamanlama yanlış: uyarımlar birbirini beklemedi, toplam dağıldı."
+      ]
+    },
+    "yorunge": {
+      "title": "Yörünge Yakalama",
+      "intro": "Clipper Jüpiter’e yaklaşıyor; fren yakışını doğru anda ver. Perijüpiter 1,0–1,4 RJ arasında kalmalı: daha alçak atmosfer, daha yüksek kaçış.",
+      "win": "Yakalandı: perijüpiter aralıkta, Europa geçişleri başlayabilir.",
+      "fail": [
+        "Çarpışma: perijüpiter 1,0 RJ’nin altına indi, Clipper atmosfere girdi.",
+        "Kaçış: fren yetmedi, Clipper hiperbolik kaldı ve Jüpiter’i geçip gitti.",
+        "Yörünge çok yüksek: yakış zayıf, 49 Europa geçişi için yetersiz."
+      ]
+    }
+  }
+}

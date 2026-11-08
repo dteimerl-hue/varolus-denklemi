@@ -1,0 +1,152 @@
+{
+ "chatter": [
+  {"id":"c01","pair":["mira","kaan"],"stage":0,"lines":[
+   {"who":"mira","t":"Bakanlık yine rapor istedi. Sis haritasını da eklememi istiyorlar, ama kırmızı yerleri beyaza boyayarak."},
+   {"who":"kaan","t":"Ben üç haftadır aynı cümleyi yazıyorum. Dördüncü hafta el yazısıyla yazarım, daha az yer tutar."},
+   {"who":"mira","t":"Motor bilmediğini uydurmuyor Kaan. Keşke raporlar da öyle olsa."},
+   {"who":"kaan","t":"Raporlar da uydurmuyor. Sadece geç söylüyor."}
+  ]},
+  {"id":"c02","pair":["sema","riza"],"stage":0,"lines":[
+   {"who":"riza","t":"Çayınız iyi doktor hanım. Deniz kokmuyor ama demi yerinde."},
+   {"who":"sema","t":"Lale demlerdi. Nöbetlerde çaydanlığı hiç soğutmazdı; en çok da konuşurken."},
+   {"who":"riza","t":"Mektubunda bana da öyle yazmıştı. Balıkçı dedi, sabrı var, sorusu da var."},
+   {"who":"sema","t":"Sorunu getirmişsin. Burada herkes bir soru getiriyor, kimse geri götürmüyor."}
+  ]},
+  {"id":"c03","pair":["deniz","zeynep"],"stage":0,"lines":[
+   {"who":"deniz","t":"Dün gece uyuyamadım. Tavanda ışık yok, yıldız yok, sadece sis sesi."},
+   {"who":"zeynep","t":"Yoğun bakımda gece de öyle. Makineler fısıldar, sen sayarsın."},
+   {"who":"deniz","t":"Ne sayıyorsun?"},
+   {"who":"zeynep","t":"Nefesleri. Burada ise geçitleri. Üç saydım, üçü de kapalı."}
+  ]},
+  {"id":"c04","pair":["hatice","kaan"],"stage":0,"lines":[
+   {"who":"hatice","t":"Şu kutudaki yemeğe yemek diyorsan evladım, ben tandırı buraya taşırım."},
+   {"who":"kaan","t":"Uzay istasyonunda altı ay poşetten yedim nine. Buradaki en azından sıcak."},
+   {"who":"hatice","t":"Sıcak başka, pişmiş başka. Yarın bana un bul, ekmek yapayım. Motor da koklasın."},
+   {"who":"kaan","t":"Motor koklamaz. Ama ben koklarım, bu yeter."}
+  ]},
+  {"id":"c05","pair":["mira","deniz"],"stage":1,"lines":[
+   {"who":"deniz","t":"Mira abla, Arel abi geçitten çıkınca başka bakıyordu. Gözleri değil, duruşu."},
+   {"who":"mira","t":"İlk içgörü öyledir. Ölçüm seni de ölçer. Ben ilk geçitte iki gün sessiz kaldım."},
+   {"who":"deniz","t":"Ben de girsem olur mu?"},
+   {"who":"mira","t":"Olmaz. Ama sorularını yazıp ona verebilirsin. Geçit soruyu taşır, insanı değil."}
+  ]},
+  {"id":"c06","pair":["sema","zeynep"],"stage":1,"lines":[
+   {"who":"zeynep","t":"Arel’in nabzına baktım demin, elini sıkarken. Yüksek."},
+   {"who":"sema","t":"Hemşire gözü kapanmıyor, değil mi? Ben de aynısını yaptım."},
+   {"who":"zeynep","t":"Geçitler değil, kayıtlar yoruyor onu. Ablasının sesi."},
+   {"who":"sema","t":"Biliyorum. Ama dinlemesi gerek. Lale onları onun için bıraktı, benim için değil."}
+  ]},
+  {"id":"c07","pair":["riza","hatice"],"stage":1,"lines":[
+   {"who":"hatice","t":"Toprak çatladı dedim evladıma, denklemle baktı bana. İyi niyetli ama susuz bir bakış."},
+   {"who":"riza","t":"Benimki de öyle baktı. Deniz silinir mi dedim, ölçmem lazım dedi."},
+   {"who":"hatice","t":"Ölçsün. Biz de bekleriz. Beklemeyi ikimiz de iyi biliriz."},
+   {"who":"riza","t":"Ağ bekler gibi. Ama bu çocuk bir şey bulacak, gözünde Lale var."}
+  ]},
+  {"id":"c08","pair":["kaan","deniz"],"stage":2,"lines":[
+   {"who":"deniz","t":"Kaan abi, uzayda uyurken düşüyor gibi oluyor muydun?"},
+   {"who":"kaan","t":"İlk hafta her gece. Sonra beden anladı: düşmek de bir yörünge."},
+   {"who":"deniz","t":"Ben de burada öyle. Arel abi döndükçe zemin değişiyor sanki."},
+   {"who":"kaan","t":"Değişmiyor. Sen değişiyorsun. Yat, uyu; sabah yine sayarız."}
+  ]},
+  {"id":"c09","pair":["mira","sema"],"stage":2,"lines":[
+   {"who":"mira","t":"Motor bugün üç yerde bilmiyorum dedi. Bakanlık bunu arıza sayıyor."},
+   {"who":"sema","t":"Ben hastaya bilmiyorum dediğimde kimse arıza demiyor. Güven diyorlar."},
+   {"who":"mira","t":"Arel de öğreniyor. Dördüncü boyuttan sonra sisi doldurmak yerine işaretledi."},
+   {"who":"sema","t":"Lale’nin öğrettiği şey buydu. Yarım bırakmak, yalan söylemekten iyidir."}
+  ]},
+  {"id":"c10","pair":["zeynep","hatice"],"stage":2,"lines":[
+   {"who":"hatice","t":"Ekmek çıktı kızım, al. Un biraz eski ama tandır kusura bakmaz."},
+   {"who":"zeynep","t":"Nöbette sıcak ekmek görmeyeli yıllar oldu. Teşekkür ederim nine."},
+   {"who":"hatice","t":"Lale de köyde böyle yemişti, elleriyle. Doktor dedim, el yıkar; yıkamadı, güldü."},
+   {"who":"zeynep","t":"Onu tanımak isterdim. Ekmeğinden tanıyorum sanırım."}
+  ]},
+  {"id":"c11","pair":["riza","kaan"],"stage":3,"lines":[
+   {"who":"kaan","t":"Jeneratörler hazır. Bakanlık elektriği keserse on bir gün dayanırız."},
+   {"who":"riza","t":"On bir gün çok. Denizde fırtına üç günde biter, dördüncü gün ağ atarsın."},
+   {"who":"kaan","t":"Burada fırtına bitmiyor Rıza amca. Sadece yer değiştiriyor."},
+   {"who":"riza","t":"O zaman sen de yer değiştir. Ben ağı bekleyeyim."}
+  ]},
+  {"id":"c12","pair":["mira","hatice"],"stage":3,"lines":[
+   {"who":"hatice","t":"Şu sis dediğiniz şey kızım, bizim ovada sabah olur. Gün çıkınca dağılır."},
+   {"who":"mira","t":"Burada dağılmıyor nine. Motor bilmediği yere sis koyuyor. Dürüst bir boşluk."},
+   {"who":"hatice","t":"Bilmediğini söyleyen makine. Köyde öyle adam az."},
+   {"who":"mira","t":"Arel altısını da geçti. Sis hâlâ orada ama artık korkmuyor."}
+  ]},
+  {"id":"c13","pair":["sema","deniz"],"stage":3,"lines":[
+   {"who":"deniz","t":"Arel abi Çekirdek’ten çıkınca ağladı mı? Görmedim ama sanki."},
+   {"who":"sema","t":"Görmedin, iyi. Bazı şeyler görülmeden de bilinir."},
+   {"who":"deniz","t":"Lale Hoca’nın son kaydını dinlemiş. Bana da anlatır mı?"},
+   {"who":"sema","t":"Sorarsan anlatır. Lale hep sor derdi, sen de biliyorsun."}
+  ]},
+  {"id":"c14","pair":["kaan","zeynep"],"stage":4,"lines":[
+   {"who":"zeynep","t":"Bu koridoru daha önce de yürüdüm gibi. Aynı ışık, aynı ses."},
+   {"who":"kaan","t":"Yürüdün. Motor aynı kayıtları çalıyor; sis yer değiştirdi, biz değil."},
+   {"who":"zeynep","t":"Ben değiştim ama. Bu kez Arel’e son nefesi sormayacağım. Kendisi söyler."},
+   {"who":"kaan","t":"İkinci tur böyle. Aynı soru, başka sessizlik."}
+  ]},
+  {"id":"c15","pair":["riza","deniz"],"stage":4,"lines":[
+   {"who":"riza","t":"Evlat, sen geçen sefer de burada tavana bakıyordun."},
+   {"who":"deniz","t":"Geçen sefer mi? Rıza amca, biz daha yeni geldik."},
+   {"who":"riza","t":"Deniz böyledir. Her dalga ilk dalga sanır kendini. Yine de kıyı hatırlar."},
+   {"who":"deniz","t":"O zaman ben de hatırlayayım. Bu kez sınav sorusunu Motor’a değil, kendime soracağım."}
+  ]},
+  {"id":"c16","pair":["mira","zeynep"],"stage":4,"lines":[
+   {"who":"mira","t":"Aynı yasalar, aynı kayıtlar. Ama Arel bu kez başka kapıdan girdi."},
+   {"who":"zeynep","t":"Hastalar da öyle. Aynı tanı, başka insan; aynı insan, başka gün."},
+   {"who":"mira","t":"Motor bunu hesaplayamıyor. Değişken sendin diyor, başka bir şey demiyor."},
+   {"who":"zeynep","t":"İyi ki demiyor. Gerisini biz söyleriz."}
+  ]}
+ ],
+ "notebook": {
+  "start": "Kovuk’a indim. Üç geçit, bir Motor, Lale’nin altı kaydı. Bakanlık yetmiş iki saat verdi. Defteri açtım; ilk satırı Lale yazmıştı. İkincisini ben yazıyorum.",
+  "realm": {
+   "baslangic": "İlk anlar. Motor enflasyon dönemini sisle geçti; bilmediğini uydurmadı. Hamurdaki su on üç milyar yıllık. Bilmemek, başlamakmış. Lale bunu biliyordu.",
+   "kuantum": "Dokuz kübit, bir olay ufku. Dünyada saatler geçti, ben dakikalar yaşadım. Dolanıklık mesaj taşımıyor; sadece iki rastgeleliği aynı yapıyor. Lale ve ben gibi.",
+   "gezegen": "Soluk mavi nokta. Europa’nın buzu kalın, Mars’ta suyun izi var kendisi yok. Potansiyel biyoimza kanıt değil. Rıza Haliç için imza topluyor. Ev burası.",
+   "bilinc": "Kendi beynimin içindeydim. Seksen altı milyar hece. Bozulmalar Lale’nin kesik yerleriyle aynı koordinatta. Bilinç bir nesne değil, süreç. Ben de süreçmişim.",
+   "anlam": "Felsefeciler için denklem yok. Kayayı itmek, ağı her sabah örmek, meyvesini görmeyeceğin cevizi dikmek. Anlam keşfedilmiyor, kuruluyor. Bugün biraz kurdum.",
+   "yuva": "Theia çarptı, Ay kaldı. Jack Hills zirkonu dört milyar dört yüz milyon yaşında. Taşlar bizden iyi hatırlıyor. Kemik ayda yüzde bir erir; ev, bedel ödenen yer.",
+   "bellek": "Yedinci geçit. Mutfak, koridor, gece; tek oda. Burada bilmiyorum demek yetmiyor, hatırlamak gerekiyor. Arkamdaki ben değildim; on beş saniye önceki halimdi."
+  },
+  "frag": {
+   "1": "İlk kesik parça. Lale’nin sesinde bir boşluk vardı, şimdi içinde bir hece var. Sis beyaza boyanmadı; sadece bir noktası konuştu.",
+   "3": "Üç parça. Kesilenler kesik değilmiş, saklıymış. Lale korkusunu benden saklamış; ben de ondan. Kardeşlik, aynı sessizliği paylaşmakmış belki.",
+   "6": "Altısı da bende. Yedinci sesi Lale kaydetmedi; ben birleştirdim. Demek o ses benim de. Kayıt Yedi’nin kilidi açıldı, elim titriyor."
+  },
+  "caught": {
+   "1": "Bozulma ilk kez yakaladı. Dört saniye sessizlik, sonra yine ses. Kaan düşüşleri sayıyor; ben kalkışları sayacağım. Bir.",
+   "5": "Beş kez düştüm, beş kez kalktım. Bozulma kötü niyetli değil; sadece Lale’nin unuttuğu yerlerde duruyor. Artık ondan kaçmıyorum, yanından geçiyorum."
+  },
+  "log": {
+   "1": "Kayıt bir. Lale’nin sesi Motor’dan geldi; ne o, ne hatıram. Sırayla konuşuruz dedi. Sıra bende sanırım. Defteri kapatmadım.",
+   "6": "Kayıt altı. Motor’u ben kurmamışım; planı o çizmiş, ben bitirmişim. Belki Motor’un içindeki ben değilim, onun beni hayal etmesiyim. Soru yine de gerçek."
+  },
+  "rec7": "Kayıt Yedi. Korkmuş. Sonucu bilmemekten değil, yerine neyin geleceğini bilmemekten. Doldurma, taşı dedi. Taşıyorum. Lale artık yarım değil; ben de.",
+  "rec8": "Kayıt Sekiz. Hipokampus kelimesi gitmiş, yerine hatırlayan yer gelmiş. Bir hemşire adını söylemiş. Telsizi hiç kapatmamış. Sinyal dışarıdan değil, içerideymiş.",
+  "storm": "Sis Fırtınası. Harita silindi, pusula sustu. Mira sese güven dedi; Lale’nin sesine yürüdüm. Sis dağılmadı, ben de dağılmadım. İkisi de yeter.",
+  "ending": {
+   "gozlemci": "Motor’u kapatmadım, kimseye vermedim. Sisi olduğu gibi bıraktım. Lale’nin yankısının yanına oturdum; konuşmadık. Her şeyi görüyorum, hiçbir şeye dokunmuyorum. Soru korundu.",
+   "kopru": "Motor’u açtım. Sis kırmızı, tahmin ayrı. Rıza ağ örüyor, Deniz deney kuruyor, Zeynep nöbette nörobilim anlatıyor, Yusuf cevizi suluyor. Soru artık herkesin. Yalnız değilim.",
+   "sessizlik": "Motor’u kapattım. Verileri sildim, Lale’nin kayıtlarını sakladım. Konya’dayım; damla sulama hattı döşüyoruz, yağmuru bekliyoruz. Çözmedim, taşımayı öğrendim. Belki de kaçtım.",
+   "saray": "Yedinci geçidi açık bıraktım. Her sabah üç odayı yürüyorum, kopyamla aynı hızda. Lale’nin defterine yeni sorular yazıyorum; kimi onun, kimi benim. Hatırlamak, aynı hızda yürümek."
+  },
+  "ng": "İkinci Tur. Aynı kayıtlar, aynı yasalar; sis yer değiştirdi. Motor değişken sendin diyor. Defterin ilk sayfasını okudum; el yazım değişmiş. Yine de yazıyorum.",
+  "daily": "Günün Tohumu. Tarih seçti, ben topladım, Motor ölçtü. Pano küresel; adım yok, sürem var. Lale soruyu iki yılda bıraktı; hızlı olan ben değilim.",
+  "quest3": "Üçüncü tanık. Dört soru getirdiler, üçü artık benim de. Rıza iz, Deniz sınav, Zeynep son nefes. Hatice Nine’ninki kaldı; toprak bekliyor. Cevap bende değil, aramızda.",
+  "photo": "İlk kare. Voyager altı milyar kilometreden geri bakmış; ben bir geçitten. Bakınca desen bozuluyor, yine de çektim. Lale duvarına bir nokta asmıştı. Benimki de duracak.",
+  "letters": "Üç mektup. Mutfak, koridor, gece. Sekiz yaşındaki Lale bir kardeş bekliyormuş; o kardeş benim. Defteri sana bırakacağım yazmış. Bıraktı. Şimdi ben yazıyorum, o okuyor."
+ },
+ "motifs": {
+  "lale":     {"n":[7,5,3,0],      "d":[2,1,1,4],     "wave":"sine"},
+  "mira":     {"n":[0,4,7,12],     "d":[1,1,1,3],     "wave":"sawtooth"},
+  "kaan":     {"n":[0,0,7,0,0],    "d":[1,1,2,1,1],   "wave":"square"},
+  "sema":     {"n":[0,2,4,2],      "d":[2,2,2,2],     "wave":"sine"},
+  "riza":     {"n":[0,3,5,7,10],   "d":[2,1,1,2,2],   "wave":"triangle"},
+  "deniz":    {"n":[0,2,4,5,7],    "d":[1,1,1,1,2],   "wave":"triangle"},
+  "zeynep":   {"n":[0,5],          "d":[2,3],         "wave":"sine"},
+  "hatice":   {"n":[0,1,4,5,4],    "d":[2,1,2,1,3],   "wave":"triangle"},
+  "motor":    {"n":[0,7],          "d":[2,2],         "wave":"square"},
+  "bakanlik": {"n":[-12],          "d":[6],           "wave":"sawtooth"},
+  "arel":     {"n":[0,3,5,7],      "d":[2,1,1,3],     "wave":"sine"}
+ }
+}
