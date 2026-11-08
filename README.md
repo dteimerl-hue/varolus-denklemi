@@ -2,8 +2,8 @@
 
 Tek dosyalık, tarayıcıda çalışan Türkçe 3B keşif oyunu (Three.js). Kapadokya'nın altındaki Kovuk Tesisi'nde fizikçi Dr. Arel Vey, dürüst yapay zekâ Motor ile birlikte altı boyutu gezer; bilmediği yerde uydurmayan bir makine, kaybedilen bir kardeşin ses kayıtları ve Bakanlık'ın baskısı arasında anlam arar.
 
-- **Oyna (tarayıcıda):** `varolus-denklemi.html` dosyasını açın ya da GitHub Pages bağlantısını kullanın (depo ayarlarında Pages açıldığında `https://<kullanıcı>.github.io/varolus-denklemi/`).
-- **Çevrimdışı paket:** Releases bölümündeki `Varolus-Denklemi-Paket.zip` — her şey (Three.js, görseller, yazı tipleri) tek HTML içinde gömülüdür, internet gerekmez. `OKU-BENI.txt` içinde kurulum ve kontroller yazar.
+- **Oyna (tarayıcıda):** **https://dteimerl-hue.github.io/varolus-denklemi/** (GitHub Pages) ya da `varolus-denklemi.html` dosyasını yerel olarak açın.
+- **Çevrimdışı paket:** [Releases](https://github.com/dteimerl-hue/varolus-denklemi/releases) bölümündeki `Varolus-Denklemi-Paket.zip` — her şey (Three.js, görseller, yazı tipleri) tek HTML içinde gömülüdür, internet gerekmez. `OKU-BENI.txt` içinde kurulum ve kontroller yazar.
 
 ## İçerik (kısa)
 
